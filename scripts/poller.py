@@ -174,7 +174,10 @@ def handle_feed(post):
 
 
 def handle_story(post):
-    lines = "\n".join(f"{it['category']}\t{it['type']}\t{resolve_path(it['path'])}" for it in post["items"])
+    resolved_items = [(it["category"], it["type"], resolve_path(it["path"])) for it in post["items"]]
+    for cat, typ, p in resolved_items:
+        print(f"DEBUG handle_story resolved: {p!r} exists={os.path.exists(p)}", file=sys.stderr)
+    lines = "\n".join(f"{cat}\t{typ}\t{p}" for cat, typ, p in resolved_items)
     if DRY_RUN:
         print(f"[DRY-RUN] 3 stories (salgado/salada/doce): {[it['path'] for it in post['items']]}")
         return
