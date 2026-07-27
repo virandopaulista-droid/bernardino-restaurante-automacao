@@ -24,11 +24,11 @@ while IFS=$'\t' read -r category type path; do
     fi
     echo "== $category ($type): $path =="
     if [ "$type" = "image" ]; then
-        bash "$SCRIPT_DIR/post_story_all.sh" "$path"
+        bash "$SCRIPT_DIR/post_story_all.sh" "$path" </dev/null
     else
-        bash "$SCRIPT_DIR/post_story_video_fb.sh" "$path"
+        bash "$SCRIPT_DIR/post_story_video_fb.sh" "$path" </dev/null
         fname="$(basename "$path")"
-        video_url="$(python3 "$SCRIPT_DIR/resolve_drive_url.py" "$fname")"
-        bash "$SCRIPT_DIR/post_story_video_instagram.sh" "$video_url"
+        video_url="$(python3 "$SCRIPT_DIR/resolve_drive_url.py" "$fname" </dev/null)"
+        bash "$SCRIPT_DIR/post_story_video_instagram.sh" "$video_url" </dev/null
     fi
 done
