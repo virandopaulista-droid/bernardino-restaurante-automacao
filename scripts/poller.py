@@ -174,7 +174,12 @@ def handle_feed(post):
 
 
 def handle_story(post):
-    lines = "\n".join(f"{it['category']}\t{it['type']}\t{resolve_path(it['path'])}" for it in post["items"])
+    # trailing \n is required -- bash's `while read` returns non-zero (and
+    # skips the loop body) for a final line with no terminating newline, so
+    # without it the LAST item silently never gets processed (found via a
+    # real live test 2026-07-27: the 3rd story item, always a video, kept
+    # silently not posting no matter what else was fixed).
+    lines = "\n".join(f"{it['category']}\t{it['type']}\t{resolve_path(it['path'])}" for it in post["items"]) + "\n"
     if DRY_RUN:
         print(f"[DRY-RUN] 3 stories (salgado/salada/doce): {[it['path'] for it in post['items']]}")
         return
