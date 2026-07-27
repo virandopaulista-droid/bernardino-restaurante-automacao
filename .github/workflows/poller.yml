@@ -56,7 +56,7 @@ jobs:
           # proved unreliable -- listing once and grepping the full known
           # relative pattern in a single pass is more robust).
           rclone lsf gdrive: -R --dirs-only > "$HOME/all_dirs.txt"
-          rel_path=$(grep -i "^Ag.ncia BEEF MTK/Clientes */Bernadino restaurante/$" "$HOME/all_dirs.txt" | head -1)
+          rel_path=$(grep -i "^Ag.ncia BEEF MTK/Clientes */Bernadino restaurante */$" "$HOME/all_dirs.txt" | head -1)
           if [ -z "$rel_path" ]; then
             echo "=== nao encontrado, mostrando entradas parecidas ==="
             grep -i "bernadino\|agencia\|ag.ncia" "$HOME/all_dirs.txt" | head -20
