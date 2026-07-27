@@ -21,7 +21,12 @@ import sys
 
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MANIFEST_PATH = os.path.join(PROJECT_DIR, "content", "brenda_stories_manifest.json")
-ASSETS_DIR = r"G:\Meu Drive\Agência BEEF MTK\Clientes\Bernadino restaurante\STORIES\Brenda - Stories"
+# Windows default kept for local runs; GitHub Actions sets BRENDA_STORIES_DIR
+# to the rclone-mounted path instead (no G:\ drive there).
+ASSETS_DIR = os.environ.get(
+    "BRENDA_STORIES_DIR",
+    r"G:\Meu Drive\Agência BEEF MTK\Clientes\Bernadino restaurante\STORIES\Brenda - Stories",
+)
 
 WEEKDAY_MAP = {0: "segunda", 1: "terca", 2: "quarta", 3: "quinta", 4: "sexta"}
 
