@@ -44,9 +44,13 @@ jobs:
           rclone mount gdrive: "$HOME/gdrive" \
             --daemon --vfs-cache-mode=minimal --dir-cache-time=1h \
             --log-file="$HOME/rclone-mount.log" --log-level=INFO
+          # Accented folder names (Agência, Vídeos) can be a different Unicode
+          # normalization form on Drive than a literal string typed here, so
+          # match with single-char globs (?) instead of the exact accented
+          # character -- this matches on bytes actually present on disk.
           ready=""
           for i in $(seq 1 15); do
-            if ls "$HOME/gdrive/Agência BEEF MTK/Clientes/Bernadino restaurante" >/dev/null 2>&1; then
+            if [ -d "$HOME"/gdrive/Ag?ncia\ BEEF\ MTK/Clientes/Bernadino\ restaurante ]; then
               ready=1
               break
             fi
@@ -55,11 +59,13 @@ jobs:
           if [ -z "$ready" ]; then
             echo "=== rclone mount log ==="
             cat "$HOME/rclone-mount.log" || true
-            echo "=== ps ==="
-            ps aux | grep rclone || true
+            echo "=== root listing (repr) ==="
+            ls "$HOME/gdrive/" | cat -A | head -30
             echo "mount failed"
             exit 1
           fi
+          restaurante_dir=$(echo "$HOME"/gdrive/Ag?ncia\ BEEF\ MTK/Clientes/Bernadino\ restaurante)
+          echo "RESTAURANTE_DIR=$restaurante_dir" >> "$GITHUB_ENV"
 
       - name: Write .env
         run: |
@@ -68,11 +74,11 @@ jobs:
           FB_PAGE_ACCESS_TOKEN=$FB_PAGE_ACCESS_TOKEN
           FB_PAGE_ID=$FB_PAGE_ID
           IG_BUSINESS_ID=$IG_BUSINESS_ID
-          MEDIA_DIR_IMAGES_2025=$HOME/gdrive/Agência BEEF MTK/Clientes/Bernadino restaurante/Imagens tratadas/2025
-          MEDIA_DIR_IMAGES_2026=$HOME/gdrive/Agência BEEF MTK/Clientes/Bernadino restaurante/Imagens tratadas/2026
-          MEDIA_DIR_VIDEOS=$HOME/gdrive/Agência BEEF MTK/Clientes/Bernadino restaurante/Vídeos Tratados
-          MEDIA_DIR_STORIES_REELS=$HOME/gdrive/Agência BEEF MTK/Clientes/Bernadino restaurante/Vídeos Tratados/Stories Reels
-          BRENDA_STORIES_DIR=$HOME/gdrive/Agência BEEF MTK/Clientes/Bernadino restaurante/STORIES/Brenda - Stories
+          MEDIA_DIR_IMAGES_2025=$RESTAURANTE_DIR/Imagens tratadas/2025
+          MEDIA_DIR_IMAGES_2026=$RESTAURANTE_DIR/Imagens tratadas/2026
+          MEDIA_DIR_VIDEOS=$(echo "$RESTAURANTE_DIR"/V?deos\ Tratados)
+          MEDIA_DIR_STORIES_REELS=$(echo "$RESTAURANTE_DIR"/V?deos\ Tratados/Stories\ Reels)
+          BRENDA_STORIES_DIR=$(echo "$RESTAURANTE_DIR"/STORIES/Brenda\ -\ Stories)
           EOF
           export OPENAI_API_KEY FB_PAGE_ACCESS_TOKEN FB_PAGE_ID IG_BUSINESS_ID
           export MEDIA_DIR_IMAGES_2025 MEDIA_DIR_IMAGES_2026 MEDIA_DIR_VIDEOS MEDIA_DIR_STORIES_REELS BRENDA_STORIES_DIR
