@@ -70,8 +70,8 @@
       "category": "salada",
       "weekday": "terca",
       "type": "image",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-07-27T13:17:52"
     },
     {
       "file": "38.png",
@@ -111,8 +111,8 @@
       "weekday": "terca",
       "type": "image",
       "inferred_from_name": true,
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-07-27T13:17:52"
     },
     {
       "file": "TERÇA - ESTAMOS ABERTOS (2).png",
@@ -152,8 +152,8 @@
       "category": "salgado",
       "weekday": "quarta",
       "type": "image",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-07-27T13:18:35"
     },
     {
       "file": "QUARTA.png",
@@ -327,8 +327,8 @@
       "category": "salada",
       "weekday": null,
       "type": "image",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-07-27T13:18:35"
     },
     {
       "file": "55.png",
@@ -447,8 +447,8 @@
       "category": "doce",
       "weekday": null,
       "type": "image",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-07-27T13:19:20"
     },
     {
       "file": "53.png",
@@ -777,8 +777,8 @@
     {
       "file": "122.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-07-27T13:19:20",
       "category": "salgado",
       "weekday": "sexta",
       "classified_by": "clip",
@@ -1347,8 +1347,8 @@
     {
       "file": "180.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-07-27T13:18:36",
       "category": "doce",
       "weekday": null,
       "classified_by": "ocr",
@@ -1677,8 +1677,8 @@
     {
       "file": "214.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-07-27T13:18:35",
       "category": "doce",
       "weekday": null,
       "classified_by": "ocr",
@@ -1767,8 +1767,8 @@
     {
       "file": "223.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-07-27T13:19:20",
       "category": "salada",
       "weekday": null,
       "classified_by": "ocr",
@@ -1917,8 +1917,8 @@
     {
       "file": "234.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-07-27T13:18:36",
       "category": "salada",
       "weekday": null,
       "classified_by": "ocr",
@@ -2067,8 +2067,8 @@
     {
       "file": "24_07 (3).mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-07-27T13:18:36",
       "category": "salgado",
       "weekday": "quinta",
       "classified_by": "clip",
@@ -2517,8 +2517,8 @@
     {
       "file": "83.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-07-27T13:17:52",
       "category": "doce",
       "weekday": null,
       "classified_by": "ocr",

@@ -195,8 +195,8 @@
       "category": "prato_salgado",
       "description": "Arroz com pedaços de carne e cheiro verde em um recipiente de buffet.",
       "classified_at": "2026-07-26T21:03:41",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-07-27T13:17:52"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8156.JPG",
@@ -204,8 +204,8 @@
       "category": "prato_salgado",
       "description": "Arroz com pedaços de carne e cheiro verde em um recipiente de barro.",
       "classified_at": "2026-07-26T21:03:52",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-07-27T13:17:52"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8147.JPG",
@@ -213,8 +213,8 @@
       "category": "salada",
       "description": "Diversas saladas em recipientes brancos, incluindo tomate, grão-de-bico e cenoura ralada.",
       "classified_at": "2026-07-26T21:04:05",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-07-27T13:17:52"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8141.JPG",
@@ -231,8 +231,8 @@
       "category": "prato_salgado",
       "description": "Prato de nhoque ao molho da casa, com pedaços de nhoque em molho vermelho.",
       "classified_at": "2026-07-26T21:04:32",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-07-27T13:18:36"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8153.JPG",
@@ -240,8 +240,8 @@
       "category": "salada",
       "description": "A foto mostra uma variedade de saladas, com destaque para uma mistura de tomate picado com cebola e cheiro-verde.",
       "classified_at": "2026-07-26T21:04:47",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-07-27T13:18:36"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8139.JPG",
@@ -258,8 +258,8 @@
       "category": "prato_salgado",
       "description": "Prato quente com uma camada de queijo derretido e molho, acompanhado de outros pratos no buffet.",
       "classified_at": "2026-07-26T21:05:11",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-07-27T13:18:36"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8167.JPG",
@@ -312,8 +312,8 @@
       "category": "doce",
       "description": "Uma funcionária segura duas sobremesas em potes, uma de chocolate e outra de frutas vermelhas.",
       "classified_at": "2026-07-26T21:06:31",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-07-27T13:17:52"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8134.JPG",
@@ -449,8 +449,8 @@
       "category": "doce",
       "description": "Diversas sobremesas expostas, incluindo tortas e frutas.",
       "classified_at": "2026-07-26T21:09:15",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-07-27T13:18:36"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9213.JPG",
@@ -3176,8 +3176,8 @@
       "description": "",
       "classified_at": "2026-07-26T21:53:29",
       "method": "clip-vit-large-patch14",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-07-27T13:17:52"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2026.HEIC",
@@ -4076,8 +4076,8 @@
       "description": "",
       "classified_at": "2026-07-26T21:57:49",
       "method": "clip-vit-large-patch14",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-07-27T13:18:36"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0381.HEIC",
