@@ -62,6 +62,8 @@ jobs:
             cat "$HOME/rclone-mount.log" || true
             echo "=== ps ==="
             ps aux | grep rclone || true
+            echo "=== root listing (repr) ==="
+            ls "$HOME/gdrive/" | cat -A | head -30
             echo "mount failed"
             exit 1
           fi
