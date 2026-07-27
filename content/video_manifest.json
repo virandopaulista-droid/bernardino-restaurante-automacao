@@ -1,0 +1,833 @@
+{
+  "videos": [
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\1b1124ec7d564534b4c2cba7950c5c19.mov",
+      "used": true,
+      "used_at": "2026-07-27T00:44:36",
+      "duration_seconds": 5.0,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\68d9ecdfeac24d4ba38ab536016125b6.mov",
+      "used": false,
+      "used_at": null,
+      "duration_seconds": 5.0,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\5d8877e1dbd14ea88e1e02f7d41e7aca.mov",
+      "used": false,
+      "used_at": null,
+      "duration_seconds": 4.966667,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\897880E2-BB6A-4264-9832-5E86CD92991F.MOV",
+      "used": true,
+      "used_at": "2026-07-27T02:09:14",
+      "duration_seconds": 17.273333,
+      "too_short": false
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\VID_1396521211_103616_473.mp4",
+      "used": false,
+      "used_at": null,
+      "duration_seconds": 6.246145,
+      "too_short": false,
+      "audio_mean_db": -91.0,
+      "silent": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\VID_1396391024_092506_631.mp4",
+      "used": false,
+      "used_at": null,
+      "duration_seconds": 6.246145,
+      "too_short": false,
+      "audio_mean_db": -91.0,
+      "silent": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\VID_1394750601_094742_881.mp4",
+      "used": false,
+      "used_at": null,
+      "duration_seconds": 11.749274,
+      "too_short": false,
+      "audio_mean_db": -91.0,
+      "silent": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\VID_1376020824_003958_238.mp4",
+      "used": false,
+      "used_at": null,
+      "duration_seconds": 7.45,
+      "too_short": false,
+      "silent": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\VID_1375580518_001534_708.mp4",
+      "used": false,
+      "used_at": null,
+      "duration_seconds": 7.45,
+      "too_short": false,
+      "silent": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\VID-20230505-WA0001.mp4",
+      "used": true,
+      "used_at": "2026-07-27T02:25:45",
+      "duration_seconds": 25.44907,
+      "too_short": false,
+      "audio_mean_db": -19.1,
+      "silent": false
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\VID_1533530428_110618_839.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\VID_69570802_113728_291.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\VID_258791118_013338_159.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\VID-20230711-WA0001.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\VID_22261120_090616_801.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\lv_0_20230627223106.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\VID_1533530428_110618_839.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\VID_223470501_185459_121.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\1_5147807656202732560.MOV",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\VID_20230821_104910_347.mp4.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\VID-20230818-WA0004.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\972170D2-BC9F-432C-8C7E-F23D27C503EA.MOV",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\VID_32720501_054152_445.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\VID_853660715_184730_339.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\VID-20231101-WA0004.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\VID_504760503_011419_775.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\lv_0_20231213220328.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\VID-20231116-WA0000.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\VID-20231005-WA0001.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\VID-20230926-WA0002.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\VID_550581207_142443_828.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\lv_0_20230913220442.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\VID_72971124_080847_997.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\VID_72970114_101647_590.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\lv_0_20240229100816.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\VID-20240223-WA0000 (1).mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\VID-20240223-WA0000.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\VID_45310531_212105_257.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\lv_0_20240222094139.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\VID_412210521_185431_031.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\lv_0_20240213220244.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\VID-20240205-WA0007.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\VID_304081018_174700_828.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\lv_0_20240205234142.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\VID-20240528-WA0001 (1).mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\VID-20240528-WA0001.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\VID-20240524-WA0006.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\VID_60781220_095514_128.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\lv_0_20240522215113.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\VID-20240515-WA0013.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\VID-20240513-WA0011.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\VID_241720421_095917_309.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\lv_0_20240509225618.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\VID_304081018_174700_828.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\VID-20240110-WA0019.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\VID_109661012_124735_340.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\lv_0_20240430090734.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\VID_54981012_015935_643.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\lv_0_20240425101657.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\VID_54120805_061707_462.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\lv_0_20240425091519.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\VID_384120715_082512_031.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\lv_0_20240213220244.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\VID-20231101-WA0004.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\VID_109700331_005453_267.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\lv_0_20240321095845.mp4",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\0415bf2307f04d448d94652f6f351203.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\ed1eb58296af4489b91628a3a8b00a6b.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\4cca38b50d4948789033602a99147749.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\21a882a8a72f44a0b4d31cf80b5ab6e1.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\371b071f5e5d4a76a0c509beff385203.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\608e9b1bc541410bb4f3037af4f9b437.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\9f44a37357eb46e0a0781446c8a608e2.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\28bd1302ba4c449b9685ba6ebc806fbf.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\e7f37d5724b243468ab3344a8c07d7d6.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\e64332e74084404480a01a1e02dd14cf.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\6589de258be64db39a305dc978c21e4f.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\2bbdb5b3507b464b8f9b87c1f356ba9c.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\4a9430e62391437988defd040b559667.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\08f89466f8ea4d1e8a26a615ffcad8f4.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\91125676a76d45588d32cb91bdff0dc0.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\909118e854714229a181361ca7025db2.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\868f854a6f65438682766755a41132fd.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\ac5e28391cbe434ba47e2302cd97018e.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\64e4c5c462b1454faa0b513813d97dd5.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\2ca288742120441e84bcdcadb9772a3b.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\d92731f2dc1a43099ee6f1fe292e7a90.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\f28b26c1f4d84b6ba48c3fea7823fd60.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\6ac91ce3b3274a2695f8a4e015f3edc8.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\f09de47ec8324cbdbdd37a8f8c271c55.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\2d028fdcfe934423a84f9c17b8155158.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\6\\96e8cef6aec5404d91c5da5efca86a0c.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Reels\\0C44DD62-AC82-4861-B54E-B9247F606C11.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Reels\\5C295F41-033F-490D-86A4-2902AE5A36D1.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Reels\\A8B84DF7-F2A4-4EBE-A0B6-FFFBB0C216C9.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Reels\\E601A9AF-F962-4164-A64B-8991E70ED660.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Reels\\copy_AC5D3E8F-2039-4AC8-A0CC-DBFC919BD250.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Reels\\Mateus Carieri\\88EC5228-AFF6-4FAC-92C5-A48A21328CFA.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Reels\\Mateus Carieri\\B12B229F-AF0A-43AB-960E-96516846276A.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Reels\\Mateus Carieri\\4633B92C-AED5-4B6B-83E4-0152743DBEA9.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Reels\\Mateus Carieri\\80308674-C149-456C-BFA0-93A466B09BF8.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Reels\\Mateus Carieri\\63A4E839-FDBB-4CF6-AA7B-77FF98C83C69.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Reels\\Mateus Carieri\\DEC07644-095C-4736-AA78-78AFC44745CF.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Stories Susy\\copy_0CE9AF54-C954-4BE5-B398-4623CA97F001.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Stories Susy\\copy_4CAEB754-1889-4559-A61F-6276D4C14124.mov",
+      "used": false,
+      "used_at": null,
+      "too_short": true
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Abril 25\\Salada.mp4",
+      "used": true,
+      "used_at": "2026-07-27T11:10:01",
+      "duration_seconds": 19.271995,
+      "too_short": false,
+      "audio_mean_db": -17.0,
+      "silent": false
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Abril 25\\Massas.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Abril 25\\Ela apresentando.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Abril 25\\Timelapse.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Abril 25\\Pov chapeiro.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Agosto 25\\Vontade de comer não sei o que.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Agosto 25\\Cliente aprovando.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Agosto 25\\Só falta a isso para o meu dia ser feliz.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Agosto 25\\Edit dos pratos 1.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Agosto 25\\Edit dos pratos 2.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Agosto 25\\Video doces.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Agosto 25\\Vídeo narrado.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Novembro 25\\Edit espinafre.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Novembro 25\\Edit pista salada.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Novembro 25\\Edit pista doce.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Novembro 25\\Dona falando do merengue.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Novembro 25\\Cozinha do Bernadino.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Novembro 25\\Edit pista doce com a dona.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Novembro 25\\Tudo que voce consegue comer em uma sexta.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Novembro 25\\Dona apresentanmdo e falando sobre pista doce.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Dezembro 25\\Video agradecimento.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Dezembro 25\\Video ceia de natal.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Dezembro 25\\2\\Edit pista doce.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Dezembro 25\\2\\Edit do ambiente.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Dezembro 25\\2\\Edit pista quente.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Dezembro 25\\2\\Edit esticando comidas.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Abril 26\\Video edit da quiche margarita.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Abril 26\\Vídeo edit bolo de prestígio.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Abril 26\\Vídeo do ambiente decorado.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Abril 26\\Edit pista doce.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Abril 26\\Vídeo narrado bolo de prestígio.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Abril 26\\Video narrado da quiche margarita.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Abril 26\\Tudo o que você consegue comer e.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Abril 26\\Edit geral de todos os pratos.mp4",
+      "used": false,
+      "used_at": null
+    },
+    {
+      "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Abril 26\\Narrado marmitas sustentaveis.mp4",
+      "used": false,
+      "used_at": null
+    }
+  ]
+}

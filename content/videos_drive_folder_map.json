@@ -1,0 +1,12 @@
+{
+  "_readme": "Maps each 'Vídeos Tratados' month subfolder name to its public Google Drive folder ID, so resolve_drive_url.py can find a specific video's public URL (the parent 'Vídeos Tratados' folder is shared publicly, but its embed view only lists one level deep, so each month subfolder needs its own ID). 'Stories/Reels' and 'Usados' intentionally excluded from reel selection (see lib_media.py SKIP_DIR_NAMES_VIDEO) but kept here for reference.",
+  "folders": {
+    "Abril 25": "1zzgIzuA_gsiKq8STYmI7LPR6r1CPRn2d",
+    "Abril 26": "1P-a69kfqCersCnA382042qGQr76uC4vD",
+    "Agosto 25": "1mFuws6rMiG22NOhqSIYB9qfgVLyZqHHI",
+    "Dezembro 25": "1n5TO9W4CivXllFI8fe9bUlSnPBqUWfou",
+    "Novembro 25": "1JsWMlqxBjbdxWErlE0zpHe2RD71P7ATn",
+    "Stories/Reels": "10GZwHjI6XqqMgfsbn3fa4zDpbN1_b0bo",
+    "Usados": "1-93OfaOCxDwOulsmdre2nnzipOTLSJpZ"
+  }
+}

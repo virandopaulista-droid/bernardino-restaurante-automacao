@@ -1,0 +1,185 @@
+{
+  "week_start": "2026-08-03",
+  "status": "approved",
+  "generated_at": "2026-07-27T11:11:32",
+  "posts": [
+    {
+      "date": "2026-08-03",
+      "weekday": "segunda",
+      "slot": "story",
+      "items": [
+        {
+          "category": "salgado",
+          "type": "video",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\STORIES\\Brenda - Stories\\50.mp4"
+        },
+        {
+          "category": "salada",
+          "type": "video",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\STORIES\\Brenda - Stories\\146.mp4"
+        },
+        {
+          "category": "doce",
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\STORIES\\Brenda - Stories\\DOCES (2).png"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-03",
+      "weekday": "segunda",
+      "slot": "reel",
+      "items": [
+        {
+          "type": "video",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Abril 25\\Salada.mp4"
+        }
+      ],
+      "caption_file": "C:\\Users\\Robso\\cloude-bernardino\\content\\caption_reel_g521lcob.txt"
+    },
+    {
+      "date": "2026-08-04",
+      "weekday": "terca",
+      "slot": "story",
+      "items": [
+        {
+          "category": "salgado",
+          "type": "video",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\STORIES\\Brenda - Stories\\22_07.mp4"
+        },
+        {
+          "category": "salada",
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\STORIES\\Brenda - Stories\\38.png"
+        },
+        {
+          "category": "doce",
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\STORIES\\Brenda - Stories\\56.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "weekday": "terca",
+      "slot": "feed",
+      "items": [
+        {
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8149.JPG"
+        },
+        {
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8169.JPG"
+        },
+        {
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8152.JPG"
+        },
+        {
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8139.JPG"
+        },
+        {
+          "type": "image",
+          "path": "C:\\Users\\Robso\\cloude-bernardino\\content\\converted\\IMG_2047.jpg"
+        }
+      ],
+      "caption_file": "C:\\Users\\Robso\\cloude-bernardino\\content\\caption_vhnuc0l0.txt"
+    },
+    {
+      "date": "2026-08-05",
+      "weekday": "quarta",
+      "slot": "story",
+      "items": [
+        {
+          "category": "salgado",
+          "type": "video",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\STORIES\\Brenda - Stories\\206.mp4"
+        },
+        {
+          "category": "salada",
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\STORIES\\Brenda - Stories\\45.png"
+        },
+        {
+          "category": "doce",
+          "type": "video",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\STORIES\\Brenda - Stories\\150.mp4"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "weekday": "quinta",
+      "slot": "story",
+      "items": [
+        {
+          "category": "salgado",
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\STORIES\\Brenda - Stories\\60.png"
+        },
+        {
+          "category": "salada",
+          "type": "video",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\STORIES\\Brenda - Stories\\108.mp4"
+        },
+        {
+          "category": "doce",
+          "type": "video",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\STORIES\\Brenda - Stories\\192.mp4"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "weekday": "quinta",
+      "slot": "feed",
+      "items": [
+        {
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8170.JPG"
+        },
+        {
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8172.JPG"
+        },
+        {
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8150.JPG"
+        },
+        {
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8140.JPG"
+        },
+        {
+          "type": "image",
+          "path": "C:\\Users\\Robso\\cloude-bernardino\\content\\converted\\IMG_2048.jpg"
+        }
+      ],
+      "caption_file": "C:\\Users\\Robso\\cloude-bernardino\\content\\caption_5_4gxm0h.txt"
+    },
+    {
+      "date": "2026-08-07",
+      "weekday": "sexta",
+      "slot": "story",
+      "items": [
+        {
+          "category": "salgado",
+          "type": "video",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\STORIES\\Brenda - Stories\\256.mp4"
+        },
+        {
+          "category": "salada",
+          "type": "video",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\STORIES\\Brenda - Stories\\129.mp4"
+        },
+        {
+          "category": "doce",
+          "type": "video",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\STORIES\\Brenda - Stories\\26.mp4"
+        }
+      ]
+    }
+  ]
+}

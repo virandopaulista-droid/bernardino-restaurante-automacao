@@ -1,0 +1,72 @@
+#!/usr/bin/env bash
+# Publishes a Facebook Page video Story via the resumable Video Stories
+# upload API (start -> upload bytes -> finish). No caption field (Stories
+# don't support captions on Facebook, same as photo stories).
+# Usage: post_story_video_fb.sh <video_path>
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+# shellcheck disable=SC1091
+source "$PROJECT_DIR/.env"
+
+: "${FB_PAGE_ACCESS_TOKEN:?Faltou FB_PAGE_ACCESS_TOKEN no .env}"
+: "${FB_PAGE_ID:?Faltou FB_PAGE_ID no .env}"
+
+VIDEO_PATH="$1"
+
+FB_PAGE_ID="$FB_PAGE_ID" FB_PAGE_ACCESS_TOKEN="$FB_PAGE_ACCESS_TOKEN" python3 - "$VIDEO_PATH" <<'PYEOF'
+import json
+import os
+import sys
+import urllib.error
+import urllib.parse
+import urllib.request
+
+video_path = sys.argv[1]
+page_id = os.environ["FB_PAGE_ID"]
+access_token = os.environ["FB_PAGE_ACCESS_TOKEN"]
+
+
+def post_form(url, fields):
+    req = urllib.request.Request(url, data=urllib.parse.urlencode(fields).encode("utf-8"), method="POST")
+    with urllib.request.urlopen(req) as resp:
+        return json.loads(resp.read())
+
+
+try:
+    start = post_form(
+        f"https://graph.facebook.com/v20.0/{page_id}/video_stories",
+        {"access_token": access_token, "upload_phase": "start"},
+    )
+    video_id = start["video_id"]
+    upload_url = start["upload_url"]
+
+    with open(video_path, "rb") as f:
+        video_bytes = f.read()
+
+    upload_req = urllib.request.Request(
+        upload_url,
+        data=video_bytes,
+        headers={
+            "Authorization": f"OAuth {access_token}",
+            "offset": "0",
+            "file_size": str(len(video_bytes)),
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(upload_req) as resp:
+        upload_result = json.loads(resp.read())
+
+    finish = post_form(
+        f"https://graph.facebook.com/v20.0/{page_id}/video_stories",
+        {"access_token": access_token, "upload_phase": "finish", "video_id": video_id},
+    )
+except urllib.error.HTTPError as e:
+    print(f"Erro da API do Facebook: {e.read().decode('utf-8')}", file=sys.stderr)
+    raise SystemExit(1)
+
+print(json.dumps({"upload": upload_result, "finish": finish}), file=sys.stderr)
+print(f"FB video story publicado: {video_path} -> video_id={video_id}")
+PYEOF

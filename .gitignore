@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+content/converted/
+content/caption_*.txt
+content/week_plans/*_gallery.html
+content/canva_exports/

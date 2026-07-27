@@ -1,0 +1,20 @@
+{
+  "prato_salgado": {
+    "design_id": "DAHQjQKo1YU",
+    "page_id": "PBQnSfwhPBMt9d5X",
+    "photo_element_id": "PBQnSfwhPBMt9d5X-LBBlvYVKc0WcZNYG",
+    "headline_element_id": "PBQnSfwhPBMt9d5X-LB047933yKCHKTNZ"
+  },
+  "salada": {
+    "design_id": "DAHQjQcdV84",
+    "page_id": "PB5pC36xsRb1mvmX",
+    "photo_element_id": "PB5pC36xsRb1mvmX-LBBlvYVKc0WcZNYG",
+    "headline_element_id": "PB5pC36xsRb1mvmX-LB047933yKCHKTNZ"
+  },
+  "doce": {
+    "design_id": "DAHQjRCXzUg",
+    "page_id": "PBVktNfNkw66Rpnf",
+    "photo_element_id": "PBVktNfNkw66Rpnf-LBBlvYVKc0WcZNYG",
+    "headline_element_id": "PBVktNfNkw66Rpnf-LB047933yKCHKTNZ"
+  }
+}
