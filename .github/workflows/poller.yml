@@ -10,6 +10,14 @@ on:
         description: "Postar de verdade? (false = so testar o mount/ambiente, sem publicar)"
         type: boolean
         default: false
+      force_date:
+        description: "(opcional, so p/ teste manual) forca postar esta data (YYYY-MM-DD) ignorando a janela de horario"
+        type: string
+        default: ""
+      force_slot:
+        description: "(opcional, usar com force_date) feed | story | reel"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -100,10 +108,14 @@ jobs:
 
       - name: Run poller
         run: |
+          extra_args=()
+          if [ -n "${{ inputs.force_date }}" ] && [ -n "${{ inputs.force_slot }}" ]; then
+            extra_args+=(--force-date "${{ inputs.force_date }}" --force-slot "${{ inputs.force_slot }}")
+          fi
           if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.live }}" = "true" ]; then
-            bash scripts/run_poller.sh --live
+            bash scripts/run_poller.sh --live "${extra_args[@]}"
           else
-            bash scripts/run_poller.sh
+            bash scripts/run_poller.sh "${extra_args[@]}"
           fi
 
       - name: Commit any state changes (used flags, posted flags)

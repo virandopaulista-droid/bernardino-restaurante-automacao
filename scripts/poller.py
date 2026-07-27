@@ -159,9 +159,44 @@ def handle_reel(post):
 HANDLERS = {"feed": handle_feed, "story": handle_story, "reel": handle_reel}
 
 
+def _arg_value(flag):
+    args = sys.argv[1:]
+    if flag in args:
+        idx = args.index(flag)
+        if idx + 1 < len(args):
+            return args[idx + 1]
+    return None
+
+
 def main():
     now = datetime.datetime.now()
     today_key = now.strftime("%Y-%m-%d")
+
+    force_date = _arg_value("--force-date")
+    force_slot = _arg_value("--force-slot")
+    if force_date and force_slot:
+        # Bypasses the schedule/time-window check entirely -- for manual
+        # verification runs only (e.g. "does this actually reach FB/IG"),
+        # never used by the real cron-triggered firings.
+        print(f"FORCE: postando '{force_slot}' de {force_date} agora, ignorando janela de horario...")
+        monday = week_monday(datetime.date.fromisoformat(force_date))
+        plan, plan_path = load_plan(monday)
+        if plan is None or plan["status"] != "approved":
+            print("AVISO: cronograma nao encontrado ou nao aprovado.", file=sys.stderr)
+            return
+        post = next((p for p in plan["posts"] if p["date"] == force_date and p["slot"] == force_slot), None)
+        if post is None:
+            print(f"AVISO: nao ha post de '{force_slot}' em {force_date} no cronograma.", file=sys.stderr)
+            return
+        if post.get("posted"):
+            print("AVISO: esse post ja foi marcado como publicado antes.", file=sys.stderr)
+            return
+        HANDLERS[force_slot](post)
+        if not DRY_RUN:
+            post["posted"] = True
+            post["posted_at"] = now.isoformat(timespec="seconds")
+            save_plan(plan, plan_path)
+        return
 
     for entry in SCHEDULE:
         if now.weekday() not in entry["weekdays"]:
