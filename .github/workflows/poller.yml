@@ -86,15 +86,15 @@ jobs:
           videos_name=$(ls "$RESTAURANTE_DIR" | grep -i "^V.deos Tratados$" | head -1)
           videos_dir="$RESTAURANTE_DIR/$videos_name"
           cat > .env <<EOF
-          OPENAI_API_KEY=$OPENAI_API_KEY
-          FB_PAGE_ACCESS_TOKEN=$FB_PAGE_ACCESS_TOKEN
-          FB_PAGE_ID=$FB_PAGE_ID
-          IG_BUSINESS_ID=$IG_BUSINESS_ID
-          MEDIA_DIR_IMAGES_2025=$RESTAURANTE_DIR/Imagens tratadas/2025
-          MEDIA_DIR_IMAGES_2026=$RESTAURANTE_DIR/Imagens tratadas/2026
-          MEDIA_DIR_VIDEOS=$videos_dir
-          MEDIA_DIR_STORIES_REELS=$videos_dir/Stories Reels
-          BRENDA_STORIES_DIR=$RESTAURANTE_DIR/STORIES/Brenda - Stories
+          OPENAI_API_KEY="$OPENAI_API_KEY"
+          FB_PAGE_ACCESS_TOKEN="$FB_PAGE_ACCESS_TOKEN"
+          FB_PAGE_ID="$FB_PAGE_ID"
+          IG_BUSINESS_ID="$IG_BUSINESS_ID"
+          MEDIA_DIR_IMAGES_2025="$RESTAURANTE_DIR/Imagens tratadas/2025"
+          MEDIA_DIR_IMAGES_2026="$RESTAURANTE_DIR/Imagens tratadas/2026"
+          MEDIA_DIR_VIDEOS="$videos_dir"
+          MEDIA_DIR_STORIES_REELS="$videos_dir/Stories Reels"
+          BRENDA_STORIES_DIR="$RESTAURANTE_DIR/STORIES/Brenda - Stories"
           EOF
           cat .env | sed 's/^\(OPENAI\|FB_PAGE_ACCESS_TOKEN\)=.*/\1=***/'
 
