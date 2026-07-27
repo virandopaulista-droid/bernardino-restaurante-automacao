@@ -85,28 +85,48 @@ PATH_ANCHORS = [
 ]
 
 
+def _find_by_normalized_name(dir_path, target_name):
+    """Directory listing + NFC-normalized comparison, instead of a direct
+    path stat -- an accented filename (TERÇA, Vídeos...) written on Windows
+    and a Linux/rclone FUSE mount can represent the same character with
+    different Unicode normalization forms, so a literal path string that
+    LOOKS identical can still fail os.path.exists()."""
+    import unicodedata
+    target_norm = unicodedata.normalize("NFC", target_name)
+    try:
+        entries = os.listdir(dir_path)
+    except OSError:
+        return None
+    for entry in entries:
+        if unicodedata.normalize("NFC", entry) == target_norm:
+            return os.path.join(dir_path, entry)
+    return None
+
+
 def resolve_path(path):
     """A week plan can be generated on one machine (local Windows, G:\\...)
     and posted from another (GitHub Actions' Linux rclone mount) -- if the
     stored absolute path doesn't exist here, rebuild it from a known anchor
-    folder name plus this environment's own MEDIA_DIR_*/BRENDA_STORIES_DIR."""
+    folder name plus this environment's own MEDIA_DIR_*/BRENDA_STORIES_DIR,
+    then match the filename by normalized comparison (see
+    _find_by_normalized_name)."""
     if os.path.exists(path):
         return path
     normalized = path.replace("\\", "/")
     for anchor, get_base in PATH_ANCHORS:
         idx = normalized.find(anchor)
         if idx == -1:
-            print(f"DEBUG resolve_path: anchor {anchor!r} not found in {normalized!r}", file=sys.stderr)
             continue
         base = get_base()
         if not base:
-            print(f"DEBUG resolve_path: anchor {anchor!r} matched but base env var empty", file=sys.stderr)
             continue
         remainder = normalized[idx + len(anchor):].lstrip("/")
         candidate = os.path.join(base, remainder)
-        print(f"DEBUG resolve_path: trying candidate {candidate!r} exists={os.path.exists(candidate)}", file=sys.stderr)
         if os.path.exists(candidate):
             return candidate
+        found = _find_by_normalized_name(os.path.dirname(candidate), os.path.basename(candidate))
+        if found:
+            return found
     return path  # unchanged -- let the caller's own error surface if still missing
 
 
