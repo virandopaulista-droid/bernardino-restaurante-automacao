@@ -40,10 +40,10 @@ jobs:
         run: |
           mkdir -p ~/.config/rclone
           printf '%s' "${{ secrets.RCLONE_CONFIG }}" > ~/.config/rclone/rclone.conf
-          mkdir -p /mnt/gdrive
-          rclone mount gdrive: /mnt/gdrive --daemon --vfs-cache-mode=minimal --dir-cache-time=1h
+          mkdir -p $HOME/gdrive
+          rclone mount gdrive: $HOME/gdrive --daemon --vfs-cache-mode=minimal --dir-cache-time=1h
           sleep 5
-          ls "/mnt/gdrive/Agência BEEF MTK/Clientes/Bernadino restaurante" || (echo "mount failed" && exit 1)
+          ls "$HOME/gdrive/Agência BEEF MTK/Clientes/Bernadino restaurante" || (echo "mount failed" && exit 1)
 
       - name: Write .env
         run: |
@@ -52,11 +52,11 @@ jobs:
           FB_PAGE_ACCESS_TOKEN=${{ secrets.FB_PAGE_ACCESS_TOKEN }}
           FB_PAGE_ID=${{ secrets.FB_PAGE_ID }}
           IG_BUSINESS_ID=${{ secrets.IG_BUSINESS_ID }}
-          MEDIA_DIR_IMAGES_2025=/mnt/gdrive/Agência BEEF MTK/Clientes/Bernadino restaurante/Imagens tratadas/2025
-          MEDIA_DIR_IMAGES_2026=/mnt/gdrive/Agência BEEF MTK/Clientes/Bernadino restaurante/Imagens tratadas/2026
-          MEDIA_DIR_VIDEOS=/mnt/gdrive/Agência BEEF MTK/Clientes/Bernadino restaurante/Vídeos Tratados
-          MEDIA_DIR_STORIES_REELS=/mnt/gdrive/Agência BEEF MTK/Clientes/Bernadino restaurante/Vídeos Tratados/Stories Reels
-          BRENDA_STORIES_DIR=/mnt/gdrive/Agência BEEF MTK/Clientes/Bernadino restaurante/STORIES/Brenda - Stories
+          MEDIA_DIR_IMAGES_2025=$HOME/gdrive/Agência BEEF MTK/Clientes/Bernadino restaurante/Imagens tratadas/2025
+          MEDIA_DIR_IMAGES_2026=$HOME/gdrive/Agência BEEF MTK/Clientes/Bernadino restaurante/Imagens tratadas/2026
+          MEDIA_DIR_VIDEOS=$HOME/gdrive/Agência BEEF MTK/Clientes/Bernadino restaurante/Vídeos Tratados
+          MEDIA_DIR_STORIES_REELS=$HOME/gdrive/Agência BEEF MTK/Clientes/Bernadino restaurante/Vídeos Tratados/Stories Reels
+          BRENDA_STORIES_DIR=$HOME/gdrive/Agência BEEF MTK/Clientes/Bernadino restaurante/STORIES/Brenda - Stories
           EOF
 
       - name: Run poller
