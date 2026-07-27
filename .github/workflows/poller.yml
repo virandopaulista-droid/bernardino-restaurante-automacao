@@ -51,13 +51,23 @@ jobs:
           rclone mount gdrive: "$HOME/gdrive" \
             --daemon --vfs-cache-mode=minimal --dir-cache-time=1h \
             --log-file="$HOME/rclone-mount.log" --log-level=INFO
-          # Accented folder names (Agência, Vídeos) can be a different Unicode
-          # normalization form on Drive than a literal string typed here, so
-          # match with single-char globs (?) instead of the exact accented
-          # character -- this matches on bytes actually present on disk.
+          # Resolve exact folder names via rclone's own API listing instead of
+          # bash filesystem globs -- accented names (Agência, Vídeos) proved
+          # unreliable to glob-match under the runner's default locale even
+          # with LC_ALL=C.UTF-8 set, so ask rclone itself what the top-level
+          # folder is actually called (byte-for-byte, no shell involved).
+          agencia_name=$(rclone lsf gdrive: --dirs-only | grep -i "^Ag.ncia BEEF MTK/$" | head -1)
+          if [ -z "$agencia_name" ]; then
+            echo "=== rclone lsf root ==="
+            rclone lsf gdrive: --dirs-only
+            echo "mount failed: pasta Agencia BEEF MTK nao encontrada"
+            exit 1
+          fi
+          restaurante_name=$(rclone lsf "gdrive:${agencia_name}Clientes" --dirs-only | grep -i "^Bernadino restaurante/$" | head -1)
+          restaurante_dir="$HOME/gdrive/${agencia_name}Clientes/${restaurante_name}"
           ready=""
           for i in $(seq 1 15); do
-            if [ -d "$HOME"/gdrive/Ag?ncia\ BEEF\ MTK/Clientes/Bernadino\ restaurante ]; then
+            if [ -d "$restaurante_dir" ]; then
               ready=1
               break
             fi
@@ -66,16 +76,16 @@ jobs:
           if [ -z "$ready" ]; then
             echo "=== rclone mount log ==="
             cat "$HOME/rclone-mount.log" || true
-            echo "=== root listing (repr) ==="
-            ls "$HOME/gdrive/" | cat -A | head -30
-            echo "mount failed"
+            echo "mount failed: $restaurante_dir nao apareceu no mount"
             exit 1
           fi
-          restaurante_dir=$(echo "$HOME"/gdrive/Ag?ncia\ BEEF\ MTK/Clientes/Bernadino\ restaurante)
+          restaurante_dir="${restaurante_dir%/}"
           echo "RESTAURANTE_DIR=$restaurante_dir" >> "$GITHUB_ENV"
 
       - name: Write .env
         run: |
+          videos_name=$(ls "$RESTAURANTE_DIR" | grep -i "^V.deos Tratados$" | head -1)
+          videos_dir="$RESTAURANTE_DIR/$videos_name"
           cat > .env <<EOF
           OPENAI_API_KEY=$OPENAI_API_KEY
           FB_PAGE_ACCESS_TOKEN=$FB_PAGE_ACCESS_TOKEN
@@ -83,10 +93,11 @@ jobs:
           IG_BUSINESS_ID=$IG_BUSINESS_ID
           MEDIA_DIR_IMAGES_2025=$RESTAURANTE_DIR/Imagens tratadas/2025
           MEDIA_DIR_IMAGES_2026=$RESTAURANTE_DIR/Imagens tratadas/2026
-          MEDIA_DIR_VIDEOS=$(echo "$RESTAURANTE_DIR"/V?deos\ Tratados)
-          MEDIA_DIR_STORIES_REELS=$(echo "$RESTAURANTE_DIR"/V?deos\ Tratados/Stories\ Reels)
-          BRENDA_STORIES_DIR=$(echo "$RESTAURANTE_DIR"/STORIES/Brenda\ -\ Stories)
+          MEDIA_DIR_VIDEOS=$videos_dir
+          MEDIA_DIR_STORIES_REELS=$videos_dir/Stories Reels
+          BRENDA_STORIES_DIR=$RESTAURANTE_DIR/STORIES/Brenda - Stories
           EOF
+          cat .env | sed 's/^\(OPENAI\|FB_PAGE_ACCESS_TOKEN\)=.*/\1=***/'
 
       - name: Run poller
         run: |
