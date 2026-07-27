@@ -148,6 +148,18 @@
           "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\STORIES\\Brenda - Stories\\49.png"
         }
       ]
+    },
+    {
+      "date": "2026-07-27",
+      "weekday": "teste",
+      "slot": "story",
+      "items": [
+        {
+          "category": "doce",
+          "type": "video",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\STORIES\\Brenda - Stories\\83.mp4"
+        }
+      ]
     }
   ]
 }
