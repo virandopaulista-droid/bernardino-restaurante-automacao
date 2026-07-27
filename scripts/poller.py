@@ -78,6 +78,35 @@ def bash_stdin(script_rel, stdin_text):
     return result.stdout.strip()
 
 
+PATH_ANCHORS = [
+    ("Imagens tratadas", lambda: os.path.dirname(os.environ.get("MEDIA_DIR_IMAGES_2025", ""))),
+    ("Vídeos Tratados", lambda: os.environ.get("MEDIA_DIR_VIDEOS", "")),
+    ("Brenda - Stories", lambda: os.environ.get("BRENDA_STORIES_DIR", "")),
+]
+
+
+def resolve_path(path):
+    """A week plan can be generated on one machine (local Windows, G:\\...)
+    and posted from another (GitHub Actions' Linux rclone mount) -- if the
+    stored absolute path doesn't exist here, rebuild it from a known anchor
+    folder name plus this environment's own MEDIA_DIR_*/BRENDA_STORIES_DIR."""
+    if os.path.exists(path):
+        return path
+    normalized = path.replace("\\", "/")
+    for anchor, get_base in PATH_ANCHORS:
+        idx = normalized.find(anchor)
+        if idx == -1:
+            continue
+        base = get_base()
+        if not base:
+            continue
+        remainder = normalized[idx + len(anchor):].lstrip("/")
+        candidate = os.path.join(base, remainder)
+        if os.path.exists(candidate):
+            return candidate
+    return path  # unchanged -- let the caller's own error surface if still missing
+
+
 def week_monday(date):
     return date - datetime.timedelta(days=date.weekday())
 
@@ -96,7 +125,7 @@ def save_plan(plan, plan_path):
 
 
 def handle_feed(post):
-    paths = [it["path"] for it in post["items"]]
+    paths = [resolve_path(it["path"]) for it in post["items"]]
     caption_file = post["caption_file"]
     if DRY_RUN:
         with open(caption_file, encoding="utf-8") as f:
@@ -122,7 +151,7 @@ def handle_feed(post):
 
 
 def handle_story(post):
-    lines = "\n".join(f"{it['category']}\t{it['type']}\t{it['path']}" for it in post["items"])
+    lines = "\n".join(f"{it['category']}\t{it['type']}\t{resolve_path(it['path'])}" for it in post["items"])
     if DRY_RUN:
         print(f"[DRY-RUN] 3 stories (salgado/salada/doce): {[it['path'] for it in post['items']]}")
         return
@@ -130,7 +159,7 @@ def handle_story(post):
 
 
 def handle_reel(post):
-    path = post["items"][0]["path"]
+    path = resolve_path(post["items"][0]["path"])
     caption_file = post["caption_file"]
     if DRY_RUN:
         print(f"[DRY-RUN] reel com video: {path}")

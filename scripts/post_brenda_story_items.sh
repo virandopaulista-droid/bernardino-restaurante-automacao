@@ -12,6 +12,16 @@ while IFS=$'\t' read -r category type path; do
     # strip a trailing \r -- python on Windows writes \r\n, and bash's `read`
     # only strips the final \n, leaving \r stuck to the last field (path)
     path="${path%$'\r'}"
+    # A week plan generated on one machine (e.g. local Windows, G:\...) can be
+    # posted from another (e.g. GitHub Actions' Linux rclone mount) -- if the
+    # stored absolute path doesn't exist here, fall back to the filename
+    # inside this environment's own BRENDA_STORIES_DIR.
+    if [ ! -f "$path" ] && [ -n "${BRENDA_STORIES_DIR:-}" ]; then
+        fallback="$BRENDA_STORIES_DIR/$(basename "$path")"
+        if [ -f "$fallback" ]; then
+            path="$fallback"
+        fi
+    fi
     echo "== $category ($type): $path =="
     if [ "$type" = "image" ]; then
         bash "$SCRIPT_DIR/post_story_all.sh" "$path"
