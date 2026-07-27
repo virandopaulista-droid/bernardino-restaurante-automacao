@@ -96,12 +96,15 @@ def resolve_path(path):
     for anchor, get_base in PATH_ANCHORS:
         idx = normalized.find(anchor)
         if idx == -1:
+            print(f"DEBUG resolve_path: anchor {anchor!r} not found in {normalized!r}", file=sys.stderr)
             continue
         base = get_base()
         if not base:
+            print(f"DEBUG resolve_path: anchor {anchor!r} matched but base env var empty", file=sys.stderr)
             continue
         remainder = normalized[idx + len(anchor):].lstrip("/")
         candidate = os.path.join(base, remainder)
+        print(f"DEBUG resolve_path: trying candidate {candidate!r} exists={os.path.exists(candidate)}", file=sys.stderr)
         if os.path.exists(candidate):
             return candidate
     return path  # unchanged -- let the caller's own error surface if still missing
