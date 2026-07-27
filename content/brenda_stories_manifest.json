@@ -407,7 +407,7 @@
       "category": "doce",
       "weekday": null,
       "type": "image",
-      "used": false,
+      "used": true,
       "used_at": null
     },
     {
@@ -1682,7 +1682,9 @@
       "category": "doce",
       "weekday": null,
       "classified_by": "ocr",
-      "clip_confidence": null
+      "clip_confidence": null,
+      "excluded": true,
+      "exclude_reason": "glitch: interface da camera do celular aparece sobreposta no video (achado 2026-07-27 em revisao manual)"
     },
     {
       "file": "216.mp4",
