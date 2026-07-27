@@ -208,6 +208,9 @@ def main():
         # verification runs only (e.g. "does this actually reach FB/IG"),
         # never used by the real cron-triggered firings.
         print(f"FORCE: postando '{force_slot}' de {force_date} agora, ignorando janela de horario...")
+        print(f"DEBUG BRENDA_STORIES_DIR={os.environ.get('BRENDA_STORIES_DIR', '<unset>')!r}", file=sys.stderr)
+        print(f"DEBUG MEDIA_DIR_VIDEOS={os.environ.get('MEDIA_DIR_VIDEOS', '<unset>')!r}", file=sys.stderr)
+        print(f"DEBUG MEDIA_DIR_IMAGES_2025={os.environ.get('MEDIA_DIR_IMAGES_2025', '<unset>')!r}", file=sys.stderr)
         monday = week_monday(datetime.date.fromisoformat(force_date))
         plan, plan_path = load_plan(monday)
         if plan is None or plan["status"] != "approved":
