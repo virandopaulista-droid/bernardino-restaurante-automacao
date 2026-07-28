@@ -34,7 +34,9 @@ SCRIPTS_DIR = os.path.dirname(os.path.abspath(__file__))
 PLANS_DIR = os.path.join(PROJECT_DIR, "content", "week_plans")
 VIDEOS_FOLDER_MAP_PATH = os.path.join(PROJECT_DIR, "content", "videos_drive_folder_map.json")
 
-WINDOW_MINUTES = 10
+WINDOW_MINUTES = 30  # widened 2026-07-28 after GitHub's cron silently failed to
+# fire at all during its very first scheduled window -- more tolerance means
+# a late/delayed cron tick still catches the post instead of missing it.
 
 # weekday(): Monday=0 ... Sunday=6
 SCHEDULE = [
