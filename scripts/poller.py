@@ -130,6 +130,22 @@ def resolve_path(path):
     return path  # unchanged -- let the caller's own error surface if still missing
 
 
+def resolve_caption_file(post):
+    """caption_text (embedded in the plan) is authoritative and portable;
+    caption_file is a local-machine-only path (content/caption_*.txt is
+    gitignored, so a plan generated on one machine has no such file on
+    another) -- write caption_text to a fresh temp file here instead of
+    trusting the stored path. Falls back to caption_file for older plans
+    that predate caption_text."""
+    if post.get("caption_text"):
+        import tempfile
+        fd, path = tempfile.mkstemp(prefix="caption_live_", suffix=".txt", dir=os.path.join(PROJECT_DIR, "content"))
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            f.write(post["caption_text"])
+        return path
+    return post["caption_file"]
+
+
 def week_monday(date):
     return date - datetime.timedelta(days=date.weekday())
 
@@ -149,7 +165,7 @@ def save_plan(plan, plan_path):
 
 def handle_feed(post):
     paths = [resolve_path(it["path"]) for it in post["items"]]
-    caption_file = post["caption_file"]
+    caption_file = resolve_caption_file(post)
     if DRY_RUN:
         with open(caption_file, encoding="utf-8") as f:
             print(f"[DRY-RUN] carrossel de feed com {paths}\nLegenda:\n{f.read()}")
@@ -188,7 +204,7 @@ def handle_story(post):
 
 def handle_reel(post):
     path = resolve_path(post["items"][0]["path"])
-    caption_file = post["caption_file"]
+    caption_file = resolve_caption_file(post)
     if DRY_RUN:
         print(f"[DRY-RUN] reel com video: {path}")
         return

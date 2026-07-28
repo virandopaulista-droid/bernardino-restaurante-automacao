@@ -52,13 +52,22 @@ def build_story_post(date):
     return {"date": date.isoformat(), "weekday": WEEKDAY_NAMES[date.weekday()], "slot": "story", "items": items}
 
 
+def _read_text(path):
+    with open(path, encoding="utf-8") as f:
+        return f.read()
+
+
 def build_feed_post(date):
     paths = python("select_media.py", "feed").splitlines()
     caption_file = python("caption_from_photo.py", "feed", *paths)
     return {
         "date": date.isoformat(), "weekday": WEEKDAY_NAMES[date.weekday()], "slot": "feed",
         "items": [{"type": "image", "path": p} for p in paths],
+        # caption_text is authoritative and portable (embedded in the plan
+        # itself); caption_file is local-machine-only (content/caption_*.txt
+        # is gitignored) and kept only for local debugging reference.
         "caption_file": caption_file,
+        "caption_text": _read_text(caption_file),
     }
 
 
@@ -69,6 +78,7 @@ def build_reel_post(date):
         "date": date.isoformat(), "weekday": WEEKDAY_NAMES[date.weekday()], "slot": "reel",
         "items": [{"type": "video", "path": path}],
         "caption_file": caption_file,
+        "caption_text": _read_text(caption_file),
     }
 
 
