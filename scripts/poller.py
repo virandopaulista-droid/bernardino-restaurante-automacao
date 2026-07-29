@@ -16,9 +16,13 @@ Schedule (see docs/guia-bernardino.md):
   Mon-Fri 8:00  -> story
   Mon 9:00      -> reel
 
-Matches a slot if now is within WINDOW_MINUTES of the scheduled time. Each
-individual post in the plan tracks its own "posted" flag (in the plan JSON
-itself) so re-running within the same window doesn't double-post.
+Catch-up, not a narrow window: fires as soon as "now" is at or past a
+scheduled time (same day), and keeps trying on every later tick until that
+slot's "posted" flag is set -- GitHub's own cron schedule has proven
+unreliable about landing near its configured time (confirmed 2026-07-29,
+see memory), so a narrow match window caused entire days to silently post
+nothing. Each individual post in the plan tracks its own "posted" flag (in
+the plan JSON itself) so repeated ticks the same day don't double-post.
 
 Defaults to --dry-run (prints what it would do, does NOT call Facebook).
 Pass --live to actually publish.
@@ -33,10 +37,6 @@ PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SCRIPTS_DIR = os.path.dirname(os.path.abspath(__file__))
 PLANS_DIR = os.path.join(PROJECT_DIR, "content", "week_plans")
 VIDEOS_FOLDER_MAP_PATH = os.path.join(PROJECT_DIR, "content", "videos_drive_folder_map.json")
-
-WINDOW_MINUTES = 30  # widened 2026-07-28 after GitHub's cron silently failed to
-# fire at all during its very first scheduled window -- more tolerance means
-# a late/delayed cron tick still catches the post instead of missing it.
 
 # weekday(): Monday=0 ... Sunday=6
 SCHEDULE = [
@@ -277,8 +277,15 @@ def main():
         if now.weekday() not in entry["weekdays"]:
             continue
         scheduled = now.replace(hour=entry["hour"], minute=entry["minute"], second=0, microsecond=0)
-        delta_minutes = abs((now - scheduled).total_seconds()) / 60
-        if delta_minutes > WINDOW_MINUTES:
+        # Catch-up, not a narrow window: GitHub's cron has proven unreliable
+        # about firing at the exact configured time (confirmed 2026-07-29 --
+        # a "schedule"-triggered run landed hours off target and matched no
+        # window, so nothing posted all day). So: fire as soon as we're AT
+        # OR PAST the scheduled time, and keep firing on every later tick
+        # THE SAME DAY until "posted" is set -- whichever tick actually
+        # lands after the target time catches it, instead of requiring one
+        # to land within a specific narrow band.
+        if now < scheduled:
             continue
 
         monday = week_monday(now.date())

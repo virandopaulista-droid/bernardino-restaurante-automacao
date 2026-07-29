@@ -2,8 +2,13 @@ name: Poller (feed/stories/reels)
 
 on:
   schedule:
-    # UTC times -- covers Mon-Fri 07:45-10:15 America/Sao_Paulo (UTC-3, no DST in Brazil)
-    - cron: "*/5 10-13 * * 1-5"
+    # Every 15 min, 10-22 UTC (07:00-19:00 America/Sao_Paulo, no DST), Mon-Fri.
+    # Wide + frequent on purpose: GitHub's cron does not reliably fire at the
+    # configured time (confirmed 2026-07-29, a run landed hours off target
+    # and matched nothing) -- poller.py now does catch-up matching (fires on
+    # whatever tick actually lands after a scheduled time, same day), so a
+    # wide window matters more here than an exact one.
+    - cron: "*/15 10-22 * * 1-5"
   workflow_dispatch:
     inputs:
       live:
