@@ -28,6 +28,15 @@ permissions:
   contents: write
   issues: write
 
+# With two independent triggers now (GitHub's own schedule + the Claude
+# routine backup calling workflow_dispatch), two runs could otherwise
+# execute in parallel, both read "posted: false" before either saves state,
+# and both post for real -- a duplicate post. Serialize instead of
+# cancelling so a legitimate due run still happens, just queued.
+concurrency:
+  group: bernardino-poller
+  cancel-in-progress: false
+
 env:
   TZ: America/Sao_Paulo
   LC_ALL: C.UTF-8
