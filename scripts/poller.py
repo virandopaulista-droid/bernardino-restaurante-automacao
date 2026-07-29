@@ -148,6 +148,25 @@ def resolve_caption_file(post):
     return post["caption_file"]
 
 
+def notify_once(marker, body):
+    """Opens a GitHub Issue so a missing/unapproved plan is actually visible
+    somewhere a human might see it, instead of only in a log nobody reads --
+    guarded by `marker` so repeated ticks the same day/situation don't spam
+    a new issue every 15 minutes. Best-effort: never raises, a notification
+    failure must not crash the poller."""
+    try:
+        title = f"[poller] {marker}"
+        check = subprocess.run(
+            ["gh", "issue", "list", "--search", f'"{title}" in:title', "--state", "open", "--json", "number"],
+            capture_output=True, text=True,
+        )
+        if check.returncode == 0 and check.stdout.strip() and check.stdout.strip() != "[]":
+            return  # already have an open issue for this exact situation
+        subprocess.run(["gh", "issue", "create", "--title", title, "--body", body], capture_output=True, text=True)
+    except Exception as e:
+        print(f"AVISO: notify_once falhou (nao critico): {e}", file=sys.stderr)
+
+
 def week_monday(date):
     return date - datetime.timedelta(days=date.weekday())
 
@@ -291,12 +310,16 @@ def main():
         monday = week_monday(now.date())
         plan, plan_path = load_plan(monday)
         if plan is None:
-            print(f"AVISO: nenhum cronograma encontrado pra semana de {monday} ({plan_path}). "
-                  "Rode generate_week_plan.py e aprove antes do horario de postagem.", file=sys.stderr)
+            msg = f"AVISO: nenhum cronograma encontrado pra semana de {monday} ({plan_path})."
+            print(msg, file=sys.stderr)
+            if not DRY_RUN:
+                notify_once(f"cronograma-ausente-{monday}", msg + " Rode generate_week_plan.py e aprove.")
             return
         if plan["status"] != "approved":
-            print(f"AVISO: cronograma da semana de {monday} ainda esta '{plan['status']}', "
-                  "nao aprovado. Nao vou postar nada ate ser aprovado.", file=sys.stderr)
+            msg = f"AVISO: cronograma da semana de {monday} ainda esta '{plan['status']}', nao aprovado."
+            print(msg, file=sys.stderr)
+            if not DRY_RUN:
+                notify_once(f"cronograma-nao-aprovado-{monday}", msg + " Nada sera postado ate ser aprovado.")
             return
 
         post = next((p for p in plan["posts"] if p["date"] == today_key and p["slot"] == entry["slot"]), None)

@@ -110,8 +110,23 @@ jobs:
           git config user.name "Bernardino Automacao"
           git config user.email "virandopaulista@gmail.com"
           git add content/week_plans/ content/*.json
-          git diff --cached --quiet || git commit -m "Cronograma da semana gerado automaticamente"
-          git push
+          if git diff --cached --quiet; then
+            echo "nada para commitar"
+            exit 0
+          fi
+          git commit -m "Cronograma da semana gerado automaticamente"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "push ok (tentativa $attempt)"
+              exit 0
+            fi
+            echo "push falhou, tentativa $attempt/5"
+            git fetch origin master
+            git rebase origin/master || { git rebase --abort; git reset --soft origin/master; }
+            sleep $((attempt * 3))
+          done
+          echo "##[error] NAO CONSEGUI SALVAR O CRONOGRAMA GERADO"
+          exit 1
 
       - name: Abrir issue avisando que o cronograma esta pronto
         env:

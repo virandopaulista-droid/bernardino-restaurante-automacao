@@ -26,11 +26,13 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 env:
   TZ: America/Sao_Paulo
   LC_ALL: C.UTF-8
   LANG: C.UTF-8
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   RCLONE_CONFIG_SECRET: ${{ secrets.RCLONE_CONFIG }}
   OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
   FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
@@ -126,9 +128,30 @@ jobs:
           fi
 
       - name: Commit any state changes (used flags, posted flags)
+        if: always()
         run: |
           git config user.name "Bernardino Automacao"
           git config user.email "virandopaulista@gmail.com"
           git add content/*.json content/week_plans/*.json 2>/dev/null || true
-          git diff --cached --quiet || git commit -m "poller: atualiza estado (posted/used)"
-          git push
+          if git diff --cached --quiet; then
+            echo "nada para commitar"
+            exit 0
+          fi
+          git commit -m "poller: atualiza estado (posted/used)"
+          # CRITICAL: if a post just succeeded above, its "posted" flag MUST
+          # land here -- if this push silently fails (e.g. a concurrent run
+          # updated the remote first), the next tick would think the post
+          # never happened and post it again for real. Retry with rebase
+          # instead of failing once and moving on.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "push ok (tentativa $attempt)"
+              exit 0
+            fi
+            echo "push falhou, tentativa $attempt/5 -- rebase e tenta de novo"
+            git fetch origin master
+            git rebase origin/master || { git rebase --abort; git reset --soft origin/master; git stash pop 2>/dev/null || true; }
+            sleep $((attempt * 3))
+          done
+          echo "##[error] NAO CONSEGUI SALVAR O ESTADO APOS 5 TENTATIVAS -- risco real de post duplicado na proxima execucao"
+          exit 1
