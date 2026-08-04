@@ -71,10 +71,21 @@ jobs:
         run: |
           mkdir -p ~/.config/rclone
           printf '%s' "$RCLONE_CONFIG_SECRET" > ~/.config/rclone/rclone.conf
+          echo "rclone.conf: $(wc -c < ~/.config/rclone/rclone.conf) bytes"
+          echo "=== remotes configurados ==="
+          rclone listremotes || echo "(rclone listremotes falhou, exit $?)"
+          echo "=== teste direto de conexao (rclone about gdrive:) ==="
+          rclone about gdrive: || echo "(rclone about falhou, exit $?)"
           mkdir -p "$HOME/gdrive"
-          rclone mount gdrive: "$HOME/gdrive" \
+          if ! rclone mount gdrive: "$HOME/gdrive" \
             --daemon --vfs-cache-mode=minimal --dir-cache-time=1h \
-            --log-file="$HOME/rclone-mount.log" --log-level=INFO
+            --log-file="$HOME/rclone-mount.log" --log-level=INFO; then
+            echo "##[error] comando 'rclone mount' retornou erro na hora (nao entrou em background)"
+            echo "=== rclone mount log ==="
+            cat "$HOME/rclone-mount.log" 2>/dev/null || echo "(sem log)"
+            exit 1
+          fi
+          sleep 3
           # Resolve the exact relative path via ONE recursive rclone listing
           # (avoids re-querying Drive by a re-assembled accented path, which
           # proved unreliable -- listing once and grepping the full known
