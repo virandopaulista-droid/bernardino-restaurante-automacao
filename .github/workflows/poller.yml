@@ -33,6 +33,14 @@ permissions:
 # execute in parallel, both read "posted: false" before either saves state,
 # and both post for real -- a duplicate post. Serialize instead of
 # cancelling so a legitimate due run still happens, just queued.
+#
+# That alone isn't enough: if a run posts for real and then fails to git
+# push its "posted" flag (5 retries exhausted), the NEXT run -- 15 min
+# later -- still sees "posted: false" and would post again for real. The
+# "Commit any state changes" step below now opens a GitHub Issue when that
+# happens, and the "Trava de seguranca" step (right after checkout) refuses
+# to run at all while that issue is open, so a human has to confirm the
+# real state before posting resumes.
 concurrency:
   group: bernardino-poller
   cancel-in-progress: false
@@ -53,6 +61,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Trava de seguranca -- aborta se uma execucao anterior nao salvou o estado
+        run: |
+          open_alert=$(gh issue list --search "risco de post duplicado in:title" --state open --json number --jq 'length')
+          if [ "$open_alert" != "0" ]; then
+            echo "##[error] Existe uma issue aberta avisando que uma execucao anterior nao conseguiu salvar o estado (posted/used flags) apos publicar de verdade. Recusando rodar ate isso ser resolvido e a issue fechada manualmente -- ver issues abertas abaixo."
+            gh issue list --search "risco de post duplicado in:title" --state open
+            exit 1
+          fi
 
       - uses: actions/setup-python@v5
         with:
@@ -174,4 +191,7 @@ jobs:
             sleep $((attempt * 3))
           done
           echo "##[error] NAO CONSEGUI SALVAR O ESTADO APOS 5 TENTATIVAS -- risco real de post duplicado na proxima execucao"
+          run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          body=$(printf 'O poller publicou (ou tentou publicar) e depois falhou 5x seguidas ao dar git push do estado atualizado (posted/used flags) em content/. Enquanto esta issue estiver aberta, o poller vai se recusar a rodar de novo (trava de seguranca no inicio do job).\n\nLog da execucao que falhou: %s\n\nO que fazer:\n1. Confira no log acima o que foi (ou nao foi) publicado de verdade no Facebook/Instagram.\n2. Resolva manualmente o conflito de git em content/*.json e content/week_plans/*.json (git pull + resolver + push).\n3. Confira se o campo "posted" do post correspondente esta correto no JSON antes de fechar esta issue.\n4. Feche esta issue so depois de confirmar que o estado no repositorio bate com o que foi realmente postado.' "$run_url")
+          gh issue create --title "URGENTE: risco de post duplicado -- estado do poller nao foi salvo" --body "$body" || echo "##[error] tambem falhei ao criar a issue de alerta -- verifique manualmente e com urgencia"
           exit 1
