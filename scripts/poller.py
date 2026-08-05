@@ -167,6 +167,35 @@ def notify_once(marker, body):
         print(f"AVISO: notify_once falhou (nao critico): {e}", file=sys.stderr)
 
 
+def handle_partial_failure(post, plan, plan_path, now, slot_label, exc):
+    """A handler crashed mid-posting (e.g. one of several items in a story
+    failed via the FB/IG API partway through). Some items may have posted
+    for real and some may not have -- there's no structural way to tell
+    which from here, since the posting scripts don't report per-item
+    progress back to this process. Marking "posted" unconditionally is the
+    safer failure mode: it stops the next tick from blindly re-running the
+    whole handler and re-posting whatever already went out for real
+    (confirmed happening 2026-08-05: a story's first item posted
+    successfully, the second item hit an API error and crashed the script
+    before "posted" was set, so the next tick re-posted all 3 items,
+    duplicating the first). A human has to check Facebook/Instagram
+    directly and manually post anything that's actually missing -- that
+    can't be determined automatically from a crash alone."""
+    print(f"##[error] Falha ao publicar '{slot_label}': {exc}", file=sys.stderr)
+    post["posted"] = True
+    post["posted_at"] = now.isoformat(timespec="seconds")
+    post["posting_error"] = f"Falha parcial/total ao publicar -- verificar manualmente o que saiu de verdade. Erro: {exc}"
+    save_plan(plan, plan_path)
+    notify_once(
+        f"post-falhou-{post.get('date')}-{post.get('slot')}",
+        f"O poller tentou publicar '{slot_label}' ({post.get('date')}) e um erro interrompeu a publicacao no meio "
+        "(alguns itens podem ter saido de verdade, outros nao -- nao da pra saber automaticamente qual). "
+        "Para nao arriscar duplicar o que ja saiu, marquei esse post como 'posted:true' -- ele NAO sera tentado de "
+        "novo automaticamente. Confira manualmente no Facebook/Instagram do Bernardino o que realmente foi "
+        f"publicado, e publique manualmente qualquer item que estiver faltando.\n\nErro original: {exc}"
+    )
+
+
 def week_monday(date):
     return date - datetime.timedelta(days=date.weekday())
 
@@ -285,7 +314,12 @@ def main():
         if post.get("posted"):
             print("AVISO: esse post ja foi marcado como publicado antes.", file=sys.stderr)
             return
-        HANDLERS[force_slot](post)
+        try:
+            HANDLERS[force_slot](post)
+        except Exception as exc:
+            if not DRY_RUN:
+                handle_partial_failure(post, plan, plan_path, now, force_slot, exc)
+            raise
         if not DRY_RUN:
             post["posted"] = True
             post["posted_at"] = now.isoformat(timespec="seconds")
@@ -330,7 +364,12 @@ def main():
             return  # already posted this window, avoid duplicate on the next 5-min tick
 
         print(f"Disparando slot '{entry['slot']}' ({'DRY-RUN' if DRY_RUN else 'LIVE'})...")
-        HANDLERS[entry["slot"]](post)
+        try:
+            HANDLERS[entry["slot"]](post)
+        except Exception as exc:
+            if not DRY_RUN:
+                handle_partial_failure(post, plan, plan_path, now, entry["slot"], exc)
+            raise
 
         if not DRY_RUN:
             post["posted"] = True
