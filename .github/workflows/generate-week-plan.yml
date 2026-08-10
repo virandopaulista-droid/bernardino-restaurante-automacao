@@ -58,20 +58,34 @@ jobs:
           rclone mount gdrive: "$HOME/gdrive" \
             --daemon --vfs-cache-mode=minimal --dir-cache-time=1h \
             --timeout=60s --contimeout=60s --low-level-retries=15 \
-            --log-file="$HOME/rclone-mount.log" --log-level=DEBUG
-          # Resolve the exact relative path via ONE recursive rclone listing
-          # (avoids re-querying Drive by a re-assembled accented path, which
-          # proved unreliable -- listing once and grepping the full known
-          # relative pattern in a single pass is more robust).
-          rclone lsf gdrive: -R --dirs-only > "$HOME/all_dirs.txt"
-          rel_path=$(grep -i "^Ag.ncia BEEF MTK/Clientes */Bernadino restaurante */$" "$HOME/all_dirs.txt" | head -1)
+            --log-file="$HOME/rclone-mount.log" --log-level=INFO
+          # Resolve the path in two cheap, narrow steps instead of one
+          # recursive listing of the ENTIRE Drive account (which was burning
+          # a large chunk of the Drive API's per-minute query quota before
+          # generation even started -- rclone's shared/default client_id has
+          # a small shared quota, and we saw real "Error 403: Quota exceeded
+          # ... Queries per minute" failures downstream because of it).
+          # Step 1: list just the Drive root (non-recursive, ~1 request) to
+          # find the top-level "Agência BEEF MTK"-like folder by pattern,
+          # sidestepping the accented-character retyping issue.
+          top_name=$(rclone lsf gdrive: --dirs-only | grep -i "^Ag.ncia BEEF MTK/$" | head -1)
+          if [ -z "$top_name" ]; then
+            echo "mount failed: pasta raiz 'Agencia BEEF MTK' nao encontrada"
+            rclone lsf gdrive: --dirs-only
+            exit 1
+          fi
+          # Step 2: recurse only inside that one top-level folder, not the
+          # whole account -- far fewer requests since it excludes every
+          # other client's folder tree and any personal files in the Drive.
+          rclone lsf "gdrive:${top_name}" -R --dirs-only > "$HOME/all_dirs.txt"
+          rel_path=$(grep -i "^Clientes */Bernadino restaurante */$" "$HOME/all_dirs.txt" | head -1)
           if [ -z "$rel_path" ]; then
             echo "=== nao encontrado, mostrando entradas parecidas ==="
-            grep -i "bernadino\|agencia\|ag.ncia" "$HOME/all_dirs.txt" | head -20
+            grep -i "bernadino" "$HOME/all_dirs.txt" | head -20
             echo "mount failed: caminho do restaurante nao encontrado"
             exit 1
           fi
-          restaurante_dir="$HOME/gdrive/${rel_path}"
+          restaurante_dir="$HOME/gdrive/${top_name}${rel_path}"
           ready=""
           for i in $(seq 1 15); do
             if [ -d "$restaurante_dir" ]; then

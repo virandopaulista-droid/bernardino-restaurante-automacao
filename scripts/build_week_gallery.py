@@ -48,26 +48,21 @@ def to_data_uri_image(path, max_width=480):
     # JPEG is more than enough resolution to approve a thumbnail choice.
     from PIL import Image
 
-    # Plain, synchronous retry -- no per-call worker thread (a thread+timeout
-    # wrapper here backfired elsewhere in this pipeline: abandoned threads
-    # left real blocked reads pending against the rclone FUSE mount, and
-    # enough of those piling up saturated FUSE's own concurrent-request
-    # limit, making every subsequent open() fail instantly. A genuinely hung
-    # mount is instead caught by generate_week_plan.py's outer watchdog).
+    # Plain, synchronous retry, no os.listdir() priming call (that's a real
+    # Drive API request, not a free local check). The real cause of "file
+    # not found" turned out to be Google Drive's per-minute query quota
+    # (confirmed via rclone's debug log), not missing files -- so the fix is
+    # a wait long enough to clear that window, not more attempts fired fast.
     img = None
-    for attempt in range(1, 7):
-        try:
-            os.listdir(os.path.dirname(path))
-        except OSError:
-            pass
+    for attempt in range(1, 3):
         try:
             img = Image.open(path)
             img.load()
             break
         except FileNotFoundError:
-            if attempt == 6:
+            if attempt == 2:
                 raise
-            time.sleep(10)
+            time.sleep(65)
     img = img.convert("RGB")
     if img.width > max_width:
         ratio = max_width / img.width

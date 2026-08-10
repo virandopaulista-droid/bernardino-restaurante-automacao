@@ -34,29 +34,24 @@ if not image_paths:
 with open(GUIDE_PATH, "r", encoding="utf-8") as f:
     guide_text = f.read()
 
-def read_file_with_retry(path, attempts=4, delay_seconds=5):
-    # Plain, synchronous retry -- no per-call worker thread. A thread+timeout
-    # wrapper here backfired elsewhere in this pipeline (select_media.py):
-    # each abandoned thread left a real blocked read pending against the
-    # rclone FUSE mount, and enough of those piling up saturated FUSE's own
-    # concurrent-request limit, making EVERY subsequent open() fail instantly
-    # regardless of file -- self-inflicted, worse than the original problem.
-    # A genuinely hung mount is instead caught by generate_week_plan.py's
-    # outer per-post watchdog, which kills the whole process if needed.
+def read_file_with_retry(path, attempts=2, delay_seconds=65):
+    # Plain, synchronous retry -- no worker thread, no os.listdir() priming
+    # call (that's a real Drive API request too, not a free local check).
+    # The real cause of "file not found" here turned out to be Google
+    # Drive's per-minute query quota getting exhausted (confirmed via
+    # rclone's debug log: "googleapi: Error 403: Quota exceeded ... Queries
+    # per minute"), not missing files or a wedged mount -- so the fix is a
+    # long enough wait to actually clear that one-minute window, not more
+    # attempts fired quickly (which only makes the quota problem worse).
     for attempt in range(1, attempts + 1):
-        try:
-            os.listdir(os.path.dirname(path))
-        except OSError:
-            pass
         try:
             with open(path, "rb") as f:
                 return f.read()
         except FileNotFoundError:
             if attempt == attempts:
                 raise
-            print(f"AVISO: {path} nao encontrado (tentativa {attempt}/{attempts}), tentando de novo em {delay_seconds}s...", file=sys.stderr)
+            print(f"AVISO: {path} nao encontrado (tentativa {attempt}/{attempts}), tentando de novo em {delay_seconds}s (pode ser cota do Drive)...", file=sys.stderr)
             time.sleep(delay_seconds)
-        time.sleep(delay_seconds)
 
 
 image_content = []

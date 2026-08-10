@@ -48,65 +48,43 @@ def save_video_manifest(data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def is_readable(path):
-    # Plain, synchronous check -- no per-call worker thread. We tried
-    # wrapping this in a thread with a timeout (to survive a hung mount) but
-    # that backfired: pick_image_any() can scan through dozens of candidates
-    # in a tight loop, and each abandoned thread left a real blocked read
-    # pending against the rclone FUSE mount. Enough of those piling up
-    # saturates FUSE's own concurrent-request limit, which then makes EVERY
-    # subsequent open() on the mount fail instantly (regardless of which
-    # file) -- self-inflicted, and much worse than the original problem. A
-    # genuinely hung mount is instead caught by generate_week_plan.py's
-    # outer per-post watchdog, which kills the whole process if needed.
-    try:
-        os.listdir(os.path.dirname(path))
-    except OSError:
-        pass
-    try:
-        with open(path, "rb"):
-            return True
-    except OSError:
-        return False
-
-
-def pick_image(manifest, category, skip, exclude_review=True):
+def pick_image(manifest, category, exclude_review=True):
+    # NOTE: deliberately does NOT pre-check readability by opening the file.
+    # We tried that (with and without per-call threads, with and without
+    # priming os.listdir() calls) and it made things worse: each check is a
+    # real Google Drive API request, and scanning past dozens of candidates
+    # to find a "readable" one burns through Drive's per-minute query quota
+    # fast. Once that quota is hit (confirmed via rclone's own debug log:
+    # "googleapi: Error 403: Quota exceeded ... Queries per minute"), EVERY
+    # subsequent request fails for the rest of that minute -- including ones
+    # for files that are perfectly fine -- which looked exactly like "most
+    # of the library is broken" but wasn't. Trusting the manifest (used/
+    # excluded flags) and only touching the file once, at actual read time
+    # in caption_from_photo.py, keeps Drive API usage to the minimum needed.
     for entry in manifest["images"]:
         if entry["used"] or entry.get("excluded"):
-            continue
-        if id(entry) in skip:
             continue
         if entry["category"] != category:
             continue
         if exclude_review and entry.get("needs_review"):
             continue
-        if not is_readable(entry["converted_path"]):
-            print(f"AVISO: nao foi possivel abrir {entry['converted_path']} -- pulando pro proximo candidato", file=sys.stderr)
-            skip.add(id(entry))
-            continue
         return entry
     if exclude_review:
-        return pick_image(manifest, category, skip, exclude_review=False)
+        return pick_image(manifest, category, exclude_review=False)
     return None
 
 
-def pick_image_any(manifest, skip, exclude_review=True):
+def pick_image_any(manifest, exclude_review=True):
     """Fallback for the carousel mix when a specific category has run out —
     picks any unused image regardless of category."""
     for entry in manifest["images"]:
         if entry["used"] or entry.get("excluded"):
             continue
-        if id(entry) in skip:
-            continue
         if exclude_review and entry.get("needs_review"):
-            continue
-        if not is_readable(entry["converted_path"]):
-            print(f"AVISO: nao foi possivel abrir {entry['converted_path']} -- pulando pro proximo candidato", file=sys.stderr)
-            skip.add(id(entry))
             continue
         return entry
     if exclude_review:
-        return pick_image_any(manifest, skip, exclude_review=False)
+        return pick_image_any(manifest, exclude_review=False)
     return None
 
 
@@ -117,10 +95,9 @@ def mark_used(entry):
 
 def cmd_story():
     manifest = load_manifest()
-    skip = set()
     picks = {}
     for cat in ("prato_salgado", "salada", "doce"):
-        entry = pick_image(manifest, cat, skip)
+        entry = pick_image(manifest, cat)
         if entry is None:
             print(f"ERRO: sem imagens disponiveis na categoria {cat}.", file=sys.stderr)
             raise SystemExit(1)
@@ -139,10 +116,9 @@ FEED_CAROUSEL_MIX = ["prato_salgado", "prato_salgado", "salada", "doce", "ambien
 
 def cmd_feed():
     manifest = load_manifest()
-    skip = set()
     picks = []
     for cat in FEED_CAROUSEL_MIX:
-        entry = pick_image(manifest, cat, skip) or pick_image_any(manifest, skip)
+        entry = pick_image(manifest, cat) or pick_image_any(manifest)
         if entry is None:
             print(f"ERRO: sem imagens disponiveis pra completar o carrossel (faltou categoria {cat}).", file=sys.stderr)
             raise SystemExit(1)
