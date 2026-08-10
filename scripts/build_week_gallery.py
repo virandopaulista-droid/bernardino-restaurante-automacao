@@ -51,14 +51,14 @@ def to_data_uri_image(path, max_width=480):
     # The Drive mount (rclone, minimal VFS cache) sometimes 404s a file that
     # genuinely exists on a cold directory listing -- a short retry clears
     # this most of the time instead of failing the whole gallery build.
-    for attempt in range(1, 5):
+    for attempt in range(1, 7):
         try:
             img = Image.open(path)
             break
         except FileNotFoundError:
-            if attempt == 4:
+            if attempt == 6:
                 raise
-            time.sleep(5)
+            time.sleep(10)
     img = img.convert("RGB")
     if img.width > max_width:
         ratio = max_width / img.width

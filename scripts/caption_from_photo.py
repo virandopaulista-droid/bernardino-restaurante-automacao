@@ -34,7 +34,7 @@ if not image_paths:
 with open(GUIDE_PATH, "r", encoding="utf-8") as f:
     guide_text = f.read()
 
-def read_file_with_retry(path, attempts=4, delay_seconds=5):
+def read_file_with_retry(path, attempts=6, delay_seconds=10):
     # The Drive mount (rclone, minimal VFS cache) sometimes 404s a file that
     # genuinely exists on a cold/just-touched directory listing -- a short
     # retry clears this most of the time instead of failing the whole run.

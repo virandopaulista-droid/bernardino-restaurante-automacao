@@ -20,9 +20,25 @@ FB_PAGE_ID="$FB_PAGE_ID" FB_PAGE_ACCESS_TOKEN="$FB_PAGE_ACCESS_TOKEN" CAPTION_FI
 import json
 import os
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
+
+def read_file_with_retry(path, attempts=6, delay_seconds=10):
+    # The Drive mount (rclone, minimal VFS cache) sometimes 404s a file that
+    # genuinely exists on Google Drive (confirmed via the Drive API) -- a
+    # retry-with-backoff clears this most of the time instead of silently
+    # failing a real scheduled post.
+    for attempt in range(1, attempts + 1):
+        try:
+            with open(path, "rb") as f:
+                return f.read()
+        except FileNotFoundError:
+            if attempt == attempts:
+                raise
+            print(f"AVISO: {path} nao encontrado (tentativa {attempt}/{attempts}), tentando de novo em {delay_seconds}s...", file=sys.stderr)
+            time.sleep(delay_seconds)
 
 video_path = sys.argv[1]
 page_id = os.environ["FB_PAGE_ID"]
@@ -44,8 +60,7 @@ try:
     video_id = start["video_id"]
     upload_url = start["upload_url"]
 
-    with open(video_path, "rb") as f:
-        video_bytes = f.read()
+    video_bytes = read_file_with_retry(video_path)
 
     upload_req = urllib.request.Request(
         upload_url,

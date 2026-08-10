@@ -18,10 +18,26 @@ import json
 import mimetypes
 import os
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
 import uuid
+
+def read_file_with_retry(path, attempts=6, delay_seconds=10):
+    # The Drive mount (rclone, minimal VFS cache) sometimes 404s a file that
+    # genuinely exists on Google Drive (confirmed via the Drive API) -- a
+    # retry-with-backoff clears this most of the time instead of silently
+    # failing a real scheduled post.
+    for attempt in range(1, attempts + 1):
+        try:
+            with open(path, "rb") as f:
+                return f.read()
+        except FileNotFoundError:
+            if attempt == attempts:
+                raise
+            print(f"AVISO: {path} nao encontrado (tentativa {attempt}/{attempts}), tentando de novo em {delay_seconds}s...", file=sys.stderr)
+            time.sleep(delay_seconds)
 
 image_paths = sys.argv[1:]
 page_id = os.environ["FB_PAGE_ID"]
@@ -46,8 +62,7 @@ def post_form(url, fields):
         return json.loads(resp.read())
 
 for image_path in image_paths:
-    with open(image_path, "rb") as f:
-        image_bytes = f.read()
+    image_bytes = read_file_with_retry(image_path)
     try:
         photo_result = post_multipart(
             f"https://graph.facebook.com/v20.0/{page_id}/photos",
