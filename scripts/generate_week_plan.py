@@ -14,6 +14,7 @@ Usage: generate_week_plan.py [YYYY-MM-DD]
 Writes content/week_plans/<monday-date>.json (status: "pending_approval").
 Prints the plan file path.
 """
+import concurrent.futures
 import datetime
 import json
 import os
@@ -95,19 +96,36 @@ def build_reel_post(date):
     }
 
 
+def run_with_watchdog(label, func, *args, timeout_seconds=240):
+    # A wedged Drive mount can make an unprotected read/subprocess call deep
+    # inside these builders hang forever (seen for real: a run sat "in
+    # progress" for 25+ minutes with zero output before we found and fixed
+    # the specific unguarded call). This is the last line of defense: if any
+    # single post takes too long, fail loudly and say exactly which one,
+    # instead of silently hanging until GitHub Actions' own multi-hour limit.
+    ex = concurrent.futures.ThreadPoolExecutor(max_workers=1)
+    try:
+        return ex.submit(func, *args).result(timeout=timeout_seconds)
+    except concurrent.futures.TimeoutError:
+        print(f"ERRO: '{label}' nao terminou em {timeout_seconds}s (mount travado?) -- abortando.", file=sys.stderr)
+        raise SystemExit(1)
+    finally:
+        ex.shutdown(wait=False)
+
+
 def main():
     monday = target_monday()
     posts = []
     for i in range(5):
         date = monday + datetime.timedelta(days=i)
         print(f"Gerando story de {date} ({WEEKDAY_NAMES[date.weekday()]})...", file=sys.stderr)
-        posts.append(build_story_post(date))
+        posts.append(run_with_watchdog(f"story {date}", build_story_post, date))
         if date.weekday() == 0:  # segunda -> reel
             print(f"Gerando reel de {date}...", file=sys.stderr)
-            posts.append(build_reel_post(date))
+            posts.append(run_with_watchdog(f"reel {date}", build_reel_post, date))
         if date.weekday() in (1, 3):  # terca/quinta -> feed
             print(f"Gerando feed de {date}...", file=sys.stderr)
-            posts.append(build_feed_post(date))
+            posts.append(run_with_watchdog(f"feed {date}", build_feed_post, date))
 
     plan = {
         "week_start": monday.isoformat(),
