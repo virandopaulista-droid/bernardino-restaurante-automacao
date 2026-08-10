@@ -222,3 +222,9 @@ if __name__ == "__main__":
         print("Uso: select_media.py story|feed|reel", file=sys.stderr)
         raise SystemExit(1)
     {"story": cmd_story, "feed": cmd_feed, "reel": cmd_reel}[sys.argv[1]]()
+    sys.stdout.flush()
+    sys.stderr.flush()
+    # A timed-out is_readable() probe thread (wedged Drive mount) can linger
+    # even after a later attempt/candidate succeeded -- a normal exit would
+    # still hang waiting for it via ThreadPoolExecutor's atexit join.
+    os._exit(0)

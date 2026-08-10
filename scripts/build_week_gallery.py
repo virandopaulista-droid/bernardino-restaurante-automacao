@@ -74,7 +74,13 @@ def to_data_uri_image(path, max_width=480):
             time.sleep(10)
         except concurrent.futures.TimeoutError:
             if attempt == 6:
-                raise
+                # The thread is genuinely stuck (wedged mount) and abandoned
+                # -- Python's own ThreadPoolExecutor atexit hook would join
+                # it before letting a normal `raise` actually exit, hanging
+                # right here. os._exit() skips that and kills the process.
+                print(f"ERRO: abrir {path} nao terminou apos 6 tentativas (mount travado?) -- abortando.", file=sys.stderr)
+                sys.stderr.flush()
+                os._exit(1)
             print(f"AVISO: abrir {path} demorou mais de 20s (mount travado?)", file=sys.stderr)
             time.sleep(10)
         finally:
@@ -380,3 +386,10 @@ footer {{
 
 if __name__ == "__main__":
     main()
+    sys.stdout.flush()
+    sys.stderr.flush()
+    # A timed-out-and-abandoned probe thread (Drive mount hang) can linger
+    # after we've already gotten everything we need from it (we just moved
+    # on with a None/fallback result) -- a normal exit here would still hang
+    # waiting for that thread via ThreadPoolExecutor's atexit join. Force it.
+    os._exit(0)

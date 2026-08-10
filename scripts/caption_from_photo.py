@@ -146,3 +146,9 @@ with os.fdopen(caption_fd, "w", encoding="utf-8") as f:
     f.write(caption)
 
 print(caption_path)
+sys.stdout.flush()
+sys.stderr.flush()
+# A timed-out read_file_with_retry() probe thread (wedged Drive mount) can
+# linger even after a later attempt succeeded -- a normal exit would still
+# hang waiting for it via ThreadPoolExecutor's atexit join.
+os._exit(0)

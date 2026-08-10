@@ -108,7 +108,15 @@ def run_with_watchdog(label, func, *args, timeout_seconds=240):
         return ex.submit(func, *args).result(timeout=timeout_seconds)
     except concurrent.futures.TimeoutError:
         print(f"ERRO: '{label}' nao terminou em {timeout_seconds}s (mount travado?) -- abortando.", file=sys.stderr)
-        raise SystemExit(1)
+        sys.stderr.flush()
+        # A genuinely wedged thread (e.g. stuck inside subprocess.run() on a
+        # frozen mount) can never be killed from here, and Python's own
+        # ThreadPoolExecutor registers an atexit hook that JOINS every
+        # abandoned worker thread before the interpreter is allowed to exit
+        # -- so a normal SystemExit would hang right here waiting for that
+        # same stuck thread, silently undoing the whole point of this
+        # watchdog. os._exit() skips all of that and kills the process now.
+        os._exit(1)
     finally:
         ex.shutdown(wait=False)
 
@@ -143,3 +151,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+    sys.stdout.flush()
+    sys.stderr.flush()
+    # A timed-out-and-abandoned watchdog thread (wedged Drive mount) can
+    # linger even after a later post succeeded -- a normal exit would still
+    # hang waiting for it via ThreadPoolExecutor's atexit join.
+    os._exit(0)
