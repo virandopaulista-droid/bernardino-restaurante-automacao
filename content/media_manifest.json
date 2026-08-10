@@ -349,7 +349,9 @@
       "description": "Foto de carne desfiada com cebolas em um buffet.",
       "classified_at": "2026-07-26T21:07:24",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "FileNotFoundError real no runner do GitHub Actions em 2026-08-09 e 2026-08-10 -- arquivo nao encontrado via rclone (provavelmente removido do Drive apos a classificacao)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8130.JPG",
