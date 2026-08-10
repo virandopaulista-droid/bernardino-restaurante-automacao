@@ -349,7 +349,9 @@
       "description": "Foto de carne desfiada com cebolas em um buffet.",
       "classified_at": "2026-07-26T21:07:24",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "existe no Drive (confirmado via API) mas falha repetidamente (3x) ao abrir via rclone no runner -- inacessivel na pratica para este pipeline, causa exata nao identificada"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8130.JPG",
@@ -358,7 +360,9 @@
       "description": "Foto de carne desfiada com cebolas, típica de um buffet self-service.",
       "classified_at": "2026-07-26T21:07:37",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "existe no Drive (confirmado via API) mas falha repetidamente (3x) ao abrir via rclone no runner -- inacessivel na pratica para este pipeline, causa exata nao identificada"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8133.JPG",
