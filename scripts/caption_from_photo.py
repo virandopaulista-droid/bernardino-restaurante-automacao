@@ -10,7 +10,6 @@ Usage: caption_from_photo.py <format> <image_path> [image_path2 ...]
 Writes the caption to a temp file under content/ and prints its path.
 """
 import base64
-import concurrent.futures
 import json
 import mimetypes
 import os
@@ -35,34 +34,28 @@ if not image_paths:
 with open(GUIDE_PATH, "r", encoding="utf-8") as f:
     guide_text = f.read()
 
-def _read_probe(path):
-    try:
-        os.listdir(os.path.dirname(path))
-    except OSError:
-        pass
-    with open(path, "rb") as f:
-        return f.read()
-
-
-def read_file_with_retry(path, attempts=6, delay_seconds=10, timeout_seconds=20):
-    # The Drive mount (rclone, minimal VFS cache) 404s -- or, worse, just
-    # HANGS -- on a file that genuinely exists. A hard per-attempt timeout
-    # (run in a worker thread, abandoned on timeout) keeps a wedged mount
-    # from freezing the whole generation run indefinitely.
+def read_file_with_retry(path, attempts=4, delay_seconds=5):
+    # Plain, synchronous retry -- no per-call worker thread. A thread+timeout
+    # wrapper here backfired elsewhere in this pipeline (select_media.py):
+    # each abandoned thread left a real blocked read pending against the
+    # rclone FUSE mount, and enough of those piling up saturated FUSE's own
+    # concurrent-request limit, making EVERY subsequent open() fail instantly
+    # regardless of file -- self-inflicted, worse than the original problem.
+    # A genuinely hung mount is instead caught by generate_week_plan.py's
+    # outer per-post watchdog, which kills the whole process if needed.
     for attempt in range(1, attempts + 1):
-        ex = concurrent.futures.ThreadPoolExecutor(max_workers=1)
         try:
-            return ex.submit(_read_probe, path).result(timeout=timeout_seconds)
+            os.listdir(os.path.dirname(path))
+        except OSError:
+            pass
+        try:
+            with open(path, "rb") as f:
+                return f.read()
         except FileNotFoundError:
             if attempt == attempts:
                 raise
             print(f"AVISO: {path} nao encontrado (tentativa {attempt}/{attempts}), tentando de novo em {delay_seconds}s...", file=sys.stderr)
-        except concurrent.futures.TimeoutError:
-            if attempt == attempts:
-                raise
-            print(f"AVISO: abrir {path} demorou mais de {timeout_seconds}s (tentativa {attempt}/{attempts}), tentando de novo em {delay_seconds}s...", file=sys.stderr)
-        finally:
-            ex.shutdown(wait=False)
+            time.sleep(delay_seconds)
         time.sleep(delay_seconds)
 
 

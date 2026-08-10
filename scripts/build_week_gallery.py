@@ -8,7 +8,6 @@ Writes <plan_json_path without .json>_gallery.html next to the plan.
 Prints the gallery HTML path.
 """
 import base64
-import concurrent.futures
 import datetime
 import html
 import io
@@ -49,42 +48,26 @@ def to_data_uri_image(path, max_width=480):
     # JPEG is more than enough resolution to approve a thumbnail choice.
     from PIL import Image
 
-    def _open_probe():
+    # Plain, synchronous retry -- no per-call worker thread (a thread+timeout
+    # wrapper here backfired elsewhere in this pipeline: abandoned threads
+    # left real blocked reads pending against the rclone FUSE mount, and
+    # enough of those piling up saturated FUSE's own concurrent-request
+    # limit, making every subsequent open() fail instantly. A genuinely hung
+    # mount is instead caught by generate_week_plan.py's outer watchdog).
+    img = None
+    for attempt in range(1, 7):
         try:
             os.listdir(os.path.dirname(path))
         except OSError:
             pass
-        img = Image.open(path)
-        img.load()  # force the actual read now, inside the timeout guard
-        return img
-
-    # The Drive mount (rclone, minimal VFS cache) 404s -- or, worse, just
-    # HANGS -- on a file that genuinely exists. A hard per-attempt timeout
-    # (run in a worker thread, abandoned on timeout) keeps a wedged mount
-    # from freezing the whole gallery build indefinitely.
-    img = None
-    for attempt in range(1, 7):
-        ex = concurrent.futures.ThreadPoolExecutor(max_workers=1)
         try:
-            img = ex.submit(_open_probe).result(timeout=20)
+            img = Image.open(path)
+            img.load()
             break
         except FileNotFoundError:
             if attempt == 6:
                 raise
             time.sleep(10)
-        except concurrent.futures.TimeoutError:
-            if attempt == 6:
-                # The thread is genuinely stuck (wedged mount) and abandoned
-                # -- Python's own ThreadPoolExecutor atexit hook would join
-                # it before letting a normal `raise` actually exit, hanging
-                # right here. os._exit() skips that and kills the process.
-                print(f"ERRO: abrir {path} nao terminou apos 6 tentativas (mount travado?) -- abortando.", file=sys.stderr)
-                sys.stderr.flush()
-                os._exit(1)
-            print(f"AVISO: abrir {path} demorou mais de 20s (mount travado?)", file=sys.stderr)
-            time.sleep(10)
-        finally:
-            ex.shutdown(wait=False)
     img = img.convert("RGB")
     if img.width > max_width:
         ratio = max_width / img.width
@@ -112,18 +95,8 @@ def to_data_uri_video(path):
         except subprocess.TimeoutExpired:
             pass
         src_path = out_path if os.path.exists(out_path) else path
-
-        def _read():
-            with open(src_path, "rb") as f:
-                return f.read()
-
-        ex = concurrent.futures.ThreadPoolExecutor(max_workers=1)
-        try:
-            content = ex.submit(_read).result(timeout=20)
-        except concurrent.futures.TimeoutError:
-            return None
-        finally:
-            ex.shutdown(wait=False)
+        with open(src_path, "rb") as f:
+            content = f.read()
         b64 = base64.b64encode(content).decode("ascii")
     return f"data:video/mp4;base64,{b64}"
 

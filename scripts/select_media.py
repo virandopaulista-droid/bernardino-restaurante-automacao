@@ -10,11 +10,9 @@ Usage:
 Marks whatever it picks as used=true immediately (this script's whole job is
 "pick and reserve" — call it once per real post, not for browsing).
 """
-import concurrent.futures
 import datetime
 import os
 import sys
-import time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lib_media import PROJECT_DIR, get_audio_mean_volume_db, get_video_duration_seconds, iter_video_files, load_manifest, save_manifest
@@ -50,44 +48,26 @@ def save_video_manifest(data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def _open_probe(path):
+def is_readable(path):
+    # Plain, synchronous check -- no per-call worker thread. We tried
+    # wrapping this in a thread with a timeout (to survive a hung mount) but
+    # that backfired: pick_image_any() can scan through dozens of candidates
+    # in a tight loop, and each abandoned thread left a real blocked read
+    # pending against the rclone FUSE mount. Enough of those piling up
+    # saturates FUSE's own concurrent-request limit, which then makes EVERY
+    # subsequent open() on the mount fail instantly (regardless of which
+    # file) -- self-inflicted, and much worse than the original problem. A
+    # genuinely hung mount is instead caught by generate_week_plan.py's
+    # outer per-post watchdog, which kills the whole process if needed.
     try:
         os.listdir(os.path.dirname(path))
     except OSError:
         pass
-    with open(path, "rb"):
-        pass
-
-
-def is_readable(path, attempts=1, delay_seconds=2, timeout_seconds=12):
-    # The Drive mount (rclone) occasionally 404s -- or, worse, just HANGS --
-    # on a file that genuinely exists (confirmed via the Drive API on several
-    # real cases), with no reliable fix at the mount level. A plain retry
-    # isn't enough because a hang never raises anything to catch, so every
-    # attempt runs in a worker thread with a hard wall-clock timeout: if it
-    # doesn't finish in time we give up on this candidate (abandoning that
-    # stuck thread) and move on, instead of letting one bad file freeze the
-    # whole week's generation indefinitely.
-    for attempt in range(1, attempts + 1):
-        # NOTE: not using the executor as a context manager -- its __exit__
-        # calls shutdown(wait=True), which would block on the very thread
-        # we're trying to abandon. shutdown(wait=False) lets us move on
-        # immediately while the stuck thread is left to die with the process.
-        ex = concurrent.futures.ThreadPoolExecutor(max_workers=1)
-        try:
-            ex.submit(_open_probe, path).result(timeout=timeout_seconds)
+    try:
+        with open(path, "rb"):
             return True
-        except FileNotFoundError:
-            pass
-        except concurrent.futures.TimeoutError:
-            print(f"AVISO: abrir {path} demorou mais de {timeout_seconds}s (mount travado?)", file=sys.stderr)
-        except OSError:
-            pass
-        finally:
-            ex.shutdown(wait=False)
-        if attempt < attempts:
-            time.sleep(delay_seconds)
-    return False
+    except OSError:
+        return False
 
 
 def pick_image(manifest, category, skip, exclude_review=True):
