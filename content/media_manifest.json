@@ -331,7 +331,9 @@
       "description": "Um prato com diversas folhas, legumes e grãos, montado em um buffet de saladas.",
       "classified_at": "2026-07-26T21:06:57",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8136.JPG",
@@ -340,7 +342,9 @@
       "description": "Um prato com diversas folhas e vegetais frescos, incluindo cenoura ralada, tomate e beterraba.",
       "classified_at": "2026-07-26T21:07:11",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_8131.JPG",
@@ -371,7 +375,9 @@
       "description": "Prato com pedaços de carne em molho, servido em uma bandeja de buffet.",
       "classified_at": "2026-07-26T21:07:50",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9210.JPG",
@@ -380,7 +386,9 @@
       "description": "Uma mulher sorridente segurando um garfo com comida em um restaurante.",
       "classified_at": "2026-07-26T21:07:57",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9217.JPG",
@@ -389,7 +397,9 @@
       "description": "Prato quente com carne e molho cremoso, acompanhado de batatas.",
       "classified_at": "2026-07-26T21:08:05",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9216.JPG",
@@ -398,7 +408,9 @@
       "description": "Prato com pedaços de carne em molho cremoso, acompanhado de batatas.",
       "classified_at": "2026-07-26T21:08:14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9211.JPG",
@@ -418,7 +430,9 @@
       "description": "Um prato com arroz, filé de peixe com molho, legumes e salada.",
       "classified_at": "2026-07-26T21:08:32",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9223.JPG",
@@ -427,7 +441,9 @@
       "description": "Diversas opções de saladas e pratos frios dispostos em bandejas.",
       "classified_at": "2026-07-26T21:08:41",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9219.JPG",
@@ -436,7 +452,9 @@
       "description": "Prato com fatias de rabanete decoradas com ervas.",
       "classified_at": "2026-07-26T21:08:52",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9218.JPG",
@@ -445,7 +463,9 @@
       "description": "Prato com fatias de queijo decoradas com cheiro-verde.",
       "classified_at": "2026-07-26T21:09:03",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9221.JPG",
@@ -463,7 +483,9 @@
       "description": "Um prato com arroz, legumes, salada e um prato quente com molho.",
       "classified_at": "2026-07-26T21:09:27",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9228.JPG",
@@ -472,7 +494,9 @@
       "description": "Foto de purê de batata em um recipiente, ao lado de outros pratos.",
       "classified_at": "2026-07-26T21:09:42",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9234.JPG",
@@ -481,7 +505,9 @@
       "description": "Prato quente com carne e legumes em molho cremoso, servido em uma travessa.",
       "classified_at": "2026-07-26T21:09:52",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9215.JPG",
@@ -490,7 +516,9 @@
       "description": "A imagem mostra uma variedade de saladas e acompanhamentos dispostos em um buffet.",
       "classified_at": "2026-07-26T21:10:05",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9222.JPG",
@@ -499,7 +527,9 @@
       "description": "A foto mostra uma variedade de sobremesas, incluindo tortas e doces com frutas.",
       "classified_at": "2026-07-26T21:10:17",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9236.JPG",
@@ -508,7 +538,9 @@
       "description": "Um prato de arroz com frutos do mar, decorado com tomates e ervas.",
       "classified_at": "2026-07-26T21:10:28",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9240.JPG",
@@ -517,7 +549,9 @@
       "description": "Prato quente com carne e molho cremoso, decorado com cebolinhas.",
       "classified_at": "2026-07-26T21:10:42",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9227.JPG",
@@ -526,7 +560,9 @@
       "description": "A foto mostra uma porção de pastéis fritos, crocantes e dourados.",
       "classified_at": "2026-07-26T21:10:57",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9235.JPG",
@@ -535,7 +571,9 @@
       "description": "Diversos pratos quentes em travessas de barro, com destaque para um prato cremoso com pedaços de carne e legumes.",
       "classified_at": "2026-07-26T21:11:08",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9226.JPG",
@@ -544,7 +582,9 @@
       "description": "Uma salada colorida com tiras de cenoura, abobrinha e temperos.",
       "classified_at": "2026-07-26T21:11:22",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9225.JPG",
@@ -553,7 +593,9 @@
       "description": "Diversas saladas frescas dispostas em bandejas, incluindo cenoura ralada, beterraba e uma mistura de tomate e pepino.",
       "classified_at": "2026-07-26T21:11:33",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9220.JPG",
@@ -562,7 +604,9 @@
       "description": "Prato de peixe com batatas e molho cremoso.",
       "classified_at": "2026-07-26T21:11:46",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9239.JPG",
@@ -571,7 +615,9 @@
       "description": "Prato quente com molho amarelo e pedaços de legumes, servido em uma travessa de barro.",
       "classified_at": "2026-07-26T21:11:59",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9244.JPG",
@@ -580,7 +626,9 @@
       "description": "Prato de peixe com batatas e molho cremoso, acompanhado de salgados fritos.",
       "classified_at": "2026-07-26T21:12:11",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9230.JPG",
@@ -589,7 +637,9 @@
       "description": "A foto mostra um prato quente com uma camada de queijo derretido, provavelmente uma lasanha ou gratinado.",
       "classified_at": "2026-07-26T21:12:22",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9243.JPG",
@@ -601,7 +651,9 @@
       "classified_at": "2026-07-26T21:40:25",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9237.JPG",
@@ -613,7 +665,9 @@
       "classified_at": "2026-07-26T21:40:29",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9224.JPG",
@@ -625,7 +679,9 @@
       "classified_at": "2026-07-26T21:40:35",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9229.JPG",
@@ -637,7 +693,9 @@
       "classified_at": "2026-07-26T21:40:39",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9231.JPG",
@@ -649,7 +707,9 @@
       "classified_at": "2026-07-26T21:40:44",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9233.JPG",
@@ -661,7 +721,9 @@
       "classified_at": "2026-07-26T21:40:50",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9232.JPG",
@@ -673,7 +735,9 @@
       "classified_at": "2026-07-26T21:40:54",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9242.JPG",
@@ -685,7 +749,9 @@
       "classified_at": "2026-07-26T21:40:59",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9241.JPG",
@@ -697,7 +763,9 @@
       "classified_at": "2026-07-26T21:41:04",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Abril 25\\IMG_9214.JPG",
@@ -709,7 +777,9 @@
       "classified_at": "2026-07-26T21:41:08",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Abril 25: 3 arquivos diferentes desta pasta falharam de verdade no runner em execucoes separadas (IMG_8131, IMG_8130, IMG_8133), apesar de existirem no Drive -- excluindo o resto da pasta por precaucao"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Agosto 25\\IMG_7854_SnapseedCopy.jpg",
@@ -1645,7 +1715,9 @@
       "classified_at": "2026-07-26T21:45:44",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9182.HEIC",
@@ -1657,7 +1729,9 @@
       "classified_at": "2026-07-26T21:45:48",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9276.HEIC",
@@ -1669,7 +1743,9 @@
       "classified_at": "2026-07-26T21:45:51",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9277.HEIC",
@@ -1681,7 +1757,9 @@
       "classified_at": "2026-07-26T21:45:54",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9137.HEIC",
@@ -1693,7 +1771,9 @@
       "classified_at": "2026-07-26T21:45:58",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9208.HEIC",
@@ -1705,7 +1785,9 @@
       "classified_at": "2026-07-26T21:46:01",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9138.HEIC",
@@ -1717,7 +1799,9 @@
       "classified_at": "2026-07-26T21:46:04",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9231.HEIC",
@@ -1729,7 +1813,9 @@
       "classified_at": "2026-07-26T21:46:07",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9230.HEIC",
@@ -1741,7 +1827,9 @@
       "classified_at": "2026-07-26T21:46:10",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9133.HEIC",
@@ -1753,7 +1841,9 @@
       "classified_at": "2026-07-26T21:46:13",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9083.HEIC",
@@ -1765,7 +1855,9 @@
       "classified_at": "2026-07-26T21:46:17",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9207.HEIC",
@@ -1777,7 +1869,9 @@
       "classified_at": "2026-07-26T21:46:20",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9090.HEIC",
@@ -1789,7 +1883,9 @@
       "classified_at": "2026-07-26T21:46:23",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9102.HEIC",
@@ -1801,7 +1897,9 @@
       "classified_at": "2026-07-26T21:46:27",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9132.HEIC",
@@ -1813,7 +1911,9 @@
       "classified_at": "2026-07-26T21:46:30",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9093.HEIC",
@@ -1825,7 +1925,9 @@
       "classified_at": "2026-07-26T21:46:33",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9099.HEIC",
@@ -1837,7 +1939,9 @@
       "classified_at": "2026-07-26T21:46:37",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9126.HEIC",
@@ -1849,7 +1953,9 @@
       "classified_at": "2026-07-26T21:46:41",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9249.HEIC",
@@ -1861,7 +1967,9 @@
       "classified_at": "2026-07-26T21:46:44",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9094.HEIC",
@@ -1873,7 +1981,9 @@
       "classified_at": "2026-07-26T21:46:47",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9091.HEIC",
@@ -1885,7 +1995,9 @@
       "classified_at": "2026-07-26T21:46:52",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9238.HEIC",
@@ -1897,7 +2009,9 @@
       "classified_at": "2026-07-26T21:46:57",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9239.HEIC",
@@ -1909,7 +2023,9 @@
       "classified_at": "2026-07-26T21:47:02",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9092.HEIC",
@@ -1921,7 +2037,9 @@
       "classified_at": "2026-07-26T21:47:05",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9062.HEIC",
@@ -1933,7 +2051,9 @@
       "classified_at": "2026-07-26T21:47:08",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9100.HEIC",
@@ -1945,7 +2065,9 @@
       "classified_at": "2026-07-26T21:47:12",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9250.HEIC",
@@ -1957,7 +2079,9 @@
       "classified_at": "2026-07-26T21:47:15",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9103.HEIC",
@@ -1969,7 +2093,9 @@
       "classified_at": "2026-07-26T21:47:19",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9203.HEIC",
@@ -1981,7 +2107,9 @@
       "classified_at": "2026-07-26T21:47:23",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9063.HEIC",
@@ -1993,7 +2121,9 @@
       "classified_at": "2026-07-26T21:47:26",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9202.HEIC",
@@ -2005,7 +2135,9 @@
       "classified_at": "2026-07-26T21:47:29",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9251.HEIC",
@@ -2017,7 +2149,9 @@
       "classified_at": "2026-07-26T21:47:33",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9101.HEIC",
@@ -2029,7 +2163,9 @@
       "classified_at": "2026-07-26T21:47:36",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9114.HEIC",
@@ -2041,7 +2177,9 @@
       "classified_at": "2026-07-26T21:47:39",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9113.HEIC",
@@ -2053,7 +2191,9 @@
       "classified_at": "2026-07-26T21:47:42",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9107.HEIC",
@@ -2065,7 +2205,9 @@
       "classified_at": "2026-07-26T21:47:47",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9261.JPG",
@@ -2089,7 +2231,9 @@
       "classified_at": "2026-07-26T21:47:54",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9144.HEIC",
@@ -2101,7 +2245,9 @@
       "classified_at": "2026-07-26T21:47:57",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9108.HEIC",
@@ -2113,7 +2259,9 @@
       "classified_at": "2026-07-26T21:48:01",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9263.JPG",
@@ -2137,7 +2285,9 @@
       "classified_at": "2026-07-26T21:48:07",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9128.HEIC",
@@ -2149,7 +2299,9 @@
       "classified_at": "2026-07-26T21:48:12",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9190.HEIC",
@@ -2161,7 +2313,9 @@
       "classified_at": "2026-07-26T21:48:16",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9109.HEIC",
@@ -2173,7 +2327,9 @@
       "classified_at": "2026-07-26T21:48:21",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9127.HEIC",
@@ -2185,7 +2341,9 @@
       "classified_at": "2026-07-26T21:48:25",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9124.HEIC",
@@ -2197,7 +2355,9 @@
       "classified_at": "2026-07-26T21:48:28",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9262.JPG",
@@ -2221,7 +2381,9 @@
       "classified_at": "2026-07-26T21:48:35",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9110.HEIC",
@@ -2233,7 +2395,9 @@
       "classified_at": "2026-07-26T21:48:40",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9105.HEIC",
@@ -2245,7 +2409,9 @@
       "classified_at": "2026-07-26T21:48:44",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9237.HEIC",
@@ -2257,7 +2423,9 @@
       "classified_at": "2026-07-26T21:48:47",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9112.HEIC",
@@ -2269,7 +2437,9 @@
       "classified_at": "2026-07-26T21:48:52",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9260.JPG",
@@ -2293,7 +2463,9 @@
       "classified_at": "2026-07-26T21:48:59",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9224.HEIC",
@@ -2305,7 +2477,9 @@
       "classified_at": "2026-07-26T21:49:02",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9236.HEIC",
@@ -2317,7 +2491,9 @@
       "classified_at": "2026-07-26T21:49:05",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9115.HEIC",
@@ -2329,7 +2505,9 @@
       "classified_at": "2026-07-26T21:49:09",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9076.HEIC",
@@ -2341,7 +2519,9 @@
       "classified_at": "2026-07-26T21:49:14",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9123.HEIC",
@@ -2353,7 +2533,9 @@
       "classified_at": "2026-07-26T21:49:18",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9259.JPG",
@@ -2377,7 +2559,9 @@
       "classified_at": "2026-07-26T21:49:25",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9075.HEIC",
@@ -2389,7 +2573,9 @@
       "classified_at": "2026-07-26T21:49:29",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9204.HEIC",
@@ -2401,7 +2587,9 @@
       "classified_at": "2026-07-26T21:49:32",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9275.HEIC",
@@ -2413,7 +2601,9 @@
       "classified_at": "2026-07-26T21:49:36",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9074.HEIC",
@@ -2425,7 +2615,9 @@
       "classified_at": "2026-07-26T21:49:41",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9121.HEIC",
@@ -2437,7 +2629,9 @@
       "classified_at": "2026-07-26T21:49:45",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9198.HEIC",
@@ -2449,7 +2643,9 @@
       "classified_at": "2026-07-26T21:49:49",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9268.JPG",
@@ -2473,7 +2669,9 @@
       "classified_at": "2026-07-26T21:49:56",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9146.HEIC",
@@ -2485,7 +2683,9 @@
       "classified_at": "2026-07-26T21:50:00",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9192.HEIC",
@@ -2497,7 +2697,9 @@
       "classified_at": "2026-07-26T21:50:04",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9234.HEIC",
@@ -2509,7 +2711,9 @@
       "classified_at": "2026-07-26T21:50:07",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9266.JPG",
@@ -2533,7 +2737,9 @@
       "classified_at": "2026-07-26T21:50:14",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9118.HEIC",
@@ -2545,7 +2751,9 @@
       "classified_at": "2026-07-26T21:50:17",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9195.HEIC",
@@ -2557,7 +2765,9 @@
       "classified_at": "2026-07-26T21:50:22",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9274.HEIC",
@@ -2569,7 +2779,9 @@
       "classified_at": "2026-07-26T21:50:26",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9233.HEIC",
@@ -2581,7 +2793,9 @@
       "classified_at": "2026-07-26T21:50:29",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9143.HEIC",
@@ -2593,7 +2807,9 @@
       "classified_at": "2026-07-26T21:50:33",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9265.JPG",
@@ -2617,7 +2833,9 @@
       "classified_at": "2026-07-26T21:50:42",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9242.JPG",
@@ -2641,7 +2859,9 @@
       "classified_at": "2026-07-26T21:50:49",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9267.JPG",
@@ -2665,7 +2885,9 @@
       "classified_at": "2026-07-26T21:50:56",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9185.HEIC",
@@ -2677,7 +2899,9 @@
       "classified_at": "2026-07-26T21:50:59",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9183.HEIC",
@@ -2689,7 +2913,9 @@
       "classified_at": "2026-07-26T21:51:03",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9205.HEIC",
@@ -2701,7 +2927,9 @@
       "classified_at": "2026-07-26T21:51:08",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9077.HEIC",
@@ -2713,7 +2941,9 @@
       "classified_at": "2026-07-26T21:51:11",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9196.HEIC",
@@ -2725,7 +2955,9 @@
       "classified_at": "2026-07-26T21:51:16",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9206.HEIC",
@@ -2737,7 +2969,9 @@
       "classified_at": "2026-07-26T21:51:20",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9184.HEIC",
@@ -2749,7 +2983,9 @@
       "classified_at": "2026-07-26T21:51:24",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9179.HEIC",
@@ -2761,7 +2997,9 @@
       "classified_at": "2026-07-26T21:51:28",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9134.HEIC",
@@ -2773,7 +3011,9 @@
       "classified_at": "2026-07-26T21:51:31",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9232.HEIC",
@@ -2785,7 +3025,9 @@
       "classified_at": "2026-07-26T21:51:36",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9194.HEIC",
@@ -2797,7 +3039,9 @@
       "classified_at": "2026-07-26T21:51:39",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9089.HEIC",
@@ -2809,7 +3053,9 @@
       "classified_at": "2026-07-26T21:51:42",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9273.HEIC",
@@ -2821,7 +3067,9 @@
       "classified_at": "2026-07-26T21:51:46",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9060.HEIC",
@@ -2833,7 +3081,9 @@
       "classified_at": "2026-07-26T21:51:49",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9245.JPG",
@@ -2869,7 +3119,9 @@
       "classified_at": "2026-07-26T21:52:00",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9244.JPG",
@@ -2893,7 +3145,9 @@
       "classified_at": "2026-07-26T21:52:08",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9187.HEIC",
@@ -2905,7 +3159,9 @@
       "classified_at": "2026-07-26T21:52:12",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9088.HEIC",
@@ -2917,7 +3173,9 @@
       "classified_at": "2026-07-26T21:52:15",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9243.JPG",
@@ -2941,7 +3199,9 @@
       "classified_at": "2026-07-26T21:52:21",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9061.HEIC",
@@ -2953,7 +3213,9 @@
       "classified_at": "2026-07-26T21:52:25",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9095.HEIC",
@@ -2965,7 +3227,9 @@
       "classified_at": "2026-07-26T21:52:28",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9079.HEIC",
@@ -2977,7 +3241,9 @@
       "classified_at": "2026-07-26T21:52:32",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9199.HEIC",
@@ -2989,7 +3255,9 @@
       "classified_at": "2026-07-26T21:52:36",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9193.HEIC",
@@ -3001,7 +3269,9 @@
       "classified_at": "2026-07-26T21:52:39",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9200.HEIC",
@@ -3013,7 +3283,9 @@
       "classified_at": "2026-07-26T21:52:44",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9085.HEIC",
@@ -3025,7 +3297,9 @@
       "classified_at": "2026-07-26T21:52:48",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9120.HEIC",
@@ -3037,7 +3311,9 @@
       "classified_at": "2026-07-26T21:52:52",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9119.HEIC",
@@ -3049,7 +3325,9 @@
       "classified_at": "2026-07-26T21:52:56",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9084.HEIC",
@@ -3061,7 +3339,9 @@
       "classified_at": "2026-07-26T21:52:59",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9145.HEIC",
@@ -3073,7 +3353,9 @@
       "classified_at": "2026-07-26T21:53:03",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9150.JPG",
@@ -3121,7 +3403,9 @@
       "classified_at": "2026-07-26T21:53:14",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2047.HEIC",
@@ -3157,7 +3441,9 @@
       "classified_at": "2026-07-26T21:53:23",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2018.HEIC",
@@ -3169,7 +3455,9 @@
       "classified_at": "2026-07-26T21:53:26",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2147.HEIC",
@@ -3193,7 +3481,9 @@
       "classified_at": "2026-07-26T21:53:32",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2027.HEIC",
@@ -3205,7 +3495,9 @@
       "classified_at": "2026-07-26T21:53:36",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2017.HEIC",
@@ -3217,7 +3509,9 @@
       "classified_at": "2026-07-26T21:53:39",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2096.HEIC",
@@ -3229,7 +3523,9 @@
       "classified_at": "2026-07-26T21:53:42",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2024.HEIC",
@@ -3241,7 +3537,9 @@
       "classified_at": "2026-07-26T21:53:45",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2103.HEIC",
@@ -3253,7 +3551,9 @@
       "classified_at": "2026-07-26T21:53:48",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2025.HEIC",
@@ -3265,7 +3565,9 @@
       "classified_at": "2026-07-26T21:53:51",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2037.HEIC",
@@ -3277,7 +3579,9 @@
       "classified_at": "2026-07-26T21:53:54",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2034.HEIC",
@@ -3289,7 +3593,9 @@
       "classified_at": "2026-07-26T21:53:57",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2068.HEIC",
@@ -3301,7 +3607,9 @@
       "classified_at": "2026-07-26T21:54:00",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2113.HEIC",
@@ -3313,7 +3621,9 @@
       "classified_at": "2026-07-26T21:54:03",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2028.HEIC",
@@ -3325,7 +3635,9 @@
       "classified_at": "2026-07-26T21:54:07",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2057.HEIC",
@@ -3337,7 +3649,9 @@
       "classified_at": "2026-07-26T21:54:11",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2104.HEIC",
@@ -3349,7 +3663,9 @@
       "classified_at": "2026-07-26T21:54:14",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2092.HEIC",
@@ -3361,7 +3677,9 @@
       "classified_at": "2026-07-26T21:54:17",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2036.HEIC",
@@ -3373,7 +3691,9 @@
       "classified_at": "2026-07-26T21:54:20",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2021.HEIC",
@@ -3385,7 +3705,9 @@
       "classified_at": "2026-07-26T21:54:23",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2038.HEIC",
@@ -3397,7 +3719,9 @@
       "classified_at": "2026-07-26T21:54:27",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2023.HEIC",
@@ -3409,7 +3733,9 @@
       "classified_at": "2026-07-26T21:54:30",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2102.HEIC",
@@ -3421,7 +3747,9 @@
       "classified_at": "2026-07-26T21:54:33",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2114.HEIC",
@@ -3433,7 +3761,9 @@
       "classified_at": "2026-07-26T21:54:35",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2022.HEIC",
@@ -3445,7 +3775,9 @@
       "classified_at": "2026-07-26T21:54:38",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2101.HEIC",
@@ -3457,7 +3789,9 @@
       "classified_at": "2026-07-26T21:54:41",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2107.JPG",
@@ -3481,7 +3815,9 @@
       "classified_at": "2026-07-26T21:54:47",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2090.HEIC",
@@ -3493,7 +3829,9 @@
       "classified_at": "2026-07-26T21:54:50",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2112.HEIC",
@@ -3505,7 +3843,9 @@
       "classified_at": "2026-07-26T21:54:54",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2089.HEIC",
@@ -3517,7 +3857,9 @@
       "classified_at": "2026-07-26T21:54:58",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2099.HEIC",
@@ -3529,7 +3871,9 @@
       "classified_at": "2026-07-26T21:55:01",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2088.HEIC",
@@ -3541,7 +3885,9 @@
       "classified_at": "2026-07-26T21:55:04",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2052.HEIC",
@@ -3553,7 +3899,9 @@
       "classified_at": "2026-07-26T21:55:08",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2108.JPG",
@@ -3577,7 +3925,9 @@
       "classified_at": "2026-07-26T21:55:15",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2058.HEIC",
@@ -3589,7 +3939,9 @@
       "classified_at": "2026-07-26T21:55:19",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2085.HEIC",
@@ -3601,7 +3953,9 @@
       "classified_at": "2026-07-26T21:55:22",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2087.HEIC",
@@ -3613,7 +3967,9 @@
       "classified_at": "2026-07-26T21:55:26",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2086.HEIC",
@@ -3625,7 +3981,9 @@
       "classified_at": "2026-07-26T21:55:29",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2105.JPG",
@@ -3661,7 +4019,9 @@
       "classified_at": "2026-07-26T21:55:38",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2100.HEIC",
@@ -3673,7 +4033,9 @@
       "classified_at": "2026-07-26T21:55:41",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2062.HEIC",
@@ -3685,7 +4047,9 @@
       "classified_at": "2026-07-26T21:55:44",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2063.HEIC",
@@ -3697,7 +4061,9 @@
       "classified_at": "2026-07-26T21:55:48",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2139.HEIC",
@@ -3709,7 +4075,9 @@
       "classified_at": "2026-07-26T21:55:52",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2069.HEIC",
@@ -3721,7 +4089,9 @@
       "classified_at": "2026-07-26T21:55:56",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2065.HEIC",
@@ -3733,7 +4103,9 @@
       "classified_at": "2026-07-26T21:56:00",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2077.HEIC",
@@ -3745,7 +4117,9 @@
       "classified_at": "2026-07-26T21:56:04",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2043.HEIC",
@@ -3757,7 +4131,9 @@
       "classified_at": "2026-07-26T21:56:07",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2075.HEIC",
@@ -3769,7 +4145,9 @@
       "classified_at": "2026-07-26T21:56:10",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2071.HEIC",
@@ -3781,7 +4159,9 @@
       "classified_at": "2026-07-26T21:56:15",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2070.HEIC",
@@ -3793,7 +4173,9 @@
       "classified_at": "2026-07-26T21:56:18",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2076.HEIC",
@@ -3805,7 +4187,9 @@
       "classified_at": "2026-07-26T21:56:22",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2136.HEIC",
@@ -3817,7 +4201,9 @@
       "classified_at": "2026-07-26T21:56:26",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2050.HEIC",
@@ -3829,7 +4215,9 @@
       "classified_at": "2026-07-26T21:56:29",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2051.HEIC",
@@ -3841,7 +4229,9 @@
       "classified_at": "2026-07-26T21:56:33",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2040.HEIC",
@@ -3853,7 +4243,9 @@
       "classified_at": "2026-07-26T21:56:36",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2041.HEIC",
@@ -3865,7 +4257,9 @@
       "classified_at": "2026-07-26T21:56:40",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2080.HEIC",
@@ -3877,7 +4271,9 @@
       "classified_at": "2026-07-26T21:56:44",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2064.HEIC",
@@ -3889,7 +4285,9 @@
       "classified_at": "2026-07-26T21:56:47",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2083.HEIC",
@@ -3901,7 +4299,9 @@
       "classified_at": "2026-07-26T21:56:51",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2082.HEIC",
@@ -3913,7 +4313,9 @@
       "classified_at": "2026-07-26T21:56:55",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0435.HEIC",
@@ -3925,7 +4327,9 @@
       "classified_at": "2026-07-26T21:56:58",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0436.HEIC",
@@ -3937,7 +4341,9 @@
       "classified_at": "2026-07-26T21:57:01",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0434.HEIC",
@@ -3949,7 +4355,9 @@
       "classified_at": "2026-07-26T21:57:05",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0432.HEIC",
@@ -3961,7 +4369,9 @@
       "classified_at": "2026-07-26T21:57:08",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0338.HEIC",
@@ -3973,7 +4383,9 @@
       "classified_at": "2026-07-26T21:57:11",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0488.HEIC",
@@ -3985,7 +4397,9 @@
       "classified_at": "2026-07-26T21:57:17",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0367.HEIC",
@@ -3997,7 +4411,9 @@
       "classified_at": "2026-07-26T21:57:22",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0393.HEIC",
@@ -4009,7 +4425,9 @@
       "classified_at": "2026-07-26T21:57:27",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0375.HEIC",
@@ -4021,7 +4439,9 @@
       "classified_at": "2026-07-26T21:57:32",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0490.HEIC",
@@ -4033,7 +4453,9 @@
       "classified_at": "2026-07-26T21:57:36",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0371.HEIC",
@@ -4045,7 +4467,9 @@
       "classified_at": "2026-07-26T21:57:39",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0487.HEIC",
@@ -4057,7 +4481,9 @@
       "classified_at": "2026-07-26T21:57:42",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0368.HEIC",
@@ -4069,7 +4495,9 @@
       "classified_at": "2026-07-26T21:57:45",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0410.HEIC",
@@ -4093,7 +4521,9 @@
       "classified_at": "2026-07-26T21:57:53",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0492.HEIC",
@@ -4105,7 +4535,9 @@
       "classified_at": "2026-07-26T21:57:57",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0412.HEIC",
@@ -4117,7 +4549,9 @@
       "classified_at": "2026-07-26T21:58:00",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0491.HEIC",
@@ -4129,7 +4563,9 @@
       "classified_at": "2026-07-26T21:58:04",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0372.HEIC",
@@ -4141,7 +4577,9 @@
       "classified_at": "2026-07-26T21:58:08",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0489.HEIC",
@@ -4153,7 +4591,9 @@
       "classified_at": "2026-07-26T21:58:12",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0411.HEIC",
@@ -4165,7 +4605,9 @@
       "classified_at": "2026-07-26T21:58:16",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0342.HEIC",
@@ -4177,7 +4619,9 @@
       "classified_at": "2026-07-26T21:58:20",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0482.JPG",
@@ -4201,7 +4645,9 @@
       "classified_at": "2026-07-26T21:58:27",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0382.HEIC",
@@ -4213,7 +4659,9 @@
       "classified_at": "2026-07-26T21:58:31",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0447.HEIC",
@@ -4225,7 +4673,9 @@
       "classified_at": "2026-07-26T21:58:34",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0341.HEIC",
@@ -4237,7 +4687,9 @@
       "classified_at": "2026-07-26T21:58:38",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0483.JPG",
@@ -4261,7 +4713,9 @@
       "classified_at": "2026-07-26T21:58:44",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0340.HEIC",
@@ -4273,7 +4727,9 @@
       "classified_at": "2026-07-26T21:58:49",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0378.HEIC",
@@ -4285,7 +4741,9 @@
       "classified_at": "2026-07-26T21:58:52",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0484.JPG",
@@ -4309,7 +4767,9 @@
       "classified_at": "2026-07-26T21:58:59",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0377.HEIC",
@@ -4321,7 +4781,9 @@
       "classified_at": "2026-07-26T21:59:04",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0366.HEIC",
@@ -4333,7 +4795,9 @@
       "classified_at": "2026-07-26T21:59:07",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0385.HEIC",
@@ -4345,7 +4809,9 @@
       "classified_at": "2026-07-26T21:59:11",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0386.HEIC",
@@ -4357,7 +4823,9 @@
       "classified_at": "2026-07-26T21:59:14",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0418.HEIC",
@@ -4369,7 +4837,9 @@
       "classified_at": "2026-07-26T21:59:19",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0379.HEIC",
@@ -4381,7 +4851,9 @@
       "classified_at": "2026-07-26T21:59:22",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0396.HEIC",
@@ -4393,7 +4865,9 @@
       "classified_at": "2026-07-26T21:59:26",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0365.HEIC",
@@ -4405,7 +4879,9 @@
       "classified_at": "2026-07-26T21:59:29",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0401.HEIC",
@@ -4417,7 +4893,9 @@
       "classified_at": "2026-07-26T21:59:32",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0400.HEIC",
@@ -4429,7 +4907,9 @@
       "classified_at": "2026-07-26T21:59:35",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0397.HEIC",
@@ -4441,7 +4921,9 @@
       "classified_at": "2026-07-26T21:59:39",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0387.HEIC",
@@ -4453,7 +4935,9 @@
       "classified_at": "2026-07-26T21:59:42",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0391.HEIC",
@@ -4465,7 +4949,9 @@
       "classified_at": "2026-07-26T21:59:45",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0464.JPG",
@@ -4501,7 +4987,9 @@
       "classified_at": "2026-07-26T21:59:53",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0465.JPG",
@@ -4525,7 +5013,9 @@
       "classified_at": "2026-07-26T22:00:02",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0354.HEIC",
@@ -4537,7 +5027,9 @@
       "classified_at": "2026-07-26T22:00:05",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0479.HEIC",
@@ -4549,7 +5041,9 @@
       "classified_at": "2026-07-26T22:00:09",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0350.HEIC",
@@ -4561,7 +5055,9 @@
       "classified_at": "2026-07-26T22:00:12",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0417.HEIC",
@@ -4573,7 +5069,9 @@
       "classified_at": "2026-07-26T22:00:16",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0392.HEIC",
@@ -4585,7 +5083,9 @@
       "classified_at": "2026-07-26T22:00:19",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0328.HEIC",
@@ -4597,7 +5097,9 @@
       "classified_at": "2026-07-26T22:00:22",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0355.HEIC",
@@ -4609,7 +5111,9 @@
       "classified_at": "2026-07-26T22:00:25",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0476.HEIC",
@@ -4621,7 +5125,9 @@
       "classified_at": "2026-07-26T22:00:29",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0329.HEIC",
@@ -4633,7 +5139,9 @@
       "classified_at": "2026-07-26T22:00:32",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0480.JPG",
@@ -4657,7 +5165,9 @@
       "classified_at": "2026-07-26T22:00:38",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0478.HEIC",
@@ -4669,7 +5179,9 @@
       "classified_at": "2026-07-26T22:00:42",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0324.HEIC",
@@ -4681,7 +5193,9 @@
       "classified_at": "2026-07-26T22:00:46",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0323.HEIC",
@@ -4693,7 +5207,9 @@
       "classified_at": "2026-07-26T22:00:50",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0325.HEIC",
@@ -4705,7 +5221,9 @@
       "classified_at": "2026-07-26T22:00:54",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0426.HEIC",
@@ -4717,7 +5235,9 @@
       "classified_at": "2026-07-26T22:00:58",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0425.HEIC",
@@ -4729,7 +5249,9 @@
       "classified_at": "2026-07-26T22:01:02",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0424.HEIC",
@@ -4741,7 +5263,9 @@
       "classified_at": "2026-07-26T22:01:06",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\4AEB9013-E6AF-4E5E-9776-9640BA59EC0B.jpg",
@@ -7463,7 +7987,9 @@
       "classified_at": "2026-07-26T22:10:07",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\IMG_6075.HEIC",
@@ -7475,7 +8001,9 @@
       "classified_at": "2026-07-26T22:10:11",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\IMG_20230818_095940_312.webp",
@@ -12315,7 +12843,9 @@
       "classified_at": "2026-07-26T22:26:07",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\IMG-20231204-WA0010.jpg",
@@ -13387,7 +13917,9 @@
       "classified_at": "2026-07-26T22:29:36",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\IMG-20230913-WA0025.jpg",
