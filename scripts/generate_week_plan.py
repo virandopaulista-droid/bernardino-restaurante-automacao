@@ -96,7 +96,7 @@ def build_reel_post(date):
     }
 
 
-def run_with_watchdog(label, func, *args, timeout_seconds=240):
+def run_with_watchdog(label, func, *args, timeout_seconds=300):
     # A wedged Drive mount can make an unprotected read/subprocess call deep
     # inside these builders hang forever (seen for real: a run sat "in
     # progress" for 25+ minutes with zero output before we found and fixed

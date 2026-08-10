@@ -59,7 +59,7 @@ def _open_probe(path):
         pass
 
 
-def is_readable(path, attempts=3, delay_seconds=5, timeout_seconds=20):
+def is_readable(path, attempts=1, delay_seconds=2, timeout_seconds=12):
     # The Drive mount (rclone) occasionally 404s -- or, worse, just HANGS --
     # on a file that genuinely exists (confirmed via the Drive API on several
     # real cases), with no reliable fix at the mount level. A plain retry
