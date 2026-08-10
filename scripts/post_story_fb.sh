@@ -31,6 +31,10 @@ def read_file_with_retry(path, attempts=6, delay_seconds=10):
     # failing a real scheduled post.
     for attempt in range(1, attempts + 1):
         try:
+            os.listdir(os.path.dirname(path))
+        except OSError:
+            pass
+        try:
             with open(path, "rb") as f:
                 return f.read()
         except FileNotFoundError:

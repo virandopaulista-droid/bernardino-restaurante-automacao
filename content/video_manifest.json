@@ -661,13 +661,21 @@
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Abril 25\\Massas.mp4",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-08-10T13:10:48",
+      "duration_seconds": 17.508005,
+      "too_short": false,
+      "audio_mean_db": -12.4,
+      "silent": false
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Abril 25\\Ela apresentando.mp4",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-08-10T13:15:50",
+      "duration_seconds": 57.282993,
+      "too_short": false,
+      "audio_mean_db": -26.7,
+      "silent": false
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Abril 25\\Timelapse.mp4",
