@@ -58,7 +58,7 @@ jobs:
           rclone mount gdrive: "$HOME/gdrive" \
             --daemon --vfs-cache-mode=minimal --dir-cache-time=1h \
             --timeout=60s --contimeout=60s --low-level-retries=15 \
-            --log-file="$HOME/rclone-mount.log" --log-level=INFO
+            --log-file="$HOME/rclone-mount.log" --log-level=DEBUG
           # Resolve the exact relative path via ONE recursive rclone listing
           # (avoids re-querying Drive by a re-assembled accented path, which
           # proved unreliable -- listing once and grepping the full known
@@ -121,8 +121,8 @@ jobs:
       - name: Mostra log do rclone (diagnostico)
         if: always()
         run: |
-          echo "=== ultimas 200 linhas do rclone-mount.log ==="
-          tail -n 200 "$HOME/rclone-mount.log" || true
+          echo "=== ultimas 2000 linhas do rclone-mount.log ==="
+          tail -n 2000 "$HOME/rclone-mount.log" || true
 
       - name: Commit plan + gallery
         run: |
