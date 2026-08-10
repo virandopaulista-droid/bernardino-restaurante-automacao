@@ -4785,7 +4785,9 @@
       "classified_at": "2026-07-26T22:01:15",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "arquivo confirmado ausente no Google Drive (verificado via API na arvore Stories Reels, incluindo subpastas Marcos/2/3/4/5/5/6)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\99B8AEC9-1B56-472E-A67A-D9F57528A472.jpg",
@@ -4893,7 +4895,9 @@
       "classified_at": "2026-07-26T22:01:36",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "arquivo confirmado ausente no Google Drive (verificado via API na arvore Stories Reels, incluindo subpastas Marcos/2/3/4/5/5/6)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\2118FE5E-7EB7-4045-83E8-CD27B416F078 (2).jpg",
@@ -4905,7 +4909,9 @@
       "classified_at": "2026-07-26T22:01:39",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "arquivo confirmado ausente no Google Drive (verificado via API na arvore Stories Reels, incluindo subpastas Marcos/2/3/4/5/5/6)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\2118FE5E-7EB7-4045-83E8-CD27B416F078 (1).jpg",
@@ -4917,7 +4923,9 @@
       "classified_at": "2026-07-26T22:01:41",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "arquivo confirmado ausente no Google Drive (verificado via API na arvore Stories Reels, incluindo subpastas Marcos/2/3/4/5/5/6)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\2118FE5E-7EB7-4045-83E8-CD27B416F078.jpg",
@@ -4953,7 +4961,9 @@
       "classified_at": "2026-07-26T22:01:49",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "arquivo confirmado ausente no Google Drive (verificado via API na arvore Stories Reels, incluindo subpastas Marcos/2/3/4/5/5/6)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\5B3812F7-57B5-4F3D-A6E6-262B9AAEA91A.jpg",
@@ -4977,7 +4987,9 @@
       "classified_at": "2026-07-26T22:01:53",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "arquivo confirmado ausente no Google Drive (verificado via API na arvore Stories Reels, incluindo subpastas Marcos/2/3/4/5/5/6)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\12319226-6AB4-4A33-896A-271F856FAFD7 (1).jpg",
@@ -4989,7 +5001,9 @@
       "classified_at": "2026-07-26T22:01:56",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "arquivo confirmado ausente no Google Drive (verificado via API na arvore Stories Reels, incluindo subpastas Marcos/2/3/4/5/5/6)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\12319226-6AB4-4A33-896A-271F856FAFD7.jpg",
@@ -5013,7 +5027,9 @@
       "classified_at": "2026-07-26T22:02:01",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "arquivo confirmado ausente no Google Drive (verificado via API na arvore Stories Reels, incluindo subpastas Marcos/2/3/4/5/5/6)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\682FA89C-4F80-4326-A91A-E6D6A98E2318.jpg",
@@ -5061,7 +5077,9 @@
       "classified_at": "2026-07-26T22:02:10",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "arquivo confirmado ausente no Google Drive (verificado via API na arvore Stories Reels, incluindo subpastas Marcos/2/3/4/5/5/6)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\936E2E16-7632-437B-9DD5-39A957E87535.jpg",
@@ -5085,7 +5103,9 @@
       "classified_at": "2026-07-26T22:02:14",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "arquivo confirmado ausente no Google Drive (verificado via API na arvore Stories Reels, incluindo subpastas Marcos/2/3/4/5/5/6)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\BB2596C6-2DD0-4A28-B6F8-4C5A92E6244E.jpg",
@@ -6321,7 +6341,9 @@
       "classified_at": "2026-07-26T22:06:16",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "arquivo confirmado ausente no Google Drive (verificado via API na arvore Stories Reels, incluindo subpastas Marcos/2/3/4/5/5/6)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\IMG_20230727_233646_717.webp",
@@ -10017,7 +10039,9 @@
       "classified_at": "2026-07-26T22:18:39",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "arquivo confirmado ausente no Google Drive (verificado via API na arvore Stories Reels, incluindo subpastas Marcos/2/3/4/5/5/6)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\IMG-20240116-WA0002(1).jpg",
@@ -11733,7 +11757,9 @@
       "classified_at": "2026-07-26T22:24:17",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "arquivo confirmado ausente no Google Drive (verificado via API na arvore Stories Reels, incluindo subpastas Marcos/2/3/4/5/5/6)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\IMG_20240520_094606_364.jpg",
@@ -12645,7 +12671,9 @@
       "classified_at": "2026-07-26T22:27:17",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "arquivo confirmado ausente no Google Drive (verificado via API na arvore Stories Reels, incluindo subpastas Marcos/2/3/4/5/5/6)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\IMG-20240326-WA0008.jpg",
@@ -12741,7 +12769,9 @@
       "classified_at": "2026-07-26T22:27:35",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "arquivo confirmado ausente no Google Drive (verificado via API na arvore Stories Reels, incluindo subpastas Marcos/2/3/4/5/5/6)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\2\\3\\4\\5\\5\\IMG-20240130-WA0003(2).jpg",
