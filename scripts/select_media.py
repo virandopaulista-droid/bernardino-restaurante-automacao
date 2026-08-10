@@ -13,6 +13,7 @@ Marks whatever it picks as used=true immediately (this script's whole job is
 import datetime
 import os
 import sys
+import time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lib_media import PROJECT_DIR, get_audio_mean_volume_db, get_video_duration_seconds, iter_video_files, load_manifest, save_manifest
@@ -48,31 +49,64 @@ def save_video_manifest(data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def pick_image(manifest, category, exclude_review=True):
+def is_readable(path, attempts=3, delay_seconds=5):
+    # The Drive mount (rclone) occasionally 404s a file that genuinely exists
+    # (confirmed via the Drive API on several real cases) with no reliable
+    # fix at the mount level -- so we validate the pick itself and move on to
+    # the next candidate instead of letting one bad open() crash the whole
+    # week's generation.
+    for attempt in range(1, attempts + 1):
+        try:
+            os.listdir(os.path.dirname(path))
+        except OSError:
+            pass
+        try:
+            with open(path, "rb"):
+                return True
+        except FileNotFoundError:
+            if attempt == attempts:
+                return False
+            time.sleep(delay_seconds)
+    return False
+
+
+def pick_image(manifest, category, skip, exclude_review=True):
     for entry in manifest["images"]:
         if entry["used"] or entry.get("excluded"):
+            continue
+        if id(entry) in skip:
             continue
         if entry["category"] != category:
             continue
         if exclude_review and entry.get("needs_review"):
             continue
+        if not is_readable(entry["converted_path"]):
+            print(f"AVISO: nao foi possivel abrir {entry['converted_path']} -- pulando pro proximo candidato", file=sys.stderr)
+            skip.add(id(entry))
+            continue
         return entry
     if exclude_review:
-        return pick_image(manifest, category, exclude_review=False)
+        return pick_image(manifest, category, skip, exclude_review=False)
     return None
 
 
-def pick_image_any(manifest, exclude_review=True):
+def pick_image_any(manifest, skip, exclude_review=True):
     """Fallback for the carousel mix when a specific category has run out —
     picks any unused image regardless of category."""
     for entry in manifest["images"]:
         if entry["used"] or entry.get("excluded"):
             continue
+        if id(entry) in skip:
+            continue
         if exclude_review and entry.get("needs_review"):
+            continue
+        if not is_readable(entry["converted_path"]):
+            print(f"AVISO: nao foi possivel abrir {entry['converted_path']} -- pulando pro proximo candidato", file=sys.stderr)
+            skip.add(id(entry))
             continue
         return entry
     if exclude_review:
-        return pick_image_any(manifest, exclude_review=False)
+        return pick_image_any(manifest, skip, exclude_review=False)
     return None
 
 
@@ -83,9 +117,10 @@ def mark_used(entry):
 
 def cmd_story():
     manifest = load_manifest()
+    skip = set()
     picks = {}
     for cat in ("prato_salgado", "salada", "doce"):
-        entry = pick_image(manifest, cat)
+        entry = pick_image(manifest, cat, skip)
         if entry is None:
             print(f"ERRO: sem imagens disponiveis na categoria {cat}.", file=sys.stderr)
             raise SystemExit(1)
@@ -104,9 +139,10 @@ FEED_CAROUSEL_MIX = ["prato_salgado", "prato_salgado", "salada", "doce", "ambien
 
 def cmd_feed():
     manifest = load_manifest()
+    skip = set()
     picks = []
     for cat in FEED_CAROUSEL_MIX:
-        entry = pick_image(manifest, cat) or pick_image_any(manifest)
+        entry = pick_image(manifest, cat, skip) or pick_image_any(manifest, skip)
         if entry is None:
             print(f"ERRO: sem imagens disponiveis pra completar o carrossel (faltou categoria {cat}).", file=sys.stderr)
             raise SystemExit(1)
