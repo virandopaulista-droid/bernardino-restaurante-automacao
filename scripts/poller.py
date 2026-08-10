@@ -13,7 +13,7 @@ content. See memory/bernardino-restaurante-automation.md for why.
 
 Schedule (see docs/guia-bernardino.md):
   Tue/Thu 10:00 -> feed
-  Mon-Fri 8:00  -> story
+  Mon-Fri 7:00  -> story
   Mon 9:00      -> reel
 
 Catch-up, not a narrow window: fires as soon as "now" is at or past a
@@ -41,7 +41,7 @@ VIDEOS_FOLDER_MAP_PATH = os.path.join(PROJECT_DIR, "content", "videos_drive_fold
 # weekday(): Monday=0 ... Sunday=6
 SCHEDULE = [
     {"slot": "feed", "weekdays": {1, 3}, "hour": 10, "minute": 0},   # Tue, Thu
-    {"slot": "story", "weekdays": {0, 1, 2, 3, 4}, "hour": 8, "minute": 0},  # Mon-Fri
+    {"slot": "story", "weekdays": {0, 1, 2, 3, 4}, "hour": 7, "minute": 0},  # Mon-Fri
     {"slot": "reel", "weekdays": {0}, "hour": 9, "minute": 0},        # Mon
 ]
 

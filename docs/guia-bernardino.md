@@ -81,7 +81,7 @@ Atrair novos clientes do Brooklin, Campo Belo e Vila Olímpia. Fidelizar quem j�
 
 ## Cadência de publicação (Facebook + Instagram)
 - **Feed**: Terça e Quinta, 10:00 — **sempre carrossel de 5 fotos** (nunca foto única/estática), mesmo conteúdo e horário nas duas plataformas.
-- **Stories**: Segunda a Sexta, 8:00 — **3 stories por dia útil, no mesmo horário (8:00), publicados em sequência**: 1) prato salgado, 2) saladas, 3) doce.
+- **Stories**: Segunda a Sexta, 7:00 — **3 stories por dia útil, no mesmo horário (7:00), publicados em sequência**: 1) prato salgado, 2) saladas, 3) doce.
 - **Reels**: Segunda, 9:00 — 1x por semana. **Só vídeos com mais de 6 segundos** (um clipe de 5s publicado no Instagram ficou parecendo uma imagem estática).
 
 Sem publicação em fins de semana (restaurante fechado). Feed e Stories usam `scheduled_publish_time` nativo do Facebook quando disponível; Instagram (todos os formatos) e Stories/Reels do Facebook não suportam agendamento via API — precisam do poller local rodando nos horários acima.
