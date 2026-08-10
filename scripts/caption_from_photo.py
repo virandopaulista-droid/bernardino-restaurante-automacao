@@ -15,6 +15,7 @@ import mimetypes
 import os
 import sys
 import tempfile
+import time
 import urllib.error
 import urllib.request
 
@@ -33,10 +34,25 @@ if not image_paths:
 with open(GUIDE_PATH, "r", encoding="utf-8") as f:
     guide_text = f.read()
 
+def read_file_with_retry(path, attempts=4, delay_seconds=5):
+    # The Drive mount (rclone, minimal VFS cache) sometimes 404s a file that
+    # genuinely exists on a cold/just-touched directory listing -- a short
+    # retry clears this most of the time instead of failing the whole run.
+    for attempt in range(1, attempts + 1):
+        try:
+            with open(path, "rb") as f:
+                return f.read()
+        except FileNotFoundError:
+            if attempt == attempts:
+                raise
+            print(f"AVISO: {path} nao encontrado (tentativa {attempt}/{attempts}), tentando de novo em {delay_seconds}s...", file=sys.stderr)
+            time.sleep(delay_seconds)
+
+
 image_content = []
 for path in image_paths:
-    with open(path, "rb") as f:
-        b64 = base64.b64encode(f.read()).decode("ascii")
+    raw = read_file_with_retry(path)
+    b64 = base64.b64encode(raw).decode("ascii")
     mime = mimetypes.guess_type(path)[0] or "image/jpeg"
     image_content.append({"type": "image_url", "image_url": {"url": f"data:{mime};base64,{b64}", "detail": "low"}})
 

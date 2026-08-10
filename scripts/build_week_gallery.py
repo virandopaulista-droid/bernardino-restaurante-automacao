@@ -16,6 +16,7 @@ import os
 import subprocess
 import sys
 import tempfile
+import time
 
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONTS_DIR = os.environ.get("GALLERY_FONTS_DIR", os.path.join(PROJECT_DIR, "assets", "fonts"))
@@ -47,7 +48,17 @@ def to_data_uri_image(path, max_width=480):
     # JPEG is more than enough resolution to approve a thumbnail choice.
     from PIL import Image
 
-    img = Image.open(path)
+    # The Drive mount (rclone, minimal VFS cache) sometimes 404s a file that
+    # genuinely exists on a cold directory listing -- a short retry clears
+    # this most of the time instead of failing the whole gallery build.
+    for attempt in range(1, 5):
+        try:
+            img = Image.open(path)
+            break
+        except FileNotFoundError:
+            if attempt == 4:
+                raise
+            time.sleep(5)
     img = img.convert("RGB")
     if img.width > max_width:
         ratio = max_width / img.width
