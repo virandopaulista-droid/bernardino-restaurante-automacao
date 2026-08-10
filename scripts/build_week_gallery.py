@@ -48,10 +48,14 @@ def to_data_uri_image(path, max_width=480):
     # JPEG is more than enough resolution to approve a thumbnail choice.
     from PIL import Image
 
-    # The Drive mount (rclone, minimal VFS cache) sometimes 404s a file that
-    # genuinely exists on a cold directory listing -- a short retry clears
-    # this most of the time instead of failing the whole gallery build.
+    # The Drive mount (rclone, minimal VFS cache) 404s a file that genuinely
+    # exists when it's the first file touched in a given subfolder this run
+    # -- listing the parent dir first forces rclone to refresh its cache.
     for attempt in range(1, 7):
+        try:
+            os.listdir(os.path.dirname(path))
+        except OSError:
+            pass
         try:
             img = Image.open(path)
             break

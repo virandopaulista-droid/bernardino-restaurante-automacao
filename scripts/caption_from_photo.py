@@ -35,10 +35,16 @@ with open(GUIDE_PATH, "r", encoding="utf-8") as f:
     guide_text = f.read()
 
 def read_file_with_retry(path, attempts=6, delay_seconds=10):
-    # The Drive mount (rclone, minimal VFS cache) sometimes 404s a file that
-    # genuinely exists on a cold/just-touched directory listing -- a short
-    # retry clears this most of the time instead of failing the whole run.
+    # The Drive mount (rclone, minimal VFS cache) 404s a file that genuinely
+    # exists whenever it's the FIRST file this run touches in a given
+    # subfolder -- open() races ahead of rclone's lazy directory listing for
+    # that folder. Explicitly listing the parent dir first forces rclone to
+    # populate/refresh its cache for that folder before we try to open.
     for attempt in range(1, attempts + 1):
+        try:
+            os.listdir(os.path.dirname(path))
+        except OSError:
+            pass
         try:
             with open(path, "rb") as f:
                 return f.read()
