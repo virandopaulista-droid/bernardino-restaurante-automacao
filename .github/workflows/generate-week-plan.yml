@@ -3,7 +3,12 @@ name: Gera cronograma semanal
 on:
   schedule:
     - cron: "0 21 * * 0"  # Sunday 21:00 UTC = 18:00 America/Sao_Paulo
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      ref_date:
+        description: "(opcional) gera a semana que contém essa data (AAAA-MM-DD), em vez da próxima segunda -- use pra recuperar uma semana cuja geração de domingo falhou/não rodou"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -100,7 +105,7 @@ jobs:
         id: generate
         run: |
           set -a; source .env; set +a
-          plan_path=$(python3 scripts/generate_week_plan.py)
+          plan_path=$(python3 scripts/generate_week_plan.py ${{ inputs.ref_date }})
           echo "plan_path=$plan_path" >> "$GITHUB_OUTPUT"
           gallery_path=$(python3 scripts/build_week_gallery.py "$plan_path")
           echo "gallery_path=$gallery_path" >> "$GITHUB_OUTPUT"

@@ -4,7 +4,13 @@ reel Mon) WITHOUT posting anything -- selects + reserves media and generates
 captions ahead of time, so the whole week can be reviewed and approved as one
 batch before the scheduled poller is allowed to actually publish anything.
 
-Usage: generate_week_plan.py
+Usage: generate_week_plan.py [YYYY-MM-DD]
+  With no argument, targets next Monday (the normal weekly cadence, run
+  every Sunday by the scheduled workflow). Pass any date to instead target
+  the Monday of THAT date's week -- needed to recover a week whose scheduled
+  Sunday generation run never happened or failed (e.g. rerunning on the
+  Monday itself for the current week, which next-Monday-only logic can't
+  reach once that Monday has already started).
 Writes content/week_plans/<monday-date>.json (status: "pending_approval").
 Prints the plan file path.
 """
@@ -41,6 +47,13 @@ def next_monday():
     today = datetime.date.today()
     days_ahead = (7 - today.weekday()) % 7 or 7
     return today + datetime.timedelta(days=days_ahead)
+
+
+def target_monday():
+    if len(sys.argv) > 1:
+        ref_date = datetime.date.fromisoformat(sys.argv[1])
+        return ref_date - datetime.timedelta(days=ref_date.weekday())
+    return next_monday()
 
 
 def build_story_post(date):
@@ -83,7 +96,7 @@ def build_reel_post(date):
 
 
 def main():
-    monday = next_monday()
+    monday = target_monday()
     posts = []
     for i in range(5):
         date = monday + datetime.timedelta(days=i)
