@@ -96,25 +96,42 @@ def to_data_uri_video(path):
     # plenty to judge "is this the right clip", not meant for final posting.
     with tempfile.TemporaryDirectory() as tmp:
         out_path = os.path.join(tmp, "preview.mp4")
-        subprocess.run(
-            ["ffmpeg", "-y", "-i", path, "-vf", "scale=480:-2", "-c:v", "libx264",
-             "-crf", "30", "-preset", "veryfast", "-c:a", "aac", "-b:a", "96k",
-             out_path, "-loglevel", "error"],
-            check=False,
-        )
+        try:
+            subprocess.run(
+                ["ffmpeg", "-y", "-i", path, "-vf", "scale=480:-2", "-c:v", "libx264",
+                 "-crf", "30", "-preset", "veryfast", "-c:a", "aac", "-b:a", "96k",
+                 out_path, "-loglevel", "error"],
+                check=False, timeout=60,
+            )
+        except subprocess.TimeoutExpired:
+            pass
         src_path = out_path if os.path.exists(out_path) else path
-        with open(src_path, "rb") as f:
-            b64 = base64.b64encode(f.read()).decode("ascii")
+
+        def _read():
+            with open(src_path, "rb") as f:
+                return f.read()
+
+        ex = concurrent.futures.ThreadPoolExecutor(max_workers=1)
+        try:
+            content = ex.submit(_read).result(timeout=20)
+        except concurrent.futures.TimeoutError:
+            return None
+        finally:
+            ex.shutdown(wait=False)
+        b64 = base64.b64encode(content).decode("ascii")
     return f"data:video/mp4;base64,{b64}"
 
 
 def to_data_uri_video_thumb(path):
     with tempfile.TemporaryDirectory() as tmp:
         frame_path = os.path.join(tmp, "frame.jpg")
-        subprocess.run(
-            ["ffmpeg", "-y", "-ss", "1.0", "-i", path, "-frames:v", "1", "-vf", "scale=480:-1", frame_path, "-loglevel", "error"],
-            check=False,
-        )
+        try:
+            subprocess.run(
+                ["ffmpeg", "-y", "-ss", "1.0", "-i", path, "-frames:v", "1", "-vf", "scale=480:-1", frame_path, "-loglevel", "error"],
+                check=False, timeout=30,
+            )
+        except subprocess.TimeoutExpired:
+            pass
         if not os.path.exists(frame_path):
             return None
         with open(frame_path, "rb") as f:

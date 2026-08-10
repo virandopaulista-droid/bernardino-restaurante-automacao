@@ -183,7 +183,7 @@ def get_video_duration_seconds(path) -> float:
     ffprobe = shutil.which("ffprobe") or _FFPROBE_FALLBACK
     result = subprocess.run(
         [ffprobe, "-v", "error", "-show_entries", "format=duration", "-of", "default=noprint_wrappers=1:nokey=1", str(path)],
-        capture_output=True, text=True, check=True,
+        capture_output=True, text=True, check=True, timeout=30,
     )
     return float(result.stdout.strip())
 
@@ -201,7 +201,7 @@ def get_audio_mean_volume_db(path) -> float:
     ffmpeg = shutil.which("ffmpeg") or _FFPROBE_FALLBACK.replace("ffprobe.exe", "ffmpeg.exe")
     result = subprocess.run(
         [ffmpeg, "-i", str(path), "-af", "volumedetect", "-f", "null", "-"],
-        capture_output=True, text=True,
+        capture_output=True, text=True, timeout=30,
     )
     match = re.search(r"mean_volume:\s*(-?\d+(?:\.\d+)?)\s*dB", result.stderr)
     if not match:
