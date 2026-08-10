@@ -96,6 +96,7 @@ jobs:
           mkdir -p "$HOME/gdrive"
           if ! rclone mount gdrive: "$HOME/gdrive" \
             --daemon --vfs-cache-mode=minimal --dir-cache-time=1h \
+            --timeout=60s --contimeout=60s --low-level-retries=15 \
             --log-file="$HOME/rclone-mount.log" --log-level=INFO; then
             echo "##[error] comando 'rclone mount' retornou erro na hora (nao entrou em background)"
             echo "=== rclone mount log ==="
