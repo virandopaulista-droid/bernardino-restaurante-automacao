@@ -10,6 +10,7 @@ Usage:
 Marks whatever it picks as used=true immediately (this script's whole job is
 "pick and reserve" — call it once per real post, not for browsing).
 """
+import concurrent.futures
 import datetime
 import os
 import sys
@@ -49,23 +50,42 @@ def save_video_manifest(data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def is_readable(path, attempts=3, delay_seconds=5):
-    # The Drive mount (rclone) occasionally 404s a file that genuinely exists
-    # (confirmed via the Drive API on several real cases) with no reliable
-    # fix at the mount level -- so we validate the pick itself and move on to
-    # the next candidate instead of letting one bad open() crash the whole
-    # week's generation.
+def _open_probe(path):
+    try:
+        os.listdir(os.path.dirname(path))
+    except OSError:
+        pass
+    with open(path, "rb"):
+        pass
+
+
+def is_readable(path, attempts=3, delay_seconds=5, timeout_seconds=20):
+    # The Drive mount (rclone) occasionally 404s -- or, worse, just HANGS --
+    # on a file that genuinely exists (confirmed via the Drive API on several
+    # real cases), with no reliable fix at the mount level. A plain retry
+    # isn't enough because a hang never raises anything to catch, so every
+    # attempt runs in a worker thread with a hard wall-clock timeout: if it
+    # doesn't finish in time we give up on this candidate (abandoning that
+    # stuck thread) and move on, instead of letting one bad file freeze the
+    # whole week's generation indefinitely.
     for attempt in range(1, attempts + 1):
+        # NOTE: not using the executor as a context manager -- its __exit__
+        # calls shutdown(wait=True), which would block on the very thread
+        # we're trying to abandon. shutdown(wait=False) lets us move on
+        # immediately while the stuck thread is left to die with the process.
+        ex = concurrent.futures.ThreadPoolExecutor(max_workers=1)
         try:
-            os.listdir(os.path.dirname(path))
+            ex.submit(_open_probe, path).result(timeout=timeout_seconds)
+            return True
+        except FileNotFoundError:
+            pass
+        except concurrent.futures.TimeoutError:
+            print(f"AVISO: abrir {path} demorou mais de {timeout_seconds}s (mount travado?)", file=sys.stderr)
         except OSError:
             pass
-        try:
-            with open(path, "rb"):
-                return True
-        except FileNotFoundError:
-            if attempt == attempts:
-                return False
+        finally:
+            ex.shutdown(wait=False)
+        if attempt < attempts:
             time.sleep(delay_seconds)
     return False
 

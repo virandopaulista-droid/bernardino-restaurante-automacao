@@ -8,6 +8,7 @@ Writes <plan_json_path without .json>_gallery.html next to the plan.
 Prints the gallery HTML path.
 """
 import base64
+import concurrent.futures
 import datetime
 import html
 import io
@@ -48,21 +49,36 @@ def to_data_uri_image(path, max_width=480):
     # JPEG is more than enough resolution to approve a thumbnail choice.
     from PIL import Image
 
-    # The Drive mount (rclone, minimal VFS cache) 404s a file that genuinely
-    # exists when it's the first file touched in a given subfolder this run
-    # -- listing the parent dir first forces rclone to refresh its cache.
-    for attempt in range(1, 7):
+    def _open_probe():
         try:
             os.listdir(os.path.dirname(path))
         except OSError:
             pass
+        img = Image.open(path)
+        img.load()  # force the actual read now, inside the timeout guard
+        return img
+
+    # The Drive mount (rclone, minimal VFS cache) 404s -- or, worse, just
+    # HANGS -- on a file that genuinely exists. A hard per-attempt timeout
+    # (run in a worker thread, abandoned on timeout) keeps a wedged mount
+    # from freezing the whole gallery build indefinitely.
+    img = None
+    for attempt in range(1, 7):
+        ex = concurrent.futures.ThreadPoolExecutor(max_workers=1)
         try:
-            img = Image.open(path)
+            img = ex.submit(_open_probe).result(timeout=20)
             break
         except FileNotFoundError:
             if attempt == 6:
                 raise
             time.sleep(10)
+        except concurrent.futures.TimeoutError:
+            if attempt == 6:
+                raise
+            print(f"AVISO: abrir {path} demorou mais de 20s (mount travado?)", file=sys.stderr)
+            time.sleep(10)
+        finally:
+            ex.shutdown(wait=False)
     img = img.convert("RGB")
     if img.width > max_width:
         ratio = max_width / img.width

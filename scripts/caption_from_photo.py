@@ -10,6 +10,7 @@ Usage: caption_from_photo.py <format> <image_path> [image_path2 ...]
 Writes the caption to a temp file under content/ and prints its path.
 """
 import base64
+import concurrent.futures
 import json
 import mimetypes
 import os
@@ -34,25 +35,35 @@ if not image_paths:
 with open(GUIDE_PATH, "r", encoding="utf-8") as f:
     guide_text = f.read()
 
-def read_file_with_retry(path, attempts=6, delay_seconds=10):
-    # The Drive mount (rclone, minimal VFS cache) 404s a file that genuinely
-    # exists whenever it's the FIRST file this run touches in a given
-    # subfolder -- open() races ahead of rclone's lazy directory listing for
-    # that folder. Explicitly listing the parent dir first forces rclone to
-    # populate/refresh its cache for that folder before we try to open.
+def _read_probe(path):
+    try:
+        os.listdir(os.path.dirname(path))
+    except OSError:
+        pass
+    with open(path, "rb") as f:
+        return f.read()
+
+
+def read_file_with_retry(path, attempts=6, delay_seconds=10, timeout_seconds=20):
+    # The Drive mount (rclone, minimal VFS cache) 404s -- or, worse, just
+    # HANGS -- on a file that genuinely exists. A hard per-attempt timeout
+    # (run in a worker thread, abandoned on timeout) keeps a wedged mount
+    # from freezing the whole generation run indefinitely.
     for attempt in range(1, attempts + 1):
+        ex = concurrent.futures.ThreadPoolExecutor(max_workers=1)
         try:
-            os.listdir(os.path.dirname(path))
-        except OSError:
-            pass
-        try:
-            with open(path, "rb") as f:
-                return f.read()
+            return ex.submit(_read_probe, path).result(timeout=timeout_seconds)
         except FileNotFoundError:
             if attempt == attempts:
                 raise
             print(f"AVISO: {path} nao encontrado (tentativa {attempt}/{attempts}), tentando de novo em {delay_seconds}s...", file=sys.stderr)
-            time.sleep(delay_seconds)
+        except concurrent.futures.TimeoutError:
+            if attempt == attempts:
+                raise
+            print(f"AVISO: abrir {path} demorou mais de {timeout_seconds}s (tentativa {attempt}/{attempts}), tentando de novo em {delay_seconds}s...", file=sys.stderr)
+        finally:
+            ex.shutdown(wait=False)
+        time.sleep(delay_seconds)
 
 
 image_content = []
