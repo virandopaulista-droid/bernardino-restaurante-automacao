@@ -56,7 +56,15 @@ def run(cmd):
     result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", env=env)
     if result.returncode != 0:
         print(f"ERRO rodando {cmd}:\n{result.stderr}", file=sys.stderr)
-        raise SystemExit(1)
+        # NAO usar SystemExit aqui -- SystemExit nao e subclasse de Exception,
+        # entao o "except Exception" no loop principal (que aciona
+        # handle_partial_failure e marca posted=True pra nunca reenviar o que
+        # ja saiu) nunca capturava isso. Resultado real, confirmado
+        # 2026-08-13: post_instagram.sh falhou, o processo morreu sem marcar
+        # posted=True, e a proxima tentativa duplicou o post do Facebook que
+        # ja tinha saido com sucesso na primeira. RuntimeError e capturado
+        # normalmente pelo except Exception.
+        raise RuntimeError(f"comando falhou (exit {result.returncode}): {cmd}")
     return result.stdout.strip()
 
 
@@ -76,7 +84,10 @@ def bash_stdin(script_rel, stdin_text):
     )
     if result.returncode != 0:
         print(f"ERRO rodando {script_rel}:\n{result.stderr}", file=sys.stderr)
-        raise SystemExit(1)
+        # Ver comentario equivalente em run() acima -- SystemExit nao e
+        # subclasse de Exception, entao usa-lo aqui faz o "except Exception"
+        # do loop principal nunca acionar a protecao contra post duplicado.
+        raise RuntimeError(f"comando falhou (exit {result.returncode}): {script_rel}")
     return result.stdout.strip()
 
 
