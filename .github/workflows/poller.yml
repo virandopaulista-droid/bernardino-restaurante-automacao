@@ -172,6 +172,16 @@ jobs:
       - name: Run poller
         if: steps.gate.outputs.due == 'true'
         run: |
+          # O checkout no inicio do job pode ficar minutos desatualizado
+          # ate chegar aqui (apt-get, instalar rclone, montar o Drive --
+          # tudo isso demora). Se OUTRA execucao publicou e deu push
+          # nesse meio tempo, rodar com o checkout antigo faria o poller
+          # achar "nao postado" de novo e publicar duplicado -- confirmado
+          # de verdade em 2026-08-17 (story de segunda saiu 2x: 07:00 e
+          # 07:09, a segunda leu o plano de antes do primeiro push).
+          # Puxa o estado mais recente possivel bem na hora de decidir,
+          # o mais perto possivel do momento real de postar.
+          git pull --ff-only origin master || echo "AVISO: git pull falhou, seguindo com o checkout atual"
           extra_args=()
           if [ -n "${{ inputs.force_date }}" ] && [ -n "${{ inputs.force_slot }}" ]; then
             extra_args+=(--force-date "${{ inputs.force_date }}" --force-slot "${{ inputs.force_slot }}")
