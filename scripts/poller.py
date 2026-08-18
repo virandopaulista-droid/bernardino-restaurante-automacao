@@ -370,9 +370,16 @@ def main():
         post = next((p for p in plan["posts"] if p["date"] == today_key and p["slot"] == entry["slot"]), None)
         if post is None:
             print(f"AVISO: cronograma aprovado nao tem post de '{entry['slot']}' pra hoje ({today_key}).", file=sys.stderr)
-            return
+            continue  # outros slots do dia (ex: reel as 9h numa segunda com story as 7h) ainda podem estar devidos
         if post.get("posted"):
-            return  # already posted this window, avoid duplicate on the next 5-min tick
+            # Ja postado -- mas isso NAO significa que os outros slots do dia
+            # tambem estao resolvidos (bug real, confirmado 2026-08-17: como
+            # "story" (7h) vem antes de "reel" (9h) nesta lista e ambos caem
+            # numa segunda-feira, um "return" aqui fazia o reel nunca ser
+            # sequer checado depois que a story ja tivesse sido publicada --
+            # o reel ficou perdido o dia inteiro). "continue" deixa o loop
+            # seguir pros proximos slots do mesmo tick.
+            continue
 
         print(f"Disparando slot '{entry['slot']}' ({'DRY-RUN' if DRY_RUN else 'LIVE'})...")
         try:
