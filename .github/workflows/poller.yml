@@ -75,6 +75,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: TEMP -- republica so a perna do Instagram do feed de 18/08 (remover apos rodar)
+        run: python3 scripts/catchup_ig_feed_20260818.py
+
       - name: Checa se ha algo a postar agora (sem montar o Drive)
         id: gate
         run: |
