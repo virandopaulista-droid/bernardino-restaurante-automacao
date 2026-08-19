@@ -18,7 +18,10 @@ Usage: resolve_drive_url.py <filename> [folder_id]
 Prints the direct-download URL, or exits 1 with an error if not found.
 """
 import re
+import subprocess
 import sys
+import time
+import urllib.error
 import urllib.request
 
 DEFAULT_FOLDER_ID = "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c"  # Brenda - Stories (Bernardino)
@@ -29,12 +32,38 @@ PATTERN = re.compile(
 )
 
 
-def fetch_id_map(folder_id):
+def reshare_folder(folder_id):
+    """Confirmado 2026-08-19 (Au Gratin, mesmo mecanismo aqui): um 401 nesse
+    endpoint pode ser o compartilhamento publico ("qualquer pessoa com o
+    link") da pasta tendo caido de verdade, nao so instabilidade passageira
+    do Google. `rclone link` reestabelece esse compartilhamento se ele nao
+    existir mais -- best-effort, nunca derruba o processo se falhar."""
+    try:
+        subprocess.run(
+            ["rclone", "link", "gdrive:", "--drive-root-folder-id", folder_id],
+            capture_output=True, text=True, timeout=30,
+        )
+    except Exception as e:
+        print(f"AVISO: rclone link falhou (nao critico): {e}", file=sys.stderr)
+
+
+def fetch_id_map(folder_id, attempts=4, delay_seconds=8):
     embed_url = f"https://drive.google.com/embeddedfolderview?id={folder_id}#list"
     req = urllib.request.Request(embed_url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req) as resp:
-        html = resp.read().decode("utf-8", errors="replace")
-    return {name: file_id for file_id, name in PATTERN.findall(html)}
+    for attempt in range(1, attempts + 1):
+        try:
+            with urllib.request.urlopen(req) as resp:
+                html = resp.read().decode("utf-8", errors="replace")
+            return {name: file_id for file_id, name in PATTERN.findall(html)}
+        except urllib.error.HTTPError as e:
+            if attempt == attempts:
+                raise
+            if e.code == 401:
+                print(f"AVISO: HTTP 401 buscando a pasta do Drive (tentativa {attempt}/{attempts}) -- reestabelecendo compartilhamento publico...", file=sys.stderr)
+                reshare_folder(folder_id)
+            else:
+                print(f"AVISO: erro HTTP {e.code} buscando a pasta do Drive (tentativa {attempt}/{attempts}), tentando de novo em {delay_seconds}s...", file=sys.stderr)
+                time.sleep(delay_seconds)
 
 
 def main():
