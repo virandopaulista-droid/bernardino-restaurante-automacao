@@ -51,6 +51,15 @@ caption_path = os.path.join(PROJECT_DIR, "content", "caption_catchup_20260818.tx
 with open(caption_path, "w", encoding="utf-8") as f:
     f.write(CAPTION)
 
+# post_instagram.sh faz `source .env` -- nesse ponto do pipeline (antes do
+# mount) esse arquivo ainda nao existe, entao escreve so o minimo que o
+# script precisa.
+env_path = os.path.join(PROJECT_DIR, ".env")
+ig_business_id = os.environ["IG_BUSINESS_ID"]
+with open(env_path, "w", encoding="utf-8") as f:
+    f.write(f'FB_PAGE_ACCESS_TOKEN="{token}"\n')
+    f.write(f'IG_BUSINESS_ID="{ig_business_id}"\n')
+
 result = subprocess.run(
     ["bash", os.path.join(PROJECT_DIR, "scripts", "post_instagram.sh"), caption_path, *urls],
     text=True,
