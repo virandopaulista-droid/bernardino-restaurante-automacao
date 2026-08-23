@@ -20,7 +20,7 @@ import urllib.error
 import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from lib_media import FIXED_CAPTION_FOOTER, FIXED_HASHTAGS
+from lib_media import FIXED_CAPTION_FOOTER, FIXED_HASHTAGS, resolve_path
 
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GUIDE_PATH = os.path.join(PROJECT_DIR, "docs", "guia-bernardino.md")
@@ -35,14 +35,16 @@ with open(GUIDE_PATH, "r", encoding="utf-8") as f:
     guide_text = f.read()
 
 def read_file_with_retry(path, attempts=2, delay_seconds=65):
-    # Plain, synchronous retry -- no worker thread, no os.listdir() priming
-    # call (that's a real Drive API request too, not a free local check).
-    # The real cause of "file not found" here turned out to be Google
-    # Drive's per-minute query quota getting exhausted (confirmed via
-    # rclone's debug log: "googleapi: Error 403: Quota exceeded ... Queries
-    # per minute"), not missing files or a wedged mount -- so the fix is a
-    # long enough wait to actually clear that one-minute window, not more
-    # attempts fired quickly (which only makes the quota problem worse).
+    # resolve_path() first: a path recorded in the manifest can have been
+    # written on a different machine than this one (local Windows G:\... vs
+    # GitHub Actions' Linux rclone mount) -- confirmed real 2026-08-23, a
+    # Sunday auto-generation run failed on every single retry because the
+    # stored path was Windows-only and no amount of waiting/retrying could
+    # ever make open() succeed on it here. The retry below stays for the
+    # genuinely transient case (Drive per-minute query quota, confirmed via
+    # rclone's debug log on a different occasion), now that resolve_path has
+    # already ruled out the "wrong machine" case.
+    path = resolve_path(path)
     for attempt in range(1, attempts + 1):
         try:
             with open(path, "rb") as f:
