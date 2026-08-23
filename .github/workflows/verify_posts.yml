@@ -11,6 +11,7 @@ jobs:
       FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
       IG_BUSINESS_ID: ${{ secrets.IG_BUSINESS_ID }}
     steps:
+      - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
