@@ -18,6 +18,9 @@ import sys
 import tempfile
 import time
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from lib_media import resolve_path
+
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONTS_DIR = os.environ.get("GALLERY_FONTS_DIR", os.path.join(PROJECT_DIR, "assets", "fonts"))
 
@@ -124,7 +127,11 @@ def load_font_b64(name):
 
 
 def render_item(item):
-    path = item["path"]
+    # resolve_path(): the week plan can have been generated on a different
+    # machine than the one building the gallery (local Windows vs GitHub
+    # Actions' Linux rclone mount) -- confirmed real 2026-08-23, the same
+    # class of bug already fixed in caption_from_photo.py/lib_media.py.
+    path = resolve_path(item["path"])
     fname = html.escape(os.path.basename(path))
     cat = item.get("category")
     cat_class = f" cat-{cat}" if cat else ""
