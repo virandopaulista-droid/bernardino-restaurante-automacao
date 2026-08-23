@@ -123,6 +123,21 @@ def run_with_watchdog(label, func, *args, timeout_seconds=300):
 
 def main():
     monday = target_monday()
+
+    # Never silently overwrite an existing plan (pending or already approved)
+    # -- GitHub's own cron has proven unreliable about firing near its
+    # configured time (confirmed real 2026-08-23, a Sunday run simply never
+    # fired at all), so a manual workflow_dispatch retry can easily still be
+    # "in flight" when the delayed scheduled run finally shows up. Without
+    # this guard that second run would blindly re-pick and burn through real
+    # manifest items (marking them used) just to overwrite a plan that was
+    # already fine, exactly the failure mode the painel's own /generate route
+    # already guards against for the other clients.
+    plan_path = os.path.join(PLANS_DIR, f"{monday.isoformat()}.json")
+    if os.path.exists(plan_path):
+        print(f"Ja existe um cronograma em {plan_path} -- recusando sobrescrever. Apague o arquivo antes se quiser mesmo gerar de novo.", file=sys.stderr)
+        raise SystemExit(1)
+
     posts = []
     for i in range(5):
         date = monday + datetime.timedelta(days=i)
@@ -143,7 +158,6 @@ def main():
     }
 
     os.makedirs(PLANS_DIR, exist_ok=True)
-    plan_path = os.path.join(PLANS_DIR, f"{monday.isoformat()}.json")
     with open(plan_path, "w", encoding="utf-8") as f:
         json.dump(plan, f, ensure_ascii=False, indent=2)
     print(plan_path)
