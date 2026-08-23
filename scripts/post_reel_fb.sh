@@ -25,7 +25,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-def read_file_with_retry(path, attempts=6, delay_seconds=10):
+def read_file_with_retry(path, attempts=18, delay_seconds=20):
     # The Drive mount (rclone, minimal VFS cache) sometimes 404s a file that
     # genuinely exists on Google Drive (confirmed via the Drive API) -- a
     # retry-with-backoff clears this most of the time instead of silently
