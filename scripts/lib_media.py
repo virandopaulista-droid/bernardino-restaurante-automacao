@@ -167,6 +167,66 @@ def indexed_by_source(manifest: dict) -> set:
     return {entry["source_path"] for entry in manifest["images"]}
 
 
+PATH_ANCHORS = [
+    ("Imagens tratadas", lambda: os.path.dirname(os.environ.get("MEDIA_DIR_IMAGES_2025", ""))),
+    ("Vídeos Tratados", lambda: os.environ.get("MEDIA_DIR_VIDEOS", "")),
+    ("Brenda - Stories", lambda: os.environ.get("BRENDA_STORIES_DIR", "")),
+]
+
+
+def _find_by_normalized_name(dir_path, target_name):
+    """Directory listing + NFC-normalized comparison, instead of a direct
+    path stat -- an accented filename (TERÇA, Vídeos...) written on Windows
+    and a Linux/rclone FUSE mount can represent the same character with
+    different Unicode normalization forms, so a literal path string that
+    LOOKS identical can still fail os.path.exists()."""
+    import unicodedata
+    target_norm = unicodedata.normalize("NFC", target_name)
+    try:
+        entries = os.listdir(dir_path)
+    except OSError:
+        return None
+    for entry in entries:
+        if unicodedata.normalize("NFC", entry) == target_norm:
+            return os.path.join(dir_path, entry)
+    return None
+
+
+def resolve_path(path):
+    """A path recorded in the manifest/week plan can have been written on one
+    machine (local Windows, G:\\...) and be needed on another (GitHub
+    Actions' Linux rclone mount, or vice-versa) -- if the stored absolute
+    path doesn't exist here, rebuild it from a known anchor folder name plus
+    THIS environment's own MEDIA_DIR_*/BRENDA_STORIES_DIR, then match the
+    filename by normalized comparison (see _find_by_normalized_name).
+
+    Originally lived only in poller.py (applied at posting time) -- moved
+    here 2026-08-23 and reused at generation time too (caption_from_photo.py,
+    select_media.py), after a real Sunday auto-generation failure surfaced
+    that image/video paths recorded locally (Windows) were never being
+    translated before caption_from_photo.py tried to open them directly on
+    the Actions runner, which can never work (no G: drive, different
+    filesystem) no matter how many times it retries."""
+    if os.path.exists(path):
+        return path
+    normalized = path.replace("\\", "/")
+    for anchor, get_base in PATH_ANCHORS:
+        idx = normalized.find(anchor)
+        if idx == -1:
+            continue
+        base = get_base()
+        if not base:
+            continue
+        remainder = normalized[idx + len(anchor):].lstrip("/")
+        candidate = os.path.join(base, remainder)
+        if os.path.exists(candidate):
+            return candidate
+        found = _find_by_normalized_name(os.path.dirname(candidate), os.path.basename(candidate))
+        if found:
+            return found
+    return path  # unchanged -- let the caller's own error surface if still missing
+
+
 _FFPROBE_FALLBACK = (
     "C:/Users/Robso/AppData/Local/Microsoft/WinGet/Packages/"
     "Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin/ffprobe.exe"
@@ -182,7 +242,7 @@ def get_video_duration_seconds(path) -> float:
 
     ffprobe = shutil.which("ffprobe") or _FFPROBE_FALLBACK
     result = subprocess.run(
-        [ffprobe, "-v", "error", "-show_entries", "format=duration", "-of", "default=noprint_wrappers=1:nokey=1", str(path)],
+        [ffprobe, "-v", "error", "-show_entries", "format=duration", "-of", "default=noprint_wrappers=1:nokey=1", str(resolve_path(str(path)))],
         capture_output=True, text=True, check=True, timeout=30,
     )
     return float(result.stdout.strip())
@@ -200,7 +260,7 @@ def get_audio_mean_volume_db(path) -> float:
 
     ffmpeg = shutil.which("ffmpeg") or _FFPROBE_FALLBACK.replace("ffprobe.exe", "ffmpeg.exe")
     result = subprocess.run(
-        [ffmpeg, "-i", str(path), "-af", "volumedetect", "-f", "null", "-"],
+        [ffmpeg, "-i", str(resolve_path(str(path))), "-af", "volumedetect", "-f", "null", "-"],
         capture_output=True, text=True, timeout=30,
     )
     match = re.search(r"mean_volume:\s*(-?\d+(?:\.\d+)?)\s*dB", result.stderr)
