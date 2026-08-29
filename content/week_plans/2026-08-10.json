@@ -143,7 +143,10 @@
           "type": "video",
           "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\STORIES\\Brenda - Stories\\136.mp4"
         }
-      ]
+      ],
+      "posted": true,
+      "posted_at": "2026-08-28T22:55:39",
+      "posting_error": "Falha parcial/total ao publicar -- verificar manualmente o que saiu de verdade. Erro: comando falhou (exit 1): post_brenda_story_items.sh"
     },
     {
       "date": "2026-08-13",
