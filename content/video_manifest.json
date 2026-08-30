@@ -697,8 +697,12 @@
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Agosto 25\\Vontade de comer não sei o que.mp4",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-08-30T18:05:59",
+      "duration_seconds": 11.935011,
+      "too_short": false,
+      "audio_mean_db": -16.4,
+      "silent": false
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Agosto 25\\Cliente aprovando.mp4",
