@@ -706,8 +706,12 @@
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Agosto 25\\Cliente aprovando.mp4",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-09-06T19:41:58",
+      "duration_seconds": 11.771995,
+      "too_short": false,
+      "audio_mean_db": -14.5,
+      "silent": false
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Agosto 25\\Só falta a isso para o meu dia ser feliz.mp4",
