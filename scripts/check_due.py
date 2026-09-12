@@ -58,7 +58,7 @@ def any_due(now):
             (p for p in plan.get("posts", []) if p.get("date") == today_key and p.get("slot") == entry["slot"]),
             None,
         )
-        if post is not None and not post.get("posted"):
+        if post is not None and not post.get("posted") and not post.get("skipped"):
             return True
     return False
 
