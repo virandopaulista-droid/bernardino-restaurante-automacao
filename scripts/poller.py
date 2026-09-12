@@ -337,6 +337,9 @@ def main():
             # o reel ficou perdido o dia inteiro). "continue" deixa o loop
             # seguir pros proximos slots do mesmo tick.
             continue
+        if post.get("skipped"):
+            print(f"AVISO: post de '{entry['slot']}' ({post.get('date')}) esta marcado 'nao postar essa semana' -- pulando.", file=sys.stderr)
+            continue
 
         print(f"Disparando slot '{entry['slot']}' ({'DRY-RUN' if DRY_RUN else 'LIVE'})...")
         try:
