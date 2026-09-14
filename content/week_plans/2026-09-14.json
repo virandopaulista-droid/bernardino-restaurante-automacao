@@ -1,0 +1,188 @@
+{
+  "week_start": "2026-09-14",
+  "status": "pending_approval",
+  "generated_at": "2026-09-14T02:30:13",
+  "posts": [
+    {
+      "date": "2026-09-14",
+      "weekday": "segunda",
+      "slot": "story",
+      "items": [
+        {
+          "category": "salgado",
+          "type": "image",
+          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /35.png"
+        },
+        {
+          "category": "salada",
+          "type": "video",
+          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /158.mp4"
+        },
+        {
+          "category": "doce",
+          "type": "video",
+          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /208.mp4"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "weekday": "segunda",
+      "slot": "reel",
+      "items": [
+        {
+          "type": "video",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Agosto 25\\Só falta a isso para o meu dia ser feliz.mp4"
+        }
+      ],
+      "caption_file": "/home/runner/work/bernardino-restaurante-automacao/bernardino-restaurante-automacao/content/caption_reel_3ezbnlyf.txt",
+      "caption_text": "Bastidores da nossa cozinha, onde a magia acontece! \n\nAqui no Bernardino, cada prato é preparado com muito carinho e ingredientes fresquinhos. Você pode sentir o amor em cada detalhe! \n\nExperimente a variedade do nosso buffet e descubra o sabor da comida afetiva. 🍽️❤️\n\n📍 Rua Bernardino de Campos, 201 — Brooklin/Campo Belo, SP\n⏰ Segunda a sexta, 11h30 às 15h\n👉 Venha almoçar com a gente!\n\n#bernardinorestaurante #restauranteacampo #brooklinsp #campobelosp #almoçosp #comidacaseira #buffetporkilo #restaurantesp"
+    },
+    {
+      "date": "2026-09-15",
+      "weekday": "terca",
+      "slot": "story",
+      "items": [
+        {
+          "category": "salgado",
+          "type": "image",
+          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /24.png"
+        },
+        {
+          "category": "salada",
+          "type": "video",
+          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /85.mp4"
+        },
+        {
+          "category": "doce",
+          "type": "video",
+          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /240.mp4"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "weekday": "terca",
+      "slot": "feed",
+      "items": [
+        {
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Agosto 25\\IMG_8498.JPG"
+        },
+        {
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Agosto 25\\IMG_8500.JPG"
+        },
+        {
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Novembro 25\\IMG_9169.JPG"
+        },
+        {
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Agosto 25\\IMG_8514.JPG"
+        },
+        {
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Agosto 25\\IMG_8511.JPG"
+        }
+      ],
+      "caption_file": "/home/runner/work/bernardino-restaurante-automacao/bernardino-restaurante-automacao/content/caption_7et8suqx.txt",
+      "caption_text": "Sabor que faz bem ao coração! \nNo nosso buffet, você encontra uma deliciosa variedade, desde a suculenta carne ao molho até o frescor das saladas e a sobremesa que é puro carinho. \nVenha experimentar essa explosão de sabores que só o Bernardino oferece!\n\n📍 Rua Bernardino de Campos, 201 — Brooklin/Campo Belo, SP\n⏰ Segunda a sexta, 11h30 às 15h\n👉 Venha almoçar com a gente!\n\n#bernardinorestaurante #restauranteacampo #brooklinsp #campobelosp #almoçosp #comidacaseira #buffetporkilo #restaurantesp"
+    },
+    {
+      "date": "2026-09-16",
+      "weekday": "quarta",
+      "slot": "story",
+      "items": [
+        {
+          "category": "salgado",
+          "type": "video",
+          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /101.mp4"
+        },
+        {
+          "category": "salada",
+          "type": "video",
+          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /143.mp4"
+        },
+        {
+          "category": "doce",
+          "type": "video",
+          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /23_07 (3).mp4"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "weekday": "quinta",
+      "slot": "story",
+      "items": [
+        {
+          "category": "salgado",
+          "type": "video",
+          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /235.mp4"
+        },
+        {
+          "category": "salada",
+          "type": "video",
+          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /231.mp4"
+        },
+        {
+          "category": "doce",
+          "type": "video",
+          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /141.mp4"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "weekday": "quinta",
+      "slot": "feed",
+      "items": [
+        {
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Agosto 25\\IMG_8530.JPG"
+        },
+        {
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Agosto 25\\IMG_8533.JPG"
+        },
+        {
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Agosto 25\\IMG_8515.JPG"
+        },
+        {
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Agosto 25\\IMG_8513.JPG"
+        },
+        {
+          "type": "image",
+          "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Agosto 25\\IMG_8517.JPG"
+        }
+      ],
+      "caption_file": "/home/runner/work/bernardino-restaurante-automacao/bernardino-restaurante-automacao/content/caption_001ni63e.txt",
+      "caption_text": "Uma explosão de sabores espera por você! \nNossa deliciosa torta de frango, com sua crosta dourada e recheio cremoso, é o destaque do dia! E para a sobremesa, a irresistível taça de morango com suspiros é a escolha perfeita. \nVenha saborear essas delícias que preparamos com tanto carinho! 🍽️❤️\n\n📍 Rua Bernardino de Campos, 201 — Brooklin/Campo Belo, SP\n⏰ Segunda a sexta, 11h30 às 15h\n👉 Venha almoçar com a gente!\n\n#bernardinorestaurante #restauranteacampo #brooklinsp #campobelosp #almoçosp #comidacaseira #buffetporkilo #restaurantesp"
+    },
+    {
+      "date": "2026-09-18",
+      "weekday": "sexta",
+      "slot": "story",
+      "items": [
+        {
+          "category": "salgado",
+          "type": "image",
+          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /47.png"
+        },
+        {
+          "category": "salada",
+          "type": "video",
+          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /251.mp4"
+        },
+        {
+          "category": "doce",
+          "type": "video",
+          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /205.mp4"
+        }
+      ]
+    }
+  ]
+}
