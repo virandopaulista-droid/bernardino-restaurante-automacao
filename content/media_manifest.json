@@ -5387,7 +5387,9 @@
       "classified_at": "2026-07-26T22:01:29",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta Videos Tratados/Stories Reels nao existe mais no Drive (arquivo mudou pra Destaques - Artes/Stories／Reels, fora do escopo de conteudo classificado) -- causava FileNotFoundError na geracao de 2026-09-13"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\8F9D1DD2-CECD-4759-BF66-6D39C645C489.jpg",
