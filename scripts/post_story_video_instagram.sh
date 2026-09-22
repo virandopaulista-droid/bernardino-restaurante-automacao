@@ -53,7 +53,16 @@ try:
 
     for _ in range(20):
         time.sleep(10)
-        status = get_json(f"https://graph.facebook.com/v20.0/{container_id}", {"fields": "status_code,status", "access_token": access_token})
+        try:
+            status = get_json(f"https://graph.facebook.com/v20.0/{container_id}", {"fields": "status_code,status", "access_token": access_token})
+        except urllib.error.HTTPError as e:
+            # BUG CORRIGIDO 2026-09-22 (Suco Tropical, story 22/09): erro
+            # transitorio da propria Graph API (ex: code 2/is_transient=true)
+            # numa checagem de status isolada nao significa que o video
+            # travou -- so tenta de novo na proxima volta em vez de abortar
+            # o story inteiro (o FB ja tinha saido, so o IG morria aqui).
+            print(f"AVISO: erro transitorio checando status, tentando de novo: {e.read().decode('utf-8')}", file=sys.stderr)
+            continue
         print(f"status: {status}", file=sys.stderr)
         if status["status_code"] == "FINISHED":
             break
