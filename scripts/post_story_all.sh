@@ -76,16 +76,27 @@ def get_json(url):
         return json.loads(resp.read())
 
 
-def post_form_retry(url, fields, retries=5, delay=4):
+def post_form_retry(url, fields, retries=5, delay=8):
     import time
     for attempt in range(1, retries + 1):
         try:
             return post_form(url, fields)
         except urllib.error.HTTPError as e:
             body = e.read().decode("utf-8")
-            if attempt == retries or "2207027" not in body:
+            # BUG CORRIGIDO 2026-09-22 (GM Hamburgueria, story 17/09): so
+            # retentava o erro especifico "midia ainda nao pronta" (2207027)
+            # -- um HTTP 500 generico (corpo vazio, hiccup transitorio da
+            # propria Meta) nao caia aqui e derrubava o story inteiro depois
+            # do FB ja ter saido. Agora tambem tenta de novo em qualquer
+            # 5xx ou "is_transient": true.
+            try:
+                is_transient = json.loads(body).get("error", {}).get("is_transient", False)
+            except Exception:
+                is_transient = False
+            transient = "2207027" in body or is_transient or 500 <= e.code < 600
+            if attempt == retries or not transient:
                 raise
-            print(f"  (midia ainda nao pronta no IG, tentativa {attempt}/{retries}, aguardando {delay}s...)", file=sys.stderr)
+            print(f"  (erro transitorio no IG, tentativa {attempt}/{retries}, aguardando {delay}s: HTTP {e.code} {body[:200]})", file=sys.stderr)
             time.sleep(delay)
 
 
