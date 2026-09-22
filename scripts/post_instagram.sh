@@ -59,7 +59,8 @@ def post_form(url, fields, retries=3, delay=15):
                 is_transient = json.loads(body).get("error", {}).get("is_transient", False)
             except Exception:
                 is_transient = False
-            if attempt == retries or not is_transient:
+            transient = is_transient or "2207027" in body
+            if attempt == retries or not transient:
                 print(f"Erro da API do Instagram: {body}", file=sys.stderr)
                 raise SystemExit(1)
             print(f"AVISO: erro transitorio da Meta (tentativa {attempt}/{retries}), tentando de novo em {delay}s: {body}", file=sys.stderr)
