@@ -733,8 +733,12 @@
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Agosto 25\\Edit dos pratos 2.mp4",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-09-27T20:39:48",
+      "duration_seconds": 15.812993,
+      "too_short": false,
+      "audio_mean_db": -16.2,
+      "silent": false
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Agosto 25\\Video doces.mp4",
