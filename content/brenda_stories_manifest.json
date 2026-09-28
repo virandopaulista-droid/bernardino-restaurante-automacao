@@ -319,8 +319,8 @@
       "category": "salada",
       "weekday": null,
       "type": "image",
-      "used": false,
-      "used_at": "2026-09-20T19:59:48"
+      "used": true,
+      "used_at": "2026-09-28T18:12:51"
     },
     {
       "file": "52.png",
@@ -399,8 +399,8 @@
       "category": "salada",
       "weekday": null,
       "type": "video",
-      "used": false,
-      "used_at": "2026-08-23T18:17:42"
+      "used": true,
+      "used_at": "2026-09-28T18:13:51"
     },
     {
       "file": "27.png",
@@ -487,8 +487,8 @@
       "category": "doce",
       "weekday": null,
       "type": "image",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-09-28T18:13:51"
     },
     {
       "file": "DOCES.png",
@@ -587,8 +587,8 @@
     {
       "file": "102.mp4",
       "type": "video",
-      "used": false,
-      "used_at": "2026-09-06T19:41:51",
+      "used": true,
+      "used_at": "2026-09-28T18:14:08",
       "category": "salada",
       "weekday": null,
       "classified_by": "ocr",
@@ -597,8 +597,8 @@
     {
       "file": "103.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-28T18:12:51",
       "category": "doce",
       "weekday": null,
       "classified_by": "ocr",
@@ -807,8 +807,8 @@
     {
       "file": "126.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-28T18:12:51",
       "category": "salgado",
       "weekday": "segunda",
       "classified_by": "ocr",
@@ -847,8 +847,8 @@
     {
       "file": "130.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-28T18:13:51",
       "category": "salgado",
       "weekday": null,
       "classified_by": "clip",
@@ -857,8 +857,8 @@
     {
       "file": "131.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-28T18:14:08",
       "category": "salgado",
       "weekday": "quarta",
       "classified_by": "ocr",
@@ -1527,8 +1527,8 @@
     {
       "file": "198.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-28T18:14:22",
       "category": "doce",
       "weekday": null,
       "classified_by": "clip",
@@ -1939,8 +1939,8 @@
     {
       "file": "236.mp4",
       "type": "video",
-      "used": false,
-      "used_at": "2026-08-14T17:16:20",
+      "used": true,
+      "used_at": "2026-09-28T18:14:22",
       "category": "salada",
       "weekday": null,
       "classified_by": "ocr",
@@ -1949,8 +1949,8 @@
     {
       "file": "238.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-28T18:14:22",
       "category": "salgado",
       "weekday": "sexta",
       "classified_by": "clip",
@@ -2449,8 +2449,8 @@
     {
       "file": "74.mp4",
       "type": "video",
-      "used": false,
-      "used_at": "2026-08-23T18:17:31",
+      "used": true,
+      "used_at": "2026-09-28T18:14:08",
       "category": "salada",
       "weekday": null,
       "classified_by": "ocr",
@@ -2459,8 +2459,8 @@
     {
       "file": "76.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-28T18:14:08",
       "category": "salgado",
       "weekday": "quinta",
       "classified_by": "clip",
@@ -2619,8 +2619,8 @@
     {
       "file": "93.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-28T18:14:08",
       "category": "doce",
       "weekday": null,
       "classified_by": "clip",
@@ -2799,8 +2799,8 @@
     {
       "file": "TERÇA - ESTAMOS ABERTOS (2).mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-09-28T18:14:08",
       "category": "doce",
       "weekday": null,
       "classified_by": "clip",
