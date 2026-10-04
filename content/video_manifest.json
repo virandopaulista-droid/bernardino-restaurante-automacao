@@ -759,8 +759,12 @@
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Novembro 25\\Edit espinafre.mp4",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-10-04T20:50:27",
+      "duration_seconds": 12.84,
+      "too_short": false,
+      "audio_mean_db": -15.5,
+      "silent": false
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Novembro 25\\Edit pista salada.mp4",
