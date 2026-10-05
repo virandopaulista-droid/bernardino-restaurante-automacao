@@ -6,8 +6,8 @@
       "category": "prato_salgado",
       "description": "Prato quente com uma camada cremosa e vegetais, típico de um buffet self-service.",
       "classified_at": "2026-07-26T20:56:26",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-04T22:28:57",
       "recycled_at": "2026-10-04"
     },
     {
@@ -16,8 +16,8 @@
       "category": "prato_salgado",
       "description": "Prato quente com camadas de legumes cobertos por um molho cremoso e queijo gratinado.",
       "classified_at": "2026-07-26T20:56:37",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-04T22:28:57",
       "recycled_at": "2026-10-04"
     },
     {
@@ -26,8 +26,8 @@
       "category": "doce",
       "description": "Uma variedade de frutas frescas, incluindo manga, kiwi e morango, dispostas em um prato.",
       "classified_at": "2026-07-26T20:56:47",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-04T22:28:57",
       "recycled_at": "2026-10-04"
     },
     {
@@ -36,8 +36,8 @@
       "category": "salada",
       "description": "Diversas opções de saladas frescas dispostas em bandejas.",
       "classified_at": "2026-07-26T20:56:58",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-04T22:28:57",
       "recycled_at": "2026-10-04"
     },
     {
@@ -46,8 +46,8 @@
       "category": "prato_salgado",
       "description": "Diversos pratos quentes e acompanhamentos em um buffet de self-service.",
       "classified_at": "2026-07-26T20:57:08",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-04T22:29:15",
       "recycled_at": "2026-10-04"
     },
     {
@@ -56,8 +56,8 @@
       "category": "salada",
       "description": "A imagem mostra uma variedade de saladas em um buffet, incluindo alface com croutons e brócolis.",
       "classified_at": "2026-07-26T21:00:31",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-04T22:29:15",
       "recycled_at": "2026-10-04"
     },
     {
@@ -66,8 +66,8 @@
       "category": "salada",
       "description": "Diversas opções de saladas dispostas em bandejas, incluindo alface, brócolis e sushi.",
       "classified_at": "2026-07-26T21:00:41",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-04T22:29:15",
       "recycled_at": "2026-10-04"
     },
     {
@@ -76,8 +76,8 @@
       "category": "doce",
       "description": "Mesa com diversas sobremesas expostas, incluindo pudins e doces variados.",
       "classified_at": "2026-07-26T21:00:49",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-04T22:29:15",
       "recycled_at": "2026-10-04"
     },
     {
@@ -86,8 +86,8 @@
       "category": "prato_salgado",
       "description": "Diversos pratos quentes em um buffet, incluindo feijão, legumes e acompanhamentos.",
       "classified_at": "2026-07-26T21:00:59",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-04T22:29:15",
       "recycled_at": "2026-10-04"
     },
     {
@@ -1105,8 +1105,8 @@
       "description": "",
       "classified_at": "2026-07-26T21:42:25",
       "method": "clip-vit-large-patch14",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-04T22:28:57",
       "recycled_at": "2026-10-04"
     },
     {

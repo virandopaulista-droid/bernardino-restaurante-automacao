@@ -768,8 +768,12 @@
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Novembro 25\\Edit pista salada.mp4",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-10-04T22:28:55",
+      "duration_seconds": 16.788005,
+      "too_short": false,
+      "audio_mean_db": -17.9,
+      "silent": false
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Novembro 25\\Edit pista doce.mp4",
