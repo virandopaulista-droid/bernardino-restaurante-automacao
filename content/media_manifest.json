@@ -5277,7 +5277,9 @@
       "classified_at": "2026-07-26T22:01:08",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\6F8A0ED2-9CCF-454F-9040-8CE82284DEAE.jpg",
@@ -5289,7 +5291,9 @@
       "classified_at": "2026-07-26T22:01:10",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\31ACDF20-C035-4D19-A887-B5BDF56E6522.jpg",
@@ -5301,7 +5305,9 @@
       "classified_at": "2026-07-26T22:01:13",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\99B8AEC9-1B56-472E-A67A-D9F57528A472 (1).jpg",
@@ -5327,7 +5333,9 @@
       "classified_at": "2026-07-26T22:01:17",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\47811406-1EF3-4867-B02B-1F9BE9F79114.jpg",
@@ -5339,7 +5347,9 @@
       "classified_at": "2026-07-26T22:01:19",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\09F2F54C-D78A-49C6-B975-F4FAF89E36E0.jpg",
@@ -5351,7 +5361,9 @@
       "classified_at": "2026-07-26T22:01:21",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\BEA6C05E-5552-4E60-9030-E79809151466.jpg",
@@ -5363,7 +5375,9 @@
       "classified_at": "2026-07-26T22:01:24",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\057C13DC-105E-4412-9B00-7AFE81428E4A.jpg",
@@ -5375,7 +5389,9 @@
       "classified_at": "2026-07-26T22:01:26",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\C81E69A3-787D-4EF6-9520-34DFE42CA274.jpg",
@@ -5401,7 +5417,9 @@
       "classified_at": "2026-07-26T22:01:31",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\772B12BA-966F-4611-BA73-C7887C608B38.jpg",
@@ -5413,7 +5431,9 @@
       "classified_at": "2026-07-26T22:01:34",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\2118FE5E-7EB7-4045-83E8-CD27B416F078 (3).jpg",
@@ -5467,7 +5487,9 @@
       "classified_at": "2026-07-26T22:01:43",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\F9AE5FBD-8EAA-47D1-9FE6-14201D6A070E.jpg",
@@ -5479,7 +5501,9 @@
       "classified_at": "2026-07-26T22:01:46",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\5B3812F7-57B5-4F3D-A6E6-262B9AAEA91A (1).jpg",
@@ -5505,7 +5529,9 @@
       "classified_at": "2026-07-26T22:01:51",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\12319226-6AB4-4A33-896A-271F856FAFD7 (2).jpg",
@@ -5545,7 +5571,9 @@
       "classified_at": "2026-07-26T22:01:58",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\682FA89C-4F80-4326-A91A-E6D6A98E2318 (1).jpg",
@@ -5571,7 +5599,9 @@
       "classified_at": "2026-07-26T22:02:03",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\8E9E2643-8832-4320-A620-F9F8D6F868B7.jpg",
@@ -5583,7 +5613,9 @@
       "classified_at": "2026-07-26T22:02:06",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\B02DA169-A562-4073-A89E-DC1DB885028E.jpg",
@@ -5595,7 +5627,9 @@
       "classified_at": "2026-07-26T22:02:08",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\936E2E16-7632-437B-9DD5-39A957E87535 (1).jpg",
@@ -5621,7 +5655,9 @@
       "classified_at": "2026-07-26T22:02:12",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\BB2596C6-2DD0-4A28-B6F8-4C5A92E6244E (1).jpg",
@@ -5647,7 +5683,9 @@
       "classified_at": "2026-07-26T22:02:16",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\EA71D558-4C91-41E6-B9B4-3386CAEDDE6C.jpg",
@@ -5659,7 +5697,9 @@
       "classified_at": "2026-07-26T22:02:19",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\BF34A3E7-AAF2-47FF-B4A3-716974804BA5.jpg",
@@ -5671,7 +5711,9 @@
       "classified_at": "2026-07-26T22:02:22",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\829843BF-AACF-49CB-90FC-14592E3F2FAB.jpg",
@@ -5683,7 +5725,9 @@
       "classified_at": "2026-07-26T22:02:25",
       "method": "clip-vit-large-patch14",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "excluded": true,
+      "exclude_reason": "pasta 'Videos Tratados/Stories Reels' foi movida no Drive (agora em 'Destaques - Artes/Stories／Reels'); o caminho antigo nao existe mais e quebrava a geracao do cronograma (04/10/2026)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Stories Reels\\Marcos\\IMG_20230512_101702_323.webp",
