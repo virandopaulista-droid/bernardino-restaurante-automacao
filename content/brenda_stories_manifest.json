@@ -279,8 +279,8 @@
       "weekday": "sexta",
       "type": "image",
       "inferred_from_name": true,
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-10-11T21:15:32"
     },
     {
       "file": "BERNARDINO RESTAURANTE (1).mp4",
@@ -383,8 +383,8 @@
       "category": "salada",
       "weekday": null,
       "type": "image",
-      "used": false,
-      "used_at": "2026-08-30T18:06:16"
+      "used": true,
+      "used_at": "2026-10-11T21:14:56"
     },
     {
       "file": "BERNARDINO RESTAURANTE (1gg).png",
@@ -431,8 +431,8 @@
       "category": "doce",
       "weekday": null,
       "type": "image",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-10-11T21:15:14"
     },
     {
       "file": "46.png",
@@ -521,8 +521,8 @@
       "category": "doce",
       "weekday": null,
       "type": "image",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-10-11T21:15:32"
     },
     {
       "file": "BERNARDINO RESTAURANTE (3fdf).png",
@@ -647,8 +647,8 @@
     {
       "file": "108.mp4",
       "type": "video",
-      "used": false,
-      "used_at": "2026-07-27T11:10:49",
+      "used": true,
+      "used_at": "2026-10-11T21:15:14",
       "category": "salada",
       "weekday": null,
       "classified_by": "clip",
@@ -767,8 +767,8 @@
     {
       "file": "121.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-11T21:15:14",
       "category": "doce",
       "weekday": null,
       "classified_by": "ocr",
@@ -1267,8 +1267,8 @@
     {
       "file": "172.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-11T21:14:41",
       "category": "salgado",
       "weekday": null,
       "classified_by": "clip",
@@ -1297,8 +1297,8 @@
     {
       "file": "175.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-11T21:15:14",
       "category": "salgado",
       "weekday": "quarta",
       "classified_by": "ocr",
@@ -1437,8 +1437,8 @@
     {
       "file": "189.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-11T21:14:56",
       "category": "doce",
       "weekday": null,
       "classified_by": "clip",
@@ -1627,8 +1627,8 @@
     {
       "file": "209.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-11T21:15:14",
       "category": "salgado",
       "weekday": "quinta",
       "classified_by": "clip",
@@ -1709,8 +1709,8 @@
     {
       "file": "218.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-11T21:14:41",
       "category": "doce",
       "weekday": null,
       "classified_by": "clip",
@@ -1739,8 +1739,8 @@
     {
       "file": "220.mp4",
       "type": "video",
-      "used": false,
-      "used_at": "2026-09-06T19:42:14",
+      "used": true,
+      "used_at": "2026-10-11T21:15:32",
       "category": "salada",
       "weekday": null,
       "classified_by": "clip",
@@ -2019,8 +2019,8 @@
     {
       "file": "243.mp4",
       "type": "video",
-      "used": false,
-      "used_at": "2026-07-27T11:09:05",
+      "used": true,
+      "used_at": "2026-10-11T21:14:41",
       "category": "salada",
       "weekday": null,
       "classified_by": "ocr",
@@ -2339,8 +2339,8 @@
     {
       "file": "62.mp4",
       "type": "video",
-      "used": false,
-      "used_at": "2026-08-14T17:16:37",
+      "used": true,
+      "used_at": "2026-10-11T21:15:14",
       "category": "salada",
       "weekday": null,
       "classified_by": "clip",
@@ -2409,8 +2409,8 @@
     {
       "file": "70.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-11T21:14:56",
       "category": "salgado",
       "weekday": null,
       "classified_by": "clip",

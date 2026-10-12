@@ -96,8 +96,8 @@
       "category": "salada",
       "description": "Diversas opções de saladas frescas em bandejas, incluindo tomate picado, cenoura ralada e grão-de-bico.",
       "classified_at": "2026-07-26T21:01:11",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-11T21:14:56",
       "recycled_at": "2026-10-04"
     },
     {
@@ -106,8 +106,8 @@
       "category": "prato_salgado",
       "description": "Prato com pedaços de frango em molho, servido em um recipiente de barro.",
       "classified_at": "2026-07-26T21:01:23",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-11T21:14:56",
       "recycled_at": "2026-10-04"
     },
     {
@@ -116,8 +116,8 @@
       "category": "prato_salgado",
       "description": "Diversos pratos quentes dispostos em bandejas no buffet.",
       "classified_at": "2026-07-26T21:01:32",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-11T21:14:56",
       "recycled_at": "2026-10-04"
     },
     {
@@ -126,8 +126,8 @@
       "category": "prato_salgado",
       "description": "Diversos pratos quentes em um buffet, incluindo carne desfiada com cebolas e acompanhamentos.",
       "classified_at": "2026-07-26T21:01:41",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-11T21:14:56",
       "recycled_at": "2026-10-04"
     },
     {
@@ -136,8 +136,8 @@
       "category": "prato_salgado",
       "description": "Diversos pratos quentes em um buffet, incluindo carne, frango e acompanhamentos.",
       "classified_at": "2026-07-26T21:01:52",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-11T21:15:14",
       "recycled_at": "2026-10-04"
     },
     {
@@ -146,8 +146,8 @@
       "category": "doce",
       "description": "Prato com diversas frutas cortadas, incluindo manga, kiwi e banana.",
       "classified_at": "2026-07-26T21:02:07",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-11T21:14:56",
       "recycled_at": "2026-10-04"
     },
     {
@@ -156,8 +156,8 @@
       "category": "salada",
       "description": "A foto mostra uma seleção de tomates cereja e bolinhas de queijo, decorados com ervas.",
       "classified_at": "2026-07-26T21:02:20",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-11T21:15:14",
       "recycled_at": "2026-10-04"
     },
     {
@@ -166,8 +166,8 @@
       "category": "prato_salgado",
       "description": "Prato com sushi variado, montado em uma travessa.",
       "classified_at": "2026-07-26T21:02:34",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-11T21:15:14",
       "recycled_at": "2026-10-04"
     },
     {
@@ -176,8 +176,8 @@
       "category": "prato_salgado",
       "description": "Uma panela de barro com um prato quente de feijão misturado com carne e temperos.",
       "classified_at": "2026-07-26T21:02:46",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-11T21:15:14",
       "recycled_at": "2026-10-04"
     },
     {
@@ -246,8 +246,8 @@
       "category": "doce",
       "description": "Diversas sobremesas em recipientes, incluindo doces cremosos e frutas.",
       "classified_at": "2026-07-26T21:04:18",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-11T21:15:14",
       "recycled_at": "2026-10-04"
     },
     {
