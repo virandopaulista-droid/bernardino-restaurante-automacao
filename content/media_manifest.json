@@ -186,8 +186,8 @@
       "category": "prato_salgado",
       "description": "Um prato de feijão com carne em uma panela de barro, com acompanhamentos visíveis ao fundo.",
       "classified_at": "2026-07-26T21:03:00",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-18T19:47:13",
       "recycled_at": "2026-10-04"
     },
     {
@@ -196,8 +196,8 @@
       "category": "salada",
       "description": "A foto mostra uma variedade de sushis dispostos em um prato, ao lado de saladas e vegetais.",
       "classified_at": "2026-07-26T21:03:14",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-18T19:47:13",
       "recycled_at": "2026-10-04"
     },
     {
@@ -206,8 +206,8 @@
       "category": "prato_salgado",
       "description": "Prato quente de gratinado com queijo, servido em uma travessa.",
       "classified_at": "2026-07-26T21:03:28",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-18T19:47:13",
       "recycled_at": "2026-10-04"
     },
     {
@@ -216,8 +216,8 @@
       "category": "prato_salgado",
       "description": "Arroz com pedaços de carne e cheiro verde em um recipiente de buffet.",
       "classified_at": "2026-07-26T21:03:41",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-18T19:47:13",
       "recycled_at": "2026-10-04"
     },
     {
@@ -226,8 +226,8 @@
       "category": "prato_salgado",
       "description": "Arroz com pedaços de carne e cheiro verde em um recipiente de barro.",
       "classified_at": "2026-07-26T21:03:52",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-18T19:47:39",
       "recycled_at": "2026-10-04"
     },
     {
@@ -236,8 +236,8 @@
       "category": "salada",
       "description": "Diversas saladas em recipientes brancos, incluindo tomate, grão-de-bico e cenoura ralada.",
       "classified_at": "2026-07-26T21:04:05",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-18T19:47:39",
       "recycled_at": "2026-10-04"
     },
     {
@@ -256,8 +256,8 @@
       "category": "prato_salgado",
       "description": "Prato de nhoque ao molho da casa, com pedaços de nhoque em molho vermelho.",
       "classified_at": "2026-07-26T21:04:32",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-18T19:47:39",
       "recycled_at": "2026-10-04"
     },
     {
@@ -266,8 +266,8 @@
       "category": "salada",
       "description": "A foto mostra uma variedade de saladas, com destaque para uma mistura de tomate picado com cebola e cheiro-verde.",
       "classified_at": "2026-07-26T21:04:47",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-18T19:47:39",
       "recycled_at": "2026-10-04"
     },
     {
@@ -276,8 +276,8 @@
       "category": "doce",
       "description": "Diversas sobremesas em recipientes, incluindo mousse de chocolate e frutas.",
       "classified_at": "2026-07-26T21:04:59",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-18T19:47:13",
       "recycled_at": "2026-10-04"
     },
     {
@@ -326,8 +326,8 @@
       "category": "doce",
       "description": "Diversas sobremesas dispostas em recipientes, incluindo doces cremosos e frutas.",
       "classified_at": "2026-07-26T21:06:04",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-18T19:47:39",
       "recycled_at": "2026-10-04"
     },
     {
