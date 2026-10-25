@@ -795,8 +795,12 @@
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Novembro 25\\Cozinha do Bernadino.mp4",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-10-25T20:01:40",
+      "duration_seconds": 27.422993,
+      "too_short": false,
+      "audio_mean_db": -26.9,
+      "silent": false
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Novembro 25\\Edit pista doce com a dona.mp4",
@@ -1196,6 +1200,78 @@
     },
     {
       "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /Vídeos Tratados/Novembro 25/Tudo que voce consegue comer em uma sexta.mp4",
+      "used": false,
+      "used_at": null,
+      "duration_seconds": null,
+      "too_short": false,
+      "audio_mean_db": null,
+      "silent": false
+    },
+    {
+      "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /Vídeos Tratados/Outubro 26/Bernardino - edit buffet.mp4",
+      "used": false,
+      "used_at": null,
+      "duration_seconds": null,
+      "too_short": false,
+      "audio_mean_db": null,
+      "silent": false
+    },
+    {
+      "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /Vídeos Tratados/Outubro 26/Bernardino - edit pista doce.mp4",
+      "used": false,
+      "used_at": null,
+      "duration_seconds": null,
+      "too_short": false,
+      "audio_mean_db": null,
+      "silent": false
+    },
+    {
+      "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /Vídeos Tratados/Outubro 26/Bernardino - edit quiche.mp4",
+      "used": false,
+      "used_at": null,
+      "duration_seconds": null,
+      "too_short": false,
+      "audio_mean_db": null,
+      "silent": false
+    },
+    {
+      "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /Vídeos Tratados/Outubro 26/Bernardino - quarta.mp4",
+      "used": false,
+      "used_at": null,
+      "duration_seconds": null,
+      "too_short": false,
+      "audio_mean_db": null,
+      "silent": false
+    },
+    {
+      "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /Vídeos Tratados/Outubro 26/Bernardino - quinta.mp4",
+      "used": false,
+      "used_at": null,
+      "duration_seconds": null,
+      "too_short": false,
+      "audio_mean_db": null,
+      "silent": false
+    },
+    {
+      "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /Vídeos Tratados/Outubro 26/Bernardino - segunda.mp4",
+      "used": false,
+      "used_at": null,
+      "duration_seconds": null,
+      "too_short": false,
+      "audio_mean_db": null,
+      "silent": false
+    },
+    {
+      "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /Vídeos Tratados/Outubro 26/Bernardino - sexta.mp4",
+      "used": false,
+      "used_at": null,
+      "duration_seconds": null,
+      "too_short": false,
+      "audio_mean_db": null,
+      "silent": false
+    },
+    {
+      "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /Vídeos Tratados/Outubro 26/Bernardino - terca.mp4",
       "used": false,
       "used_at": null,
       "duration_seconds": null,

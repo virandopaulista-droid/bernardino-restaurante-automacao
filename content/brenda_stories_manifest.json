@@ -375,8 +375,8 @@
       "category": "salada",
       "weekday": null,
       "type": "image",
-      "used": false,
-      "used_at": "2026-08-23T18:17:42"
+      "used": true,
+      "used_at": "2026-10-25T20:01:33"
     },
     {
       "file": "BERNARDINO RESTAURANTE (2).png",
@@ -415,8 +415,8 @@
       "category": "doce",
       "weekday": null,
       "type": "image",
-      "used": false,
-      "used_at": "2026-10-04T22:28:57"
+      "used": true,
+      "used_at": "2026-10-25T20:02:03"
     },
     {
       "file": "40.png",
@@ -447,8 +447,8 @@
       "category": "doce",
       "weekday": null,
       "type": "image",
-      "used": false,
-      "used_at": "2026-07-27T13:19:20"
+      "used": true,
+      "used_at": "2026-10-25T20:01:43"
     },
     {
       "file": "53.png",
@@ -545,8 +545,8 @@
       "category": "salgado",
       "weekday": null,
       "type": "image",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-10-25T20:01:43"
     },
     {
       "file": "24_07 (2).png",
@@ -717,8 +717,8 @@
     {
       "file": "116.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-25T20:02:03",
       "category": "salgado",
       "weekday": "quarta",
       "classified_by": "ocr",
@@ -907,8 +907,8 @@
     {
       "file": "136.mp4",
       "type": "video",
-      "used": false,
-      "used_at": "2026-08-10T13:17:14",
+      "used": true,
+      "used_at": "2026-10-25T20:01:33",
       "category": "doce",
       "weekday": null,
       "classified_by": "ocr",
@@ -957,8 +957,8 @@
     {
       "file": "14072025 - SEGUNDA.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-25T20:01:33",
       "category": "salgado",
       "weekday": null,
       "classified_by": "clip",
@@ -1097,8 +1097,8 @@
     {
       "file": "154.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-25T20:02:19",
       "category": "salgado",
       "weekday": null,
       "classified_by": "clip",
@@ -1177,8 +1177,8 @@
     {
       "file": "163.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-25T20:02:03",
       "category": "salgado",
       "weekday": "quinta",
       "classified_by": "clip",
@@ -1217,8 +1217,8 @@
     {
       "file": "167.mp4",
       "type": "video",
-      "used": false,
-      "used_at": "2026-08-14T17:16:20",
+      "used": true,
+      "used_at": "2026-10-25T20:02:19",
       "category": "salada",
       "weekday": null,
       "classified_by": "ocr",
@@ -1407,8 +1407,8 @@
     {
       "file": "186.mp4",
       "type": "video",
-      "used": false,
-      "used_at": "2026-10-04T22:29:15",
+      "used": true,
+      "used_at": "2026-10-25T20:02:19",
       "category": "doce",
       "weekday": null,
       "classified_by": "ocr",
@@ -1769,8 +1769,8 @@
     {
       "file": "223.mp4",
       "type": "video",
-      "used": false,
-      "used_at": "2026-07-27T13:19:20",
+      "used": true,
+      "used_at": "2026-10-25T20:01:43",
       "category": "salada",
       "weekday": null,
       "classified_by": "ocr",
@@ -2099,8 +2099,8 @@
     {
       "file": "251.mp4",
       "type": "video",
-      "used": false,
-      "used_at": "2026-09-14T02:30:13",
+      "used": true,
+      "used_at": "2026-10-25T20:02:03",
       "category": "salada",
       "weekday": null,
       "classified_by": "ocr",
@@ -2539,8 +2539,8 @@
     {
       "file": "85.mp4",
       "type": "video",
-      "used": false,
-      "used_at": "2026-09-14T02:29:33",
+      "used": true,
+      "used_at": "2026-10-25T20:02:03",
       "category": "salada",
       "weekday": null,
       "classified_by": "clip",
@@ -2689,8 +2689,8 @@
     {
       "file": "DOCES (7).mp4",
       "type": "video",
-      "used": false,
-      "used_at": "2026-09-20T20:00:02",
+      "used": true,
+      "used_at": "2026-10-25T20:02:03",
       "category": "doce",
       "weekday": null,
       "classified_by": "clip",

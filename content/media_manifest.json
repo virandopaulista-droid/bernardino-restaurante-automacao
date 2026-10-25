@@ -286,8 +286,8 @@
       "category": "prato_salgado",
       "description": "Prato quente com uma camada de queijo derretido e molho, acompanhado de outros pratos no buffet.",
       "classified_at": "2026-07-26T21:05:11",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-25T20:01:43",
       "recycled_at": "2026-10-04"
     },
     {
@@ -296,8 +296,8 @@
       "category": "prato_salgado",
       "description": "Prato de frango grelhado com molho, decorado com ervas.",
       "classified_at": "2026-07-26T21:05:23",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-25T20:01:43",
       "recycled_at": "2026-10-04"
     },
     {
@@ -306,8 +306,8 @@
       "category": "prato_salgado",
       "description": "Prato de carne desfiada com cebolas e temperos, servido em um buffet.",
       "classified_at": "2026-07-26T21:05:37",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-25T20:01:43",
       "recycled_at": "2026-10-04"
     },
     {
@@ -316,8 +316,8 @@
       "category": "prato_salgado",
       "description": "Buffet com diversos pratos quentes e acompanhamentos.",
       "classified_at": "2026-07-26T21:05:49",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-25T20:02:03",
       "recycled_at": "2026-10-04"
     },
     {
@@ -336,8 +336,8 @@
       "category": "salada",
       "description": "A foto mostra uma variedade de saladas e frutas frescas em um buffet.",
       "classified_at": "2026-07-26T21:06:18",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-25T20:01:43",
       "recycled_at": "2026-10-04"
     },
     {
@@ -346,8 +346,8 @@
       "category": "doce",
       "description": "Uma funcionária segura duas sobremesas em potes, uma de chocolate e outra de frutas vermelhas.",
       "classified_at": "2026-07-26T21:06:31",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-25T20:01:43",
       "recycled_at": "2026-10-04"
     },
     {
@@ -356,8 +356,8 @@
       "category": "prato_salgado",
       "description": "Um prato com carne gratinada e nhoque em molho de tomate.",
       "classified_at": "2026-07-26T21:06:42",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-25T20:02:03",
       "recycled_at": "2026-10-04"
     },
     {
@@ -509,8 +509,8 @@
       "category": "doce",
       "description": "Diversas sobremesas expostas, incluindo tortas e frutas.",
       "classified_at": "2026-07-26T21:09:15",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-25T20:02:03",
       "recycled_at": "2026-10-04"
     },
     {
@@ -827,8 +827,8 @@
       "description": "",
       "classified_at": "2026-07-26T21:41:11",
       "method": "clip-vit-large-patch14",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-25T20:02:03",
       "recycled_at": "2026-10-04"
     },
     {
@@ -5022,8 +5022,8 @@
       "description": "",
       "classified_at": "2026-07-26T21:59:50",
       "method": "clip-vit-large-patch14",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-10-25T20:02:03",
       "released_at": "2026-10-04 (cronograma 05/10 recusado)"
     },
     {
