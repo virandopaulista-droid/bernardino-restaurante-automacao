@@ -840,8 +840,8 @@
       "description": "",
       "classified_at": "2026-07-26T21:41:14",
       "method": "clip-vit-large-patch14",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-01T21:14:40",
       "recycled_at": "2026-10-04"
     },
     {
@@ -3146,8 +3146,8 @@
       "description": "",
       "classified_at": "2026-07-26T21:51:56",
       "method": "clip-vit-large-patch14",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-01T21:14:40",
       "released_at": "2026-10-04 (cronograma 05/10 recusado)"
     },
     {
@@ -3173,8 +3173,8 @@
       "description": "",
       "classified_at": "2026-07-26T21:52:03",
       "method": "clip-vit-large-patch14",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-01T21:14:40",
       "released_at": "2026-10-04 (cronograma 05/10 recusado)"
     },
     {
@@ -3228,8 +3228,8 @@
       "description": "",
       "classified_at": "2026-07-26T21:52:18",
       "method": "clip-vit-large-patch14",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-01T21:14:40",
       "released_at": "2026-10-04 (cronograma 05/10 recusado)"
     },
     {
@@ -3845,8 +3845,8 @@
       "description": "",
       "classified_at": "2026-07-26T21:54:43",
       "method": "clip-vit-large-patch14",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-01T21:14:51",
       "released_at": "2026-10-04 (cronograma 05/10 recusado)"
     },
     {
@@ -3956,8 +3956,8 @@
       "description": "",
       "classified_at": "2026-07-26T21:55:12",
       "method": "clip-vit-large-patch14",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-01T21:14:51",
       "released_at": "2026-10-04 (cronograma 05/10 recusado)"
     },
     {
@@ -4039,8 +4039,8 @@
       "description": "",
       "classified_at": "2026-07-26T21:55:31",
       "method": "clip-vit-large-patch14",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-01T21:14:51",
       "released_at": "2026-10-04 (cronograma 05/10 recusado)"
     },
     {
@@ -4052,8 +4052,8 @@
       "description": "",
       "classified_at": "2026-07-26T21:55:34",
       "method": "clip-vit-large-patch14",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-01T21:14:51",
       "released_at": "2026-10-04 (cronograma 05/10 recusado)"
     },
     {
@@ -4679,8 +4679,8 @@
       "description": "",
       "classified_at": "2026-07-26T21:58:22",
       "method": "clip-vit-large-patch14",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-01T21:14:51",
       "released_at": "2026-10-04 (cronograma 05/10 recusado)"
     },
     {
@@ -5049,8 +5049,8 @@
       "description": "",
       "classified_at": "2026-07-26T21:59:58",
       "method": "clip-vit-large-patch14",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-01T21:14:40",
       "released_at": "2026-10-04 (cronograma 05/10 recusado)"
     },
     {
