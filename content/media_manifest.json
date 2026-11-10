@@ -3552,7 +3552,9 @@
       "method": "clip-vit-large-patch14",
       "used": false,
       "used_at": null,
-      "recycled_at": "2026-11-10T17:41:23"
+      "recycled_at": "2026-11-10T17:41:23",
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel (devolvida ao estoque por engano em 10/11 e excluida de novo)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2048.HEIC",
@@ -3565,7 +3567,9 @@
       "method": "clip-vit-large-patch14",
       "used": false,
       "used_at": null,
-      "recycled_at": "2026-11-10T17:41:23"
+      "recycled_at": "2026-11-10T17:41:23",
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel (devolvida ao estoque por engano em 10/11 e excluida de novo)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2095.HEIC",
@@ -3606,7 +3610,9 @@
       "method": "clip-vit-large-patch14",
       "used": false,
       "used_at": null,
-      "recycled_at": "2026-11-10T17:41:23"
+      "recycled_at": "2026-11-10T17:41:23",
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel (devolvida ao estoque por engano em 10/11 e excluida de novo)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2025\\Dezembro 25\\IMG_2026.HEIC",
@@ -4655,7 +4661,9 @@
       "method": "clip-vit-large-patch14",
       "used": false,
       "used_at": null,
-      "recycled_at": "2026-11-10T17:41:23"
+      "recycled_at": "2026-11-10T17:41:23",
+      "excluded": true,
+      "exclude_reason": "converted_path aponta para maquina local desativada (Robso/cloude-bernardino), nao existe em lugar nenhum acessivel (devolvida ao estoque por engano em 10/11 e excluida de novo)"
     },
     {
       "source_path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Imagens tratadas\\2026\\Abril 26\\IMG_0381.HEIC",
