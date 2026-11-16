@@ -204,8 +204,8 @@
       "type": "image",
       "folder": "2025/Abril 25",
       "category": "prato_salgado",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-16T22:18:00",
       "description": "Arroz com pedaços de carne e cheiro verde em um recipiente de barro."
     },
     {
@@ -312,8 +312,8 @@
       "type": "image",
       "folder": "2025/Abril 25",
       "category": "doce",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-16T22:18:00",
       "description": "Uma funcionária segura duas sobremesas em potes, uma de chocolate e outra de frutas vermelhas."
     },
     {
@@ -811,8 +811,8 @@
       "type": "image",
       "folder": "2025/Agosto 25",
       "category": "prato_salgado",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T22:18:00"
     },
     {
       "file": "IMG_7858_SnapseedCopy.jpg",
@@ -1011,16 +1011,16 @@
       "type": "image",
       "folder": "2025/Agosto 25",
       "category": "salada",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T22:18:00"
     },
     {
       "file": "IMG_7918.jpg",
       "type": "image",
       "folder": "2025/Agosto 25",
       "category": "salada",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T22:18:00"
     },
     {
       "file": "IMG_7917.jpg",
@@ -1051,8 +1051,8 @@
       "type": "image",
       "folder": "2025/Agosto 25",
       "category": "prato_salgado",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T22:18:00"
     },
     {
       "file": "IMG_8500.JPG",
@@ -1083,8 +1083,8 @@
       "type": "image",
       "folder": "2025/Agosto 25",
       "category": "doce",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T22:18:00"
     },
     {
       "file": "IMG_8503.JPG",
@@ -1131,8 +1131,8 @@
       "type": "image",
       "folder": "2025/Agosto 25",
       "category": "doce",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T22:18:00"
     },
     {
       "file": "IMG_8511.JPG",
@@ -2409,8 +2409,8 @@
       "type": "image",
       "folder": "2025/Novembro 25",
       "category": "prato_salgado",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T22:18:00"
     },
     {
       "file": "IMG_9078.HEIC",
@@ -2987,8 +2987,8 @@
       "type": "image",
       "folder": "2025/Dezembro 25",
       "category": "prato_salgado",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T22:18:00"
     },
     {
       "file": "IMG_2106.JPG",
