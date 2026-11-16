@@ -1,0 +1,3162 @@
+{
+ "_readme": "Classificacao visual das artes de Brenda - Stories feita em 15/11/2026 (Claude olhando cada arte, segunda opiniao nas duvidosas e revisao manual). category = o que a arte mostra (salgado|salada|doce|outro); weekday = dia escrito na arte, ou dia do prato (quarta feijoada, quinta massas) ou comecar bem a semana (segunda). Fonte do migrate_to_panel_manifests.py.",
+ "artes": [
+  {
+   "title": "100.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": null,
+   "headline": "FECHE A SEMANA EM GRANDE ESTILO: sobremesas que encantam em cada colherada",
+   "flags": [],
+   "confidence": "alta",
+   "note": "'Feche a semana' sem dia escrito, sugere sexta"
+  },
+  {
+   "title": "101.mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "QUARTA É DIA DE TRADIÇÃO: feijoada completa com todos os acompanhamentos",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "102.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "PARA QUEM PREFERE LEVEZA: Opções saudáveis e cheias de sabor te esperam!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "103.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": null,
+   "headline": "FECHE O ALMOÇO COM CHAVE DE OURO: sobremesas fresquinhas e irresistíveis",
+   "flags": [],
+   "confidence": "alta",
+   "note": "sobremesa com uvas e merengue"
+  },
+  {
+   "title": "104.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Quinta especial: massas irresistíveis com molhos de dar água na boca!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "105.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Saladas frescas e coloridas: Equilíbrio perfeito para acompanhar seu prato",
+   "flags": [],
+   "confidence": "alta",
+   "note": "etiqueta antiga salgado estava errada; foto de folhas verdes"
+  },
+  {
+   "title": "106.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "bolo",
+   "headline": "Uma pausa doce: ainda mais especial!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "torta de morango, bolo de chocolate com coco, sobremesas de travessa"
+  },
+  {
+   "title": "107.mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "salmao",
+   "headline": "SEXTA DE SABORES: frescor e qualidade em cada detalhe do buffet",
+   "flags": [],
+   "confidence": "alta",
+   "note": "salmão com arroz de frutos do mar"
+  },
+  {
+   "title": "108.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "SALADAS LEVES E COLORIDAS: a combinação ideal para harmonizar seu prato",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "110.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "vinagrete",
+   "headline": "Refrescante & nutritiva: nossas saladas dão cor e leveza ao seu almoço",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "111.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": null,
+   "headline": "O toque final perfeito: sobremesas que transformam o almoço em experiência completa",
+   "flags": [],
+   "confidence": "alta",
+   "note": "vitrine de sobremesas, confeitaria própria"
+  },
+  {
+   "title": "112.mp4",
+   "category": "salgado",
+   "weekday": "terca",
+   "dish": "carne",
+   "headline": "TERÇA de sabores irresistíveis",
+   "flags": [],
+   "confidence": "alta",
+   "note": "carne assada fatiada ao molho; mesma arte do 176"
+  },
+  {
+   "title": "113.mp4",
+   "category": "salgado",
+   "weekday": "terca",
+   "dish": "frango",
+   "headline": "TERÇA: Pratos suculento para alegrar seu almoço!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "foto de pedaços de frango ao molho"
+  },
+  {
+   "title": "114.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "tabule/salada de quinoa",
+   "headline": "Refrescante e nutritiva: nossas saladas dao cor e leveza ao seu almoco",
+   "flags": [],
+   "confidence": "alta",
+   "note": "etiqueta antiga salgado errada"
+  },
+  {
+   "title": "115.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "pave de pacoca",
+   "headline": "O toque final perfeito: sobremesas que transformam o almoco em experiencia completa",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "116.mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Quarta e dia de tradicao: feijoada completa com todos os acompanhamentos",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "117.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "sushi",
+   "headline": "Para quem prefere leveza: opcoes saudaveis e cheias de sabor te esperam!",
+   "flags": [],
+   "confidence": "media",
+   "note": "mesma arte do 223"
+  },
+  {
+   "title": "118.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "pudim",
+   "headline": "Feche o almoco com chave de ouro: sobremesas fresquinhas e irresistiveis",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "119.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Quinta especial: massas irresistiveis com molhos de dar agua na boca!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "nhoque ao sugo e massa; parece igual ao item 122"
+  },
+  {
+   "title": "120.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "mussarela de bufala com tomate cereja",
+   "headline": "Saladas frescas e coloridas: Equilibrio perfeito para acompanhar seu prato",
+   "flags": [],
+   "confidence": "alta",
+   "note": "etiqueta antiga salgado errada"
+  },
+  {
+   "title": "121.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "pave/tiramisu",
+   "headline": "Uma pausa doce: sobremesas que tornam seu almoco ainda mais especial!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "122.mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "moqueca",
+   "headline": "Sexta de sabores: frescor e qualidade em cada detalhe do buffet",
+   "flags": [],
+   "confidence": "alta",
+   "note": "prato amarelo com pimentoes e coentro, parece moqueca ou bobo"
+  },
+  {
+   "title": "123.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Saladas leves e coloridas: a combinacao ideal para harmonizar seu prato",
+   "flags": [],
+   "confidence": "alta",
+   "note": "bufe frio com saladas e sushi; etiqueta antiga salgado errada"
+  },
+  {
+   "title": "125.mp4",
+   "category": "salada",
+   "weekday": "segunda",
+   "dish": "arroz negro",
+   "headline": "Uma explosao de sabores para comecar bem a semana. Esperamos por voce.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "arroz negro com manga em cubos, tipico de salada fria; 'comecar bem a semana' sugere segunda | revisado por mim"
+  },
+  {
+   "title": "126.mp4",
+   "category": "salada",
+   "weekday": "segunda",
+   "dish": "salada de feijao fradinho",
+   "headline": "Segunda com variedade, frescor e sabor. Seu almoco merece o melhor!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "127.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "bombom de colher",
+   "headline": "Delicadeza, sabor e cuidado: descubra nossas sobremesas e surpreenda-se",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "128.mp4",
+   "category": "salgado",
+   "weekday": "terca",
+   "dish": "carnes assadas",
+   "headline": "Terca: pratos suculentos para alegrar seu almoco!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "129.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "salada de rabanete",
+   "headline": "Refrescante e nutritiva: nossas saladas dao cor e leveza ao seu almoco",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "130.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "pave de frutas vermelhas",
+   "headline": "O toque final perfeito: sobremesas que transformam o almoco em experiencia completa",
+   "flags": [],
+   "confidence": "alta",
+   "note": "etiqueta antiga salgado errada"
+  },
+  {
+   "title": "131.mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Quarta e dia de tradicao: feijoada completa com todos os acompanhamentos",
+   "flags": [],
+   "confidence": "alta",
+   "note": "foto de panela de barro com carnes escuras"
+  },
+  {
+   "title": "132.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "salada de grao de bico",
+   "headline": "Para quem prefere leveza: opcoes saudaveis e cheias de sabor te esperam!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "133.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "torta de morango",
+   "headline": "Feche o almoco com chave de ouro: sobremesas fresquinhas e irresistiveis",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "134.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Quinta especial: massas irresistiveis com molhos de dar agua na boca!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "nhoque ao sugo e massa; parece igual ao item 140"
+  },
+  {
+   "title": "135.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Saladas frescas e coloridas: Equilibrio perfeito para acompanhar seu prato",
+   "flags": [],
+   "confidence": "alta",
+   "note": "foto de salada verde cremosa no bufe frio; etiqueta antiga salgado errada"
+  },
+  {
+   "title": "136.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "pave de pacoca",
+   "headline": "Uma pausa doce: sobremesas que tornam seu almoco ainda mais especial!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "137.mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "paella/arroz de frutos do mar",
+   "headline": "Sexta de sabores: frescor e qualidade em cada detalhe do buffet",
+   "flags": [],
+   "confidence": "alta",
+   "note": "etiqueta antiga sem dia; arte tem sexta escrito"
+  },
+  {
+   "title": "138.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Saladas leves e coloridas: a combinacao ideal para harmonizar seu prato",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Pista cheia de variedades; etiqueta antiga salgado errada"
+  },
+  {
+   "title": "140.mp4",
+   "category": "salada",
+   "weekday": "segunda",
+   "dish": null,
+   "headline": "Segunda com variedade, frescor e sabor. Seu almoco merece o melhor!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "foto de prato de salada; etiqueta antiga salgado errada"
+  },
+  {
+   "title": "14072025 - SEGUNDA (2).mp4",
+   "category": "salada",
+   "weekday": "segunda",
+   "dish": null,
+   "headline": "Bom dia segunda!",
+   "flags": [],
+   "confidence": "media",
+   "note": "fundo desfocado do bufe frio com saladas e kiwi"
+  },
+  {
+   "title": "14072025 - SEGUNDA.mp4",
+   "category": "salgado",
+   "weekday": "segunda",
+   "dish": "linguica",
+   "headline": "Bom dia segunda!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "foto de linguica assada e carne"
+  },
+  {
+   "title": "14072025 - SEGUNDA.png",
+   "category": "salada",
+   "weekday": "segunda",
+   "dish": null,
+   "headline": "Bom dia segunda! Já está tudo sendo preparado com muito carinho para te receber no almoço de hoje.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "bufê frio: palmito, tomate, pepino, beterraba, cenoura"
+  },
+  {
+   "title": "141.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesas variadas",
+   "headline": "Delicadeza, sabor e cuidado: descubra nossas sobremesas e surpreenda-se",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Confeitaria propria"
+  },
+  {
+   "title": "142.mp4",
+   "category": "salgado",
+   "weekday": "terca",
+   "dish": null,
+   "headline": "Terca: pratos suculentos para alegrar seu almoco!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "bufe quente com panelas e travessas"
+  },
+  {
+   "title": "143.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "salada de legumes",
+   "headline": "Refrescante e nutritiva: nossas saladas dao cor e leveza ao seu almoco",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "144.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesas variadas",
+   "headline": "O toque final perfeito: sobremesas que transformam o almoco em experiencia completa",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "145.mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Quarta e dia de tradicao: feijoada completa com todos os acompanhamentos",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "146.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Para quem prefere leveza: opcoes saudaveis e cheias de sabor te esperam!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "bufe frio de saladas"
+  },
+  {
+   "title": "147.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesa de uva",
+   "headline": "Feche o almoço com chave de ouro: sobremesas fresquinhas e irresistíveis.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "etiqueta antiga dizia salgado"
+  },
+  {
+   "title": "148.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Quinta especial: massas irresistiveis com molhos de dar agua na boca!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "foto de gratinado no bufe quente"
+  },
+  {
+   "title": "149.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "salada de rabanete",
+   "headline": "Saladas frescas e coloridas: Equilibrio perfeito para acompanhar seu prato",
+   "flags": [],
+   "confidence": "alta",
+   "note": "etiqueta antiga salgado estava errada"
+  },
+  {
+   "title": "15.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "merengue de morango",
+   "headline": "Delicadeza, sabor e cuidado: descubra nossas sobremesas e surpreenda-se",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Confeitaria propria"
+  },
+  {
+   "title": "150.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesa de uva e gelatina",
+   "headline": "Uma pausa doce: sobremesas que tornam seu almoço ainda mais especial!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "151.mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "moqueca",
+   "headline": "Sexta de sabores: frescor e qualidade em cada detalhe do buffet",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "152.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "palmito",
+   "headline": "Saladas leves e coloridas: a combinação ideal para harmonizar seu prato.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "etiqueta antiga dizia salgado"
+  },
+  {
+   "title": "154.mp4",
+   "category": "salgado",
+   "weekday": "segunda",
+   "dish": "batata sauté",
+   "headline": "Uma explosao de sabores para comecar bem a semana. Esperamos por voce.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "bufe quente de legumes cozidos (batata, cenoura, vagem); 'comecar bem a semana' sugere segunda | revisado por mim"
+  },
+  {
+   "title": "155.mp4",
+   "category": "salada",
+   "weekday": "segunda",
+   "dish": "muçarela de búfala com tomate",
+   "headline": "Segunda com variedade, frescor e sabor. Seu almoço merece o melhor!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "etiqueta antiga dizia salgado"
+  },
+  {
+   "title": "156.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesas",
+   "headline": "Confeitaria própria. Delicadeza, sabor e cuidado: descubra nossas sobremesas e surpreenda-se.",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "157.mp4",
+   "category": "salgado",
+   "weekday": "terca",
+   "dish": "bacalhoada",
+   "headline": "Terca: pratos suculentos para alegrar seu almoco!",
+   "flags": [],
+   "confidence": "media",
+   "note": "travessa com batatas, cebola e cheiro verde, parece bacalhoada"
+  },
+  {
+   "title": "158.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Refrescante & nutritiva: nossas saladas dão cor e leveza ao seu almoço",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "159.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "torta com merengue",
+   "headline": "O toque final perfeito: sobremesas que transformam o almoço em experiência completa.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "estava excluída, mas é claramente doce"
+  },
+  {
+   "title": "160.mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Quarta é dia de tradição: feijoada completa com todos os acompanhamentos!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "161.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "frutas",
+   "headline": "Para quem prefere leveza: opções saudáveis e cheias de sabor te esperam!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "travessa de frutas (manga, kiwi) no bufe frio; etiqueta antiga dizia salgado"
+  },
+  {
+   "title": "162.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "pavê",
+   "headline": "Feche o almoço com chave de ouro: sobremesas fresquinhas e irresistíveis.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "etiqueta antiga dizia salgado"
+  },
+  {
+   "title": "163.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "nhoque",
+   "headline": "Quinta especial: massas irresistíveis com molhos de dar água na boca!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "prato com nhoque ao sugo e empanado gratinado"
+  },
+  {
+   "title": "164.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "cuscuz paulista",
+   "headline": "Saladas frescas e coloridas: equilibrio perfeito para acompanhar seu prato",
+   "flags": [],
+   "confidence": "alta",
+   "note": "cuscuz paulista em destaque com texto de saladas"
+  },
+  {
+   "title": "165.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "bolo/torta de coco com chocolate",
+   "headline": "Uma pausa doce: sobremesas que tornam seu almoço ainda mais especial!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "166.mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "peixe com camarão",
+   "headline": "Sexta de sabores: frescor e qualidade em cada detalhe do buffet.",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "167.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Saladas leves e coloridas: a combinação ideal para harmonizar seu prato.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "bufe frio com saladas e sushi"
+  },
+  {
+   "title": "169.mp4",
+   "category": "salgado",
+   "weekday": null,
+   "dish": "frango ao molho",
+   "headline": "Uma explosão de sabores para começar bem a semana. Esperamos por você.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "sem dia escrito, mas 'começar bem a semana' sugere segunda"
+  },
+  {
+   "title": "17.mp4",
+   "category": "salgado",
+   "weekday": null,
+   "dish": "torta de brocolis",
+   "headline": "Uma explosao de sabores para terminar bem a semana. Esperamos por voce",
+   "flags": [],
+   "confidence": "alta",
+   "note": "terminar bem a semana sem dia escrito, sugere sexta"
+  },
+  {
+   "title": "170.mp4",
+   "category": "salada",
+   "weekday": "segunda",
+   "dish": null,
+   "headline": "Segunda com variedade, frescor e sabor. Seu almoço merece o melhor!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "foto do bufe frio com saladas e sushi"
+  },
+  {
+   "title": "171.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesas",
+   "headline": "Confeitaria própria. Delicadeza, sabor e cuidado: descubra nossas sobremesas e surpreenda-se.",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "172.mp4",
+   "category": "salgado",
+   "weekday": "terca",
+   "dish": null,
+   "headline": "Terça: pratos suculentos para alegrar seu almoço!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "dia terça escrito na arte, etiqueta antiga não tinha dia"
+  },
+  {
+   "title": "173.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Refrescante & nutritiva: nossas saladas dão cor e leveza ao seu almoço",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "174.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesa de uva com bombom",
+   "headline": "O toque final perfeito: sobremesas que transformam o almoço em experiência completa.",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "175.mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Quarta é dia de tradição: feijoada completa com todos os acompanhamentos!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "176.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "salada de grão de bico",
+   "headline": "Para quem prefere leveza: opções saudáveis e cheias de sabor te esperam!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "etiqueta antiga dizia salgado"
+  },
+  {
+   "title": "177.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "torta com merengue",
+   "headline": "Feche o almoço com chave de ouro: sobremesas irresistíveis.",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "178.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Quinta especial: massas irresistíveis com molhos de dar água na boca!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "179.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Saladas frescas e coloridas: equilíbrio perfeito para acompanhar seu prato.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "etiqueta antiga dizia salgado, mas é prato de salada"
+  },
+  {
+   "title": "180.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesa de morango com chantilly",
+   "headline": "Uma pausa doce: sobremesas que tornam seu almoço ainda mais especial!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "181.mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "empanado",
+   "headline": "Sexta de sabores: frescor e qualidade em cada detalhe do buffet.",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "182.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Saladas leves e coloridas: a combinação ideal para harmonizar seu prato.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "rodapé 'Pista cheia de variedades'"
+  },
+  {
+   "title": "183.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "torta de paçoca",
+   "headline": "Uma pausa doce no seu dia! Confeitaria própria",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Moldura de câmera faz parte do design."
+  },
+  {
+   "title": "184.mp4",
+   "category": "salgado",
+   "weekday": "segunda",
+   "dish": "arroz colorido",
+   "headline": "Uma explosao de sabores para comecar bem a semana. Esperamos por voce.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "sem dia escrito, mas 'comecar bem a semana' sugere segunda; arroz colorido pode ser salada de arroz fria | revisado por mim"
+  },
+  {
+   "title": "185.mp4",
+   "category": "salada",
+   "weekday": "segunda",
+   "dish": null,
+   "headline": "Segunda com variedade, frescor e sabor. Seu almoco merece o melhor!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "bufe frio de saladas e frutas"
+  },
+  {
+   "title": "186.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "bolo",
+   "headline": "Delicadeza, sabor e cuidado: descubra nossas sobremesas e surpreenda-se",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "187.mp4",
+   "category": "salgado",
+   "weekday": "terca",
+   "dish": "gratinados",
+   "headline": "Terça. Pratos suculentos para alegrar seu almoço!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Etiqueta antiga não tinha dia; a arte diz terça."
+  },
+  {
+   "title": "188.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "grão de bico",
+   "headline": "Refrescante e nutritiva: nossas saladas dão cor e leveza ao seu almoço",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "189.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "torta de morango",
+   "headline": "O toque final perfeito: sobremesas que transformam o almoço em experiência completa",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "190.mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Quarta é dia de tradição: feijoada. Completa com todos os acompanhamentos!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "191.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "vinagrete",
+   "headline": "Para quem prefere leveza: opções saudáveis e cheias de sabor te esperam!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "192.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": null,
+   "headline": "Feche o almoço com chave de ouro: sobremesas irresistíveis",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "193.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Quinta especial: massas irresistíveis com molhos de dar água na boca!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Talharim com brócolis."
+  },
+  {
+   "title": "194.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "broto de feijão",
+   "headline": "Saladas frescas e coloridas: equilíbrio perfeito para acompanhar seu prato",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Etiqueta antiga dizia salgado."
+  },
+  {
+   "title": "195.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "torta de paçoca",
+   "headline": "Uma pausa doce: sobremesas que tornam seu almoço ainda mais especial!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "196.mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "grelhado (peixe ou frango)",
+   "headline": "Sexta de sabores: frescor e qualidade em cada detalhe do buffet",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Etiqueta antiga não tinha dia; a arte diz sexta."
+  },
+  {
+   "title": "197.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Saladas leves e coloridas: a combinação ideal para harmonizar seu prato",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Etiqueta antiga dizia salgado, mas são folhas no bufê de saladas."
+  },
+  {
+   "title": "198.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "torta de morango",
+   "headline": "Uma pausa doce no seu dia! Confeitaria própria",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Moldura de câmera faz parte do design."
+  },
+  {
+   "title": "200.mp4",
+   "category": "salgado",
+   "weekday": "segunda",
+   "dish": "massas",
+   "headline": "Uma explosão de sabores para começar bem a semana. Esperamos por você.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Bufê quente com massa e carnes; texto fala em começar a semana sem escrever o dia.",
+   "locked_by_dish": true
+  },
+  {
+   "title": "201.mp4",
+   "category": "salada",
+   "weekday": "segunda",
+   "dish": null,
+   "headline": "Segunda com variedade, frescor e sabor. Seu almoço merece o melhor!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Etiqueta antiga dizia salgado, mas a foto é prato de salada sendo montado."
+  },
+  {
+   "title": "202.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "tiramisu",
+   "headline": "Delicadeza, sabor e cuidado: descubra nossas sobremesas e surpreenda-se",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Etiqueta antiga dizia salgado, mas é vitrine de sobremesas."
+  },
+  {
+   "title": "203.mp4",
+   "category": "salgado",
+   "weekday": "terca",
+   "dish": "gratinados",
+   "headline": "Terça. Pratos suculentos para alegrar seu almoço!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Último quadro mostra um bolo, mas o destaque é prato quente (carne, gratinados)."
+  },
+  {
+   "title": "204.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "palmito",
+   "headline": "Refrescante e nutritiva: nossas saladas dão cor e leveza ao seu almoço",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "205.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "pudim",
+   "headline": "O toque final perfeito: sobremesas que transformam o almoço em experiência completa",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "206.mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Quarta é dia de tradição: feijoada. Completa com todos os acompanhamentos!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "207.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Para quem prefere leveza: opções saudáveis e cheias de sabor te esperam!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "208.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "torta de merengue",
+   "headline": "Feche o almoço com chave de ouro: sobremesas irresistíveis",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "209.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "nhoque",
+   "headline": "Quinta especial: massas irresistíveis com molhos de dar água na boca!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Mostra nhoque e massas gratinadas sendo servidas."
+  },
+  {
+   "title": "210.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Saladas frescas e coloridas: equilíbrio perfeito para acompanhar seu prato",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Etiqueta antiga dizia salgado, mas é só salada."
+  },
+  {
+   "title": "211.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesa com uvas",
+   "headline": "Uma pausa doce: sobremesas que tornam seu almoço ainda mais especial!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "212.mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "peixe empanado",
+   "headline": "Sexta de sabores: frescor e qualidade em cada detalhe do buffet",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "213.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Saladas leves e coloridas: a combinação ideal para harmonizar seu prato",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "214.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "tiramisu",
+   "headline": "Uma pausa doce no seu dia! Confeitaria própria",
+   "flags": [],
+   "confidence": "alta",
+   "note": "A interface de câmera parece moldura proposital do design (igual aos itens 52, 64 e 71). Visual idêntico ao item 64."
+  },
+  {
+   "title": "216.mp4",
+   "category": "salgado",
+   "weekday": null,
+   "dish": "batata com cebola",
+   "headline": "Uma explosão de sabores para começar bem a semana. Esperamos por você.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Texto fala em começar a semana sem escrever o dia (cabe na segunda)."
+  },
+  {
+   "title": "217.mp4",
+   "category": "salada",
+   "weekday": "segunda",
+   "dish": null,
+   "headline": "Segunda com variedade, frescor e sabor. Seu almoço merece o melhor!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Foto de frutas (manga, kiwi) e bufê frio, não prato quente."
+  },
+  {
+   "title": "218.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": null,
+   "headline": "Delicadeza, sabor e cuidado: descubra nossas sobremesas e surpreenda-se.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "bolo e sobremesa com uvas, confeitaria propria"
+  },
+  {
+   "title": "219.mp4",
+   "category": "salgado",
+   "weekday": "terca",
+   "dish": "carnes",
+   "headline": "Terça. Pratos suculentos para alegrar seu almoço!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "21_07 (2).mp4",
+   "category": "outro",
+   "weekday": null,
+   "dish": null,
+   "headline": "Estamos abertos! Venha nos visitar. Horario 11h30 as 15h00",
+   "flags": [
+    "fechado_ou_aviso"
+   ],
+   "confidence": "media",
+   "note": "pessoa provando comida no garfo, sem prato identificavel em destaque"
+  },
+  {
+   "title": "21_07 (2).png",
+   "category": "outro",
+   "weekday": null,
+   "dish": null,
+   "headline": "Estamos abertos! Venha nos visitar",
+   "flags": [
+    "fechado_ou_aviso"
+   ],
+   "confidence": "media",
+   "note": "pessoa comendo, comida pequena e sem destaque"
+  },
+  {
+   "title": "21_07.mp4",
+   "category": "salada",
+   "weekday": "segunda",
+   "dish": "frutas",
+   "headline": "Bom dia segunda! Comece a semana com sabor e leveza",
+   "flags": [],
+   "confidence": "alta",
+   "note": "travessa de frutas (manga, kiwi, morango) e saladas ao fundo"
+  },
+  {
+   "title": "21_07.png",
+   "category": "salada",
+   "weekday": "segunda",
+   "dish": null,
+   "headline": "Bom dia segunda! Comece a semana com sabor e leveza!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "frutas e bufê frio em destaque"
+  },
+  {
+   "title": "22.png",
+   "category": "salgado",
+   "weekday": "segunda",
+   "dish": "arroz",
+   "headline": "Segundou com sabor e variedade!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "arroz com calabresa/bacon; 'Segundou' = segunda"
+  },
+  {
+   "title": "220.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Refrescante & nutritiva: nossas saladas dao cor e leveza ao seu almoco",
+   "flags": [],
+   "confidence": "alta",
+   "note": "folhas verdes, salada caesar"
+  },
+  {
+   "title": "221.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": null,
+   "headline": "O toque final perfeito: sobremesas que transformam o almoco em experiencia completa",
+   "flags": [],
+   "confidence": "alta",
+   "note": "travessas de sobremesa com calda de chocolate e frutas vermelhas"
+  },
+  {
+   "title": "222.mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Quarta e dia de tradicao: feijoada. Completa com todos os acompanhamentos!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "feijoada servida na panela de barro com concha"
+  },
+  {
+   "title": "223.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "sushi",
+   "headline": "Para quem prefere leveza: opcoes saudaveis e cheias de sabor te esperam!",
+   "flags": [],
+   "confidence": "media",
+   "note": "sushi em destaque, bufe de saladas ao fundo, texto de leveza"
+  },
+  {
+   "title": "224.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": null,
+   "headline": "Feche o almoco com chave de ouro: sobremesas irresistiveis.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "duplicata dos itens 3 e 14"
+  },
+  {
+   "title": "225.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Quinta especial: massas irresistíveis com molhos de dar água na boca!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "226.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Saladas frescas e coloridas: equilibrio perfeito para acompanhar seu prato.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "duplicata do item 5; etiqueta antiga salgado estava errada"
+  },
+  {
+   "title": "227.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "brigadeiro de copinho",
+   "headline": "Uma pausa doce: sobremesas que tornam seu almoco ainda mais especial!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "potinhos de doce com granulado, confeitaria propria"
+  },
+  {
+   "title": "228.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Saladas leves e coloridas: a combinacao ideal para harmonizar seu prato. Pista cheia de variedades",
+   "flags": [],
+   "confidence": "alta",
+   "note": "salada de grao de bico com cenoura; etiqueta antiga salgado estava errada"
+  },
+  {
+   "title": "229.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "torta com merengue",
+   "headline": "Uma pausa doce no seu dia!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "etiqueta antiga salgado estava errada; e sobremesa com merengue, confeitaria propria"
+  },
+  {
+   "title": "22_07 (2).mp4",
+   "category": "salada",
+   "weekday": "terca",
+   "dish": "vinagrete",
+   "headline": "Variedade e qualidade para o seu almoco de terca",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "22_07 (2).png",
+   "category": "outro",
+   "weekday": null,
+   "dish": null,
+   "headline": "Estamos abertos! Venha nos visitar",
+   "flags": [
+    "fechado_ou_aviso"
+   ],
+   "confidence": "alta",
+   "note": "salao com bufe ao fundo, sem prato em destaque"
+  },
+  {
+   "title": "22_07 (3).mp4",
+   "category": "salada",
+   "weekday": "terca",
+   "dish": null,
+   "headline": "Variedade e qualidade para o seu almoco de terca",
+   "flags": [],
+   "confidence": "alta",
+   "note": "foto de tomate, ovos de codorna, vinagrete e salada de cebola roxa"
+  },
+  {
+   "title": "22_07 (4).mp4",
+   "category": "outro",
+   "weekday": null,
+   "dish": null,
+   "headline": "Estamos abertos! Venha nos visitar. Horario 11h30 as 15h00",
+   "flags": [
+    "fechado_ou_aviso"
+   ],
+   "confidence": "alta",
+   "note": "salao com bufe ao fundo, sem prato em destaque"
+  },
+  {
+   "title": "22_07.mp4",
+   "category": "salada",
+   "weekday": "terca",
+   "dish": null,
+   "headline": "Variedade e qualidade para o seu almoco de terca",
+   "flags": [],
+   "confidence": "alta",
+   "note": "bufe frio de saladas e frutas"
+  },
+  {
+   "title": "22_07.png",
+   "category": "salada",
+   "weekday": "terca",
+   "dish": null,
+   "headline": "Variedade e qualidade para o seu almoço de terça.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "bufê frio: tomate, muçarela de búfala, ceviche, vinagrete"
+  },
+  {
+   "title": "23.png",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Tudo fresquinho e cheio de opções deliciosas!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "bufê de folhas e saladas"
+  },
+  {
+   "title": "230.mp4",
+   "category": "salgado",
+   "weekday": "terca",
+   "dish": null,
+   "headline": "Terca: pratos suculentos para alegrar seu almoco!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "pratos com carne, feijao, arroz e legumes; etiqueta antiga sem dia estava errada"
+  },
+  {
+   "title": "231.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "sushi",
+   "headline": "Refrescante & nutritiva: nossas saladas dao cor e leveza ao seu almoco",
+   "flags": [],
+   "confidence": "media",
+   "note": "mesma arte do 257, sushi com saladas ao fundo"
+  },
+  {
+   "title": "232.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "bolo",
+   "headline": "O toque final perfeito: sobremesas que transformam o almoco em experiencia completa",
+   "flags": [],
+   "confidence": "alta",
+   "note": "confeitaria propria"
+  },
+  {
+   "title": "233.mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Quarta e dia de tradicao: feijoada. Completa com todos os acompanhamentos!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "parece duplicata do item 9"
+  },
+  {
+   "title": "234.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Para quem prefere leveza: opcoes saudaveis e cheias de sabor te esperam!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "parece duplicata do item 10"
+  },
+  {
+   "title": "235.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Quinta especial: massas irresistiveis com molhos de dar agua na boca!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "prato com nhoque ao sugo e parmegiana gratinada"
+  },
+  {
+   "title": "236.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Saladas frescas e coloridas: equilibrio perfeito para acompanhar seu prato.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "pratos de salada montados no bufe"
+  },
+  {
+   "title": "238.mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "torta salgada",
+   "headline": "Sexta de sabores: frescor e qualidade em cada detalhe do buffet.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "quiche/torta de brocolis"
+  },
+  {
+   "title": "239.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Refrescante & nutritiva: nossas saladas dao cor e leveza ao seu almoco",
+   "flags": [],
+   "confidence": "alta",
+   "note": "bufe frio com quinoa, rabanete, vinagrete"
+  },
+  {
+   "title": "23_07 (2).mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "musse de limao",
+   "headline": "Para completar seu almoço, nossa musse de limão, cremosa, leve e com o toque perfeito de frescor",
+   "flags": [],
+   "confidence": "alta",
+   "note": "estava excluída sem categoria; é sobremesa clara"
+  },
+  {
+   "title": "23_07 (2).png",
+   "category": "doce",
+   "weekday": null,
+   "dish": "mousse de limão",
+   "headline": "Para completar seu almoço, nossa musse de limão, cremosa, leve e com o toque perfeito de frescor.",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "23_07 (3).mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "musse de limao",
+   "headline": "Para completar seu almoco, nossa musse de limao, cremosa, leve e com o toque perfeito de frescor",
+   "flags": [],
+   "confidence": "alta",
+   "note": "experimente hoje no buffet"
+  },
+  {
+   "title": "23_07.mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "QUARTA de feijoada! E a feijoada de hoje está imperdível!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "23_07.png",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Quarta de feijoada! E a feijoada de hoje está imperdível!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "24.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "merengue de morango",
+   "headline": "Alguem disse merengue?!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "cozinheira segurando travessa de merengue com morangos; tem bloco de horario"
+  },
+  {
+   "title": "24.png",
+   "category": "salgado",
+   "weekday": "terca",
+   "dish": "sushi",
+   "headline": "Terca com a gente! Deliciosos sushis fresquinhos",
+   "flags": [],
+   "confidence": "media",
+   "note": "sushi nao e prato quente, mas e o destaque principal"
+  },
+  {
+   "title": "240.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": null,
+   "headline": "Feche o almoco com chave de ouro: sobremesas irresistiveis.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "parece duplicata do item 3 (252.mp4)"
+  },
+  {
+   "title": "241.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "torta com merengue",
+   "headline": "Uma pausa doce: sobremesas que tornam seu almoco ainda mais especial!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "242.mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "paella",
+   "headline": "Sexta de sabores: frescor e qualidade em cada detalhe do buffet.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "parece duplicata dos itens 8 e 16"
+  },
+  {
+   "title": "243.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Saladas leves e coloridas: a combinacao ideal para harmonizar seu prato. Pista cheia de variedades",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "244.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Saladas leves e coloridas: a combinacao ideal para harmonizar seu prato. Pista cheia de variedades",
+   "flags": [],
+   "confidence": "alta",
+   "note": "palmito e tabule em destaque"
+  },
+  {
+   "title": "245.mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "paella",
+   "headline": "Sexta de sabores: frescor e qualidade em cada detalhe do buffet.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "parece duplicata do item 8 (256.mp4)"
+  },
+  {
+   "title": "246.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "bolo",
+   "headline": "Uma pausa doce no seu dia!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "bolo/pudim com calda de chocolate e coco, confeitaria propria"
+  },
+  {
+   "title": "247.mp4",
+   "category": "outro",
+   "weekday": null,
+   "dish": "bolo",
+   "headline": "Voltaremos amanha, aguardamos voce! Confeitaria propria",
+   "flags": [
+    "fechado_ou_aviso"
+   ],
+   "confidence": "media",
+   "note": "aviso de retorno; foto e confeiteira segurando bolo/torta, poderia ser doce mas texto e aviso de fechamento"
+  },
+  {
+   "title": "248.mp4",
+   "category": "outro",
+   "weekday": null,
+   "dish": null,
+   "headline": "Estamos fechados! Voltaremos 05/01/26. Feliz Ano Novo!",
+   "flags": [
+    "fechado_ou_aviso",
+    "data_comemorativa",
+    "data_especifica"
+   ],
+   "confidence": "alta",
+   "note": "foto do salao vazio, aviso de recesso de fim de ano"
+  },
+  {
+   "title": "24_07 (2).mp4",
+   "category": "salgado",
+   "weekday": null,
+   "dish": "yakisoba",
+   "headline": "Estamos abertos! Horario 11h30 as 15h00",
+   "flags": [
+    "fechado_ou_aviso"
+   ],
+   "confidence": "media",
+   "note": "yakisoba em destaque com aviso de horario"
+  },
+  {
+   "title": "24_07 (2).png",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Estamos abertos!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "macarrão com legumes, tema de massa (quinta)",
+   "locked_by_dish": true
+  },
+  {
+   "title": "24_07 (3).mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "nhoque",
+   "headline": "Quinta-feira e dia de massas frescas e molhos especiais no nosso buffet",
+   "flags": [],
+   "confidence": "alta",
+   "note": "igual ao item 241"
+  },
+  {
+   "title": "24_07 (3).png",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "nhoque",
+   "headline": "Quinta-feira é dia de massas frescas e molhos especiais no nosso buffet.",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "24_07.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "nhoque",
+   "headline": "Quinta-feira e dia de massas frescas e molhos especiais no nosso buffet",
+   "flags": [],
+   "confidence": "alta",
+   "note": "igual ao item 237"
+  },
+  {
+   "title": "24_07.png",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "nhoque",
+   "headline": "Quinta-feira é dia de massas frescas e molhos especiais no nosso buffet.",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "250.mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Quarta e dia de tradicao: feijoada. Completa com todos os acompanhamentos!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "251.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Para quem prefere leveza: opcoes saudaveis e cheias de sabor te esperam!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "prato de salada com grao de bico, rabanete e cenoura"
+  },
+  {
+   "title": "252.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": null,
+   "headline": "Feche o almoco com chave de ouro: sobremesas irresistiveis.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "vitrine de sobremesas (bolo, pave, uva), confeitaria propria"
+  },
+  {
+   "title": "253.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Quinta especial: massas irresistiveis com molhos de dar agua na boca!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "massa gratinada com queijo puxando"
+  },
+  {
+   "title": "254.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Saladas frescas e coloridas: equilibrio perfeito para acompanhar seu prato.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "mussarela de bufala com tomate cereja e vinagrete; etiqueta antiga salgado estava errada"
+  },
+  {
+   "title": "255.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "pave",
+   "headline": "Uma pausa doce no seu dia!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "travessa de sobremesa com cacau polvilhado, confeitaria propria"
+  },
+  {
+   "title": "256.mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "paella",
+   "headline": "Sexta de sabores: frescor e qualidade em cada detalhe do buffet.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "paella de frutos do mar"
+  },
+  {
+   "title": "257.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "sushi",
+   "headline": "Refrescante & nutritiva: nossas saladas dao cor e leveza ao seu almoco",
+   "flags": [],
+   "confidence": "media",
+   "note": "foto em destaque e travessa de sushi com bufe de saladas ao fundo; texto fala de saladas"
+  },
+  {
+   "title": "258.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "torta com merengue",
+   "headline": "Feche o almoco com chave de ouro: sobremesas irresistiveis.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "confeitaria propria, merengue maçaricado e sobremesa de frutas vermelhas"
+  },
+  {
+   "title": "25_07.mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "salmao",
+   "headline": "Sexta-feira pede frutos do mar!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "salmao ao molho para fechar a semana"
+  },
+  {
+   "title": "25_07.png",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "salmão",
+   "headline": "Sexta-feira pede frutos do mar! Venha apreciar salmão ao molho",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "26.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "torta de morango",
+   "headline": "Delicadeza, sabor e cuidado: descubra nossas sobremesas e surpreenda-se",
+   "flags": [],
+   "confidence": "alta",
+   "note": "confeiteira segurando a torta"
+  },
+  {
+   "title": "27.png",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesas",
+   "headline": "A doçura que você merece para adoçar a semana!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "travessas de sobremesa (chocolate, frutas vermelhas)"
+  },
+  {
+   "title": "28.mp4",
+   "category": "salgado",
+   "weekday": null,
+   "dish": "torta gratinada",
+   "headline": "Uma explosao de sabores para terminar bem a semana",
+   "flags": [],
+   "confidence": "alta",
+   "note": "terminar bem a semana sugere sexta, mas dia nao escrito"
+  },
+  {
+   "title": "28.png",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Quinta é dia de massa!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "massa gratinada"
+  },
+  {
+   "title": "35.png",
+   "category": "salgado",
+   "weekday": null,
+   "dish": "torta gratinada",
+   "headline": "Uma explosao de sabores para comecar bem a semana",
+   "flags": [],
+   "confidence": "alta",
+   "note": "comecar bem a semana sugere segunda, mas dia nao escrito"
+  },
+  {
+   "title": "36.png",
+   "category": "salada",
+   "weekday": "segunda",
+   "dish": null,
+   "headline": "Segunda com variedade, frescor e sabor. Seu almoço merece o melhor!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "37.png",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesa de morango com suspiro",
+   "headline": "Delicadeza, sabor e cuidado: descubra nossas sobremesas e surpreenda-se.",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "38.png",
+   "category": "salada",
+   "weekday": "terca",
+   "dish": null,
+   "headline": "Terça é dia de renovar o paladar com variedade e frescor no Bernardino.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "foto de salada de legumes ralados"
+  },
+  {
+   "title": "39.mp4",
+   "category": "salgado",
+   "weekday": "segunda",
+   "dish": "arroz",
+   "headline": "Segundou com sabor e variedade",
+   "flags": [],
+   "confidence": "media",
+   "note": "Segundou indica segunda; foto de arroz a grega no bufe"
+  },
+  {
+   "title": "39.png",
+   "category": "salgado",
+   "weekday": null,
+   "dish": "carne assada",
+   "headline": "Nossa pista quente está repleta de opções para todos os paladares.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "lombo/carne fatiada ao molho"
+  },
+  {
+   "title": "40.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Tudo fresquinho e cheio de opcoes deliciosas!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "foto de folhas e bufe de saladas; etiqueta antiga dizia salgado"
+  },
+  {
+   "title": "40.png",
+   "category": "doce",
+   "weekday": null,
+   "dish": "mousse de limão",
+   "headline": "O final perfeito para o seu almoço está na nossa mesa de doces!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "confeitaria própria"
+  },
+  {
+   "title": "41.png",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Hoje tem feijoada",
+   "flags": [],
+   "confidence": "alta",
+   "note": "barra de dias com qua destacado"
+  },
+  {
+   "title": "42.png",
+   "category": "salada",
+   "weekday": null,
+   "dish": "beterraba",
+   "headline": "Saladas coloridas e ingredientes selecionados para o seu prato perfeito.",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "43.png",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesas",
+   "headline": "Finalize com sobremesas que adoçam o dia. Visite o cantinho da felicidade.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "balcão de doces do cantinho da felicidade"
+  },
+  {
+   "title": "44.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Quinta e dia de massa!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "massa gratinada (lasanha/canelone)"
+  },
+  {
+   "title": "44.png",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Quinta é dia de massa no Bernardino: sabor que abraça!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "lasanha/massa gratinada"
+  },
+  {
+   "title": "45.png",
+   "category": "salada",
+   "weekday": "quarta",
+   "dish": null,
+   "headline": "Nosso buffet de saladas é o equilíbrio ideal para a quarta.",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "46.mp4",
+   "category": "salgado",
+   "weekday": null,
+   "dish": "paella e peixe",
+   "headline": "Nosso buffet te espera para celebrar o fim de semana com sabor",
+   "flags": [],
+   "confidence": "alta",
+   "note": "fala em fim de semana sem dia escrito, provavel sexta"
+  },
+  {
+   "title": "46.png",
+   "category": "doce",
+   "weekday": null,
+   "dish": "bolo",
+   "headline": "Finalize com um doce especial, passe no nosso cantinho da felicidade",
+   "flags": [],
+   "confidence": "alta",
+   "note": "bolo de chocolate com coco, confeitaria própria"
+  },
+  {
+   "title": "47.png",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "salmão",
+   "headline": "Sexta: estamos prontos para atender você com o melhor salmão da região.",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "49.png",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesas",
+   "headline": "Finalize sua refeição com um toque doce: nossas sobremesas encantam todos os paladares.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "pavê/bolo, confeitaria própria"
+  },
+  {
+   "title": "50.mp4",
+   "category": "salada",
+   "weekday": "segunda",
+   "dish": null,
+   "headline": "Segunda com variedade, frescor e sabor. Seu almoco merece o melhor!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "foto do bufe de saladas"
+  },
+  {
+   "title": "50.png",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Massas fresquinhas",
+   "flags": [],
+   "confidence": "alta",
+   "note": "espaguete; sem dia escrito",
+   "locked_by_dish": true
+  },
+  {
+   "title": "51.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "torta de morango com suspiro",
+   "headline": "Delicadeza, sabor e cuidado: descubra nossas sobremesas e surpreenda-se",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "51.png",
+   "category": "salgado",
+   "weekday": "segunda",
+   "dish": "carne moída",
+   "headline": "Segunda pede sabor: Prato quentinho e cheio de energia para começar bem a semana!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "carne moída com vagem"
+  },
+  {
+   "title": "52.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "E dia de renovar o paladar com variedade e frescor no Bernardino!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "saladas de legumes ralados e beterraba"
+  },
+  {
+   "title": "52.png",
+   "category": "salada",
+   "weekday": null,
+   "dish": "salada de feijão fradinho",
+   "headline": "Refrescante & nutritiva: nossas saladas dão cor e leveza ao seu almoço",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "53.mp4",
+   "category": "salgado",
+   "weekday": null,
+   "dish": "carne ao molho",
+   "headline": "Nossa pista quente esta repleta de opcoes para todos os paladares",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "53.png",
+   "category": "doce",
+   "weekday": null,
+   "dish": "pavê",
+   "headline": "O toque final perfeito: sobremesas que transformam o almoço em experiência completa.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "travessas de sobremesa com uva e pistache"
+  },
+  {
+   "title": "54.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "pave",
+   "headline": "O final perfeito para o seu almoco esta na nossa mesa de doces!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "etiqueta antiga dizia salgado, mas e sobremesa de travessa"
+  },
+  {
+   "title": "54.png",
+   "category": "salgado",
+   "weekday": "terca",
+   "dish": "lombo",
+   "headline": "Terça de sabores irresistíveis: pratos suculentos para alegrar seu almoço!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "carne fatiada ao molho; quase igual ao item 256"
+  },
+  {
+   "title": "55.mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Hoje tem feijoada",
+   "flags": [],
+   "confidence": "alta",
+   "note": "barra de dias com qua destacado"
+  },
+  {
+   "title": "55.png",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Coloridas, frescas e nutritivas: nossas saladas são o equilíbrio perfeito no prato!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "56.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "beterraba",
+   "headline": "Saladas coloridas e ingredientes selecionados para o seu prato perfeito",
+   "flags": [],
+   "confidence": "alta",
+   "note": "etiqueta antiga dizia salgado, mas e salada"
+  },
+  {
+   "title": "56.png",
+   "category": "doce",
+   "weekday": "terca",
+   "dish": "pavê",
+   "headline": "Para adoçar sua terça: sobremesas que encantam em cada colherada.",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "57.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": null,
+   "headline": "Cantinho da felicidade: finalize com sobremesas que adocam o dia",
+   "flags": [],
+   "confidence": "alta",
+   "note": "vitrine da confeitaria propria"
+  },
+  {
+   "title": "57.png",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Quarta é dia de tradição: feijoada completa com todos os acompanhamentos!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "58.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Quinta e dia de massa no Bernardino, sabor que abraca!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "massa gratinada (lasanha)"
+  },
+  {
+   "title": "58.png",
+   "category": "salada",
+   "weekday": null,
+   "dish": "wrap",
+   "headline": "Para quem prefere leveza: opcoes saudaveis e cheias de sabor te esperam",
+   "flags": [],
+   "confidence": "alta",
+   "note": "wraps em destaque com apelo leve/saudavel | revisado por mim"
+  },
+  {
+   "title": "59.mp4",
+   "category": "salada",
+   "weekday": "quarta",
+   "dish": null,
+   "headline": "Nosso buffet de saladas e o equilibrio ideal para a quarta",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "59.png",
+   "category": "doce",
+   "weekday": null,
+   "dish": "pavê de uva",
+   "headline": "Feche o almoço com chave de ouro: sobremesas fresquinhas e irresistíveis.",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "60.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "bolo",
+   "headline": "Finalize com um doce especial, passe no nosso cantinho da felicidade",
+   "flags": [],
+   "confidence": "alta",
+   "note": "confeitaria propria; etiqueta antiga excluia, mas e doce claro"
+  },
+  {
+   "title": "60.png",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Quinta especial: massas irresistíveis com molhos de dar água na boca!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "lasanha gratinada"
+  },
+  {
+   "title": "61.mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "salmao",
+   "headline": "Sexta: estamos prontos para atender voce com o melhor salmao da regiao",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "61.png",
+   "category": "salada",
+   "weekday": null,
+   "dish": "vinagrete",
+   "headline": "Saladas frescas e coloridas: Equilíbrio perfeito para acompanhar seu prato.",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "62.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "(sem texto principal, so logo e endereco)",
+   "flags": [],
+   "confidence": "alta",
+   "note": "montagem de prato de salada no bufe frio"
+  },
+  {
+   "title": "62.png",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesa de morango com suspiro",
+   "headline": "Uma pausa doce: sobremesas que tornam seu almoço ainda mais especial!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "63.mp4",
+   "category": "salgado",
+   "weekday": "segunda",
+   "dish": "carne moida",
+   "headline": "Segunda pede sabor: prato quentinho e cheio de energia para comecar bem a semana",
+   "flags": [],
+   "confidence": "alta",
+   "note": "duplicado do item 216"
+  },
+  {
+   "title": "63.png",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "peixe",
+   "headline": "Sexta de sabores: frescor e qualidade em cada detalhe do buffet.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "filé de peixe empanado em destaque"
+  },
+  {
+   "title": "64.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "bolo e sobremesas na travessa",
+   "headline": "Finalize sua refeicao com um toque doce: nossas sobremesas encantam todos os paladares",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Confeitaria propria"
+  },
+  {
+   "title": "64.png",
+   "category": "salada",
+   "weekday": null,
+   "dish": "salada caesar",
+   "headline": "Saladas leves e coloridas: a combinação ideal para harmonizar seu prato.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "rodapé: pista cheia de variedades"
+  },
+  {
+   "title": "65.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Massas fresquinhas",
+   "flags": [],
+   "confidence": "alta",
+   "note": "nenhum dia escrito na arte (etiqueta antiga dizia quinta)",
+   "locked_by_dish": true
+  },
+  {
+   "title": "65.png",
+   "category": "doce",
+   "weekday": null,
+   "dish": "pavê",
+   "headline": "Feche a semana em grande estilo: sobremesas que encantam em cada colherada.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "texto 'feche a semana' sugere sexta, mas sem dia escrito"
+  },
+  {
+   "title": "66.png",
+   "category": "salgado",
+   "weekday": "segunda",
+   "dish": "frango",
+   "headline": "Segunda pede sabor: Prato quentinho e cheio de energia para começar bem a semana!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "frango assado em destaque"
+  },
+  {
+   "title": "67.mp4",
+   "category": "salgado",
+   "weekday": "segunda",
+   "dish": "carne moida",
+   "headline": "Segunda pede sabor: prato quentinho e cheio de energia para comecar bem a semana",
+   "flags": [],
+   "confidence": "alta",
+   "note": "carne moida com vagem; igual ao item 223"
+  },
+  {
+   "title": "67.png",
+   "category": "salada",
+   "weekday": null,
+   "dish": "vinagrete",
+   "headline": "Refrescante & nutritiva: nossas saladas dão cor e leveza ao seu almoço",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "68.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "salada de feijao fradinho",
+   "headline": "Refrescante e nutritiva: nossas saladas dao cor e leveza ao seu almoco",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "68.png",
+   "category": "doce",
+   "weekday": null,
+   "dish": "pavê",
+   "headline": "O toque final perfeito: sobremesas que transformam o almoço em experiência completa.",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "69.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesas na travessa",
+   "headline": "O toque final perfeito: sobremesas que transformam o almoco em experiencia completa",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Confeitaria propria"
+  },
+  {
+   "title": "70.mp4",
+   "category": "salada",
+   "weekday": "terca",
+   "dish": "legumes",
+   "headline": "Terca e dia de renovar o paladar com variedade e frescor no Bernardino",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "71.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "legumes",
+   "headline": "Coloridas, frescas e nutritivas: nossas saladas sao o equilibrio perfeito no prato",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "72.mp4",
+   "category": "doce",
+   "weekday": "terca",
+   "dish": "sobremesas na travessa",
+   "headline": "Para adocar sua terca: sobremesas que encantam em cada colher",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Confeitaria propria"
+  },
+  {
+   "title": "73.mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Quarta e dia de tradicao: feijoada completa com todos os acompanhamentos",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "74.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "wrap de frango",
+   "headline": "Para quem prefere leveza: opcoes saudaveis e cheias de sabor te esperam!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "wrap de frango em destaque, texto de leveza, saladas ao fundo | revisado por mim"
+  },
+  {
+   "title": "76.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Quinta especial: massas irresistiveis com molhos de dar agua na boca",
+   "flags": [],
+   "confidence": "alta",
+   "note": "lasanha/massa gratinada com queijo"
+  },
+  {
+   "title": "77.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "vinagrete",
+   "headline": "Saladas frescas e coloridas: equilibrio perfeito para acompanhar seu prato",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "78.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesa de uva",
+   "headline": "Feche o almoco com chave de ouro: sobremesas fresquinhas e irresistiveis",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Confeitaria propria"
+  },
+  {
+   "title": "79.mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "peixe empanado",
+   "headline": "Sexta de sabores: frescor e qualidade em cada detalhe do buffet",
+   "flags": [],
+   "confidence": "alta",
+   "note": "file empanado com limao, macarrao ao fundo"
+  },
+  {
+   "title": "80.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "salada caesar",
+   "headline": "Saladas leves e coloridas: a combinacao ideal para harmonizar seu prato",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Pista cheia de variedades"
+  },
+  {
+   "title": "81.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": null,
+   "headline": "Uma pausa doce: ainda mais especial!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "sobremesa com morangos e suspiro"
+  },
+  {
+   "title": "83.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": null,
+   "headline": "FECHE A SEMANA EM GRANDE ESTILO: sobremesas que encantam em cada colherada",
+   "flags": [],
+   "confidence": "alta",
+   "note": "'Feche a semana' sem dia escrito, sugere sexta"
+  },
+  {
+   "title": "84.mp4",
+   "category": "salgado",
+   "weekday": "segunda",
+   "dish": "carnes grelhadas",
+   "headline": "Segunda pede sabor! Prato quentinho e cheio de energia para comecar bem a semana",
+   "flags": [],
+   "confidence": "alta",
+   "note": "carnes assadas/grelhadas em travessa"
+  },
+  {
+   "title": "85.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "vinagrete",
+   "headline": "Refrescante e nutritiva: nossas saladas dao cor e leveza ao seu almoco",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "86.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": null,
+   "headline": "O toque final perfeito: sobremesas que transformam o almoço em experiência completa",
+   "flags": [],
+   "confidence": "alta",
+   "note": "mesma arte do 145"
+  },
+  {
+   "title": "87.mp4",
+   "category": "salgado",
+   "weekday": "terca",
+   "dish": "carne",
+   "headline": "TERÇA de sabores irresistíveis",
+   "flags": [],
+   "confidence": "alta",
+   "note": "mesma arte do 146"
+  },
+  {
+   "title": "88.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "legumes",
+   "headline": "Coloridas, frescas e nutritivas: nossas saladas sao o equilibrio perfeito no prato",
+   "flags": [],
+   "confidence": "alta",
+   "note": "cuba de vagem, cenoura e abobrinha"
+  },
+  {
+   "title": "89.mp4",
+   "category": "doce",
+   "weekday": "terca",
+   "dish": "pudim",
+   "headline": "PARA ADOÇAR SUA TERÇA: sobremesas que encantam em cada colher",
+   "flags": [],
+   "confidence": "alta",
+   "note": "pudim/queijadinha com coco e calda"
+  },
+  {
+   "title": "90.mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "QUARTA É DIA DE TRADIÇÃO: feijoada completa com todos os acompanhamentos",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "91.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": null,
+   "headline": "A doçura que você merece para adoçar a semana!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "92.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "beterraba",
+   "headline": "PARA QUEM PREFERE LEVEZA: Opções saudáveis e cheias de sabor te esperam!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "etiqueta antiga salgado errada"
+  },
+  {
+   "title": "93.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": null,
+   "headline": "FECHE O ALMOÇO COM CHAVE DE OURO: sobremesas fresquinhas e irresistíveis",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "94.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "nhoque",
+   "headline": "Quinta especial: massas irresistíveis com molhos de dar água na boca!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "95.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "frutas",
+   "headline": "Saladas frescas e coloridas: Equilíbrio perfeito para acompanhar seu prato",
+   "flags": [],
+   "confidence": "alta",
+   "note": "etiqueta antiga salgado errada; foto de frutas (manga, kiwi) no bufê frio"
+  },
+  {
+   "title": "96.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": null,
+   "headline": "Uma pausa doce: ainda mais especial!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "sobremesa com merengue maçaricado"
+  },
+  {
+   "title": "97.mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "moqueca",
+   "headline": "Sexta de sabores: frescor e qualidade em cada detalhe do buffet",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "98.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "SALADAS LEVES E COLORIDAS: a combinação ideal para harmonizar seu prato",
+   "flags": [],
+   "confidence": "alta",
+   "note": "etiqueta antiga salgado estava errada; muçarela de búfala e tomate"
+  },
+  {
+   "title": "BERNARDINO RESTAURANTE (1).mp4",
+   "category": "salgado",
+   "weekday": null,
+   "dish": "paella",
+   "headline": "Nosso buffet te espera para celebrar o fim de semana com sabor. Venha saborear as delícias!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "sem dia escrito, mas fala de fim de semana (combina com sexta); paella e salmão"
+  },
+  {
+   "title": "BERNARDINO RESTAURANTE (1).png",
+   "category": "doce",
+   "weekday": "terca",
+   "dish": "pudim",
+   "headline": "Para adoçar sua terça: sobremesas que encantam em cada colherada.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "pudim de coco com calda de chocolate, confeitaria própria"
+  },
+  {
+   "title": "BERNARDINO RESTAURANTE (1gg).png",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Saladas frescas e coloridas: equilibrio perfeito para acompanhar seu prato",
+   "flags": [],
+   "confidence": "alta",
+   "note": "frutas (manga, kiwi) e saladas"
+  },
+  {
+   "title": "BERNARDINO RESTAURANTE (2).mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "sem texto principal (só endereço e horário)",
+   "flags": [],
+   "confidence": "alta",
+   "note": "vídeo montando prato de salada no bufê frio"
+  },
+  {
+   "title": "BERNARDINO RESTAURANTE (2).png",
+   "category": "salada",
+   "weekday": null,
+   "dish": "legumes",
+   "headline": "Coloridas, frescas e nutritivas: nossas saladas são o equilíbrio perfeito no prato!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "BERNARDINO RESTAURANTE (3).png",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Quarta é dia de tradição: feijoada completa com todos os acompanhamentos!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "BERNARDINO RESTAURANTE (3fdf).png",
+   "category": "doce",
+   "weekday": null,
+   "dish": "torta com suspiro",
+   "headline": "Uma pausa doce: sobremesas que tornam seu almoco ainda mais especial!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "BERNARDINO RESTAURANTE (4).png",
+   "category": "salada",
+   "weekday": null,
+   "dish": "beterraba",
+   "headline": "Para quem prefere leveza: Opções saudáveis e cheias de sabor te esperam!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "foto de beterraba no bufê frio"
+  },
+  {
+   "title": "BERNARDINO RESTAURANTE (5).png",
+   "category": "doce",
+   "weekday": null,
+   "dish": null,
+   "headline": "Feche o almoco com chave de ouro: sobremesas fresquinhas e irresistiveis",
+   "flags": [],
+   "confidence": "alta",
+   "note": "feche o almoco, nao a semana"
+  },
+  {
+   "title": "BERNARDINO RESTAURANTE.mp4",
+   "category": "outro",
+   "weekday": null,
+   "dish": null,
+   "headline": "Estamos abertos! Venha nos visitar",
+   "flags": [
+    "fechado_ou_aviso"
+   ],
+   "confidence": "alta",
+   "note": "fachada do restaurante, sem comida"
+  },
+  {
+   "title": "BERNARDINO RESTAURANTE.png",
+   "category": "salgado",
+   "weekday": "terca",
+   "dish": "lombo",
+   "headline": "Terça de sabores irresistíveis: pratos suculentos para alegrar seu almoço!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "carne fatiada ao molho (lombo/pernil)"
+  },
+  {
+   "title": "BERNARDINO RESTAURANTEgg.png",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "nhoque",
+   "headline": "Quinta especial: massas irresistiveis com molhos de dar agua na boca!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "DOCES (2).mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesa de uva",
+   "headline": "Alguem disse doce na travessa?!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "tem bloco de horario de funcionamento"
+  },
+  {
+   "title": "DOCES (2).png",
+   "category": "doce",
+   "weekday": null,
+   "dish": "pudim",
+   "headline": "Aqui temos Pudim",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "DOCES (3).mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "brigadeiro",
+   "headline": "Uma pausa doce no seu dia!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Confeitaria propria; antes estava excluido sem motivo real"
+  },
+  {
+   "title": "DOCES (3).png",
+   "category": "doce",
+   "weekday": null,
+   "dish": "bolo",
+   "headline": "Alguém disse bolo de prestígio?!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "DOCES (4).mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "pave/torta",
+   "headline": "Uma pausa doce no seu dia!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Confeitaria propria; antes estava excluido sem motivo real"
+  },
+  {
+   "title": "DOCES (5).mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "bolo de chocolate com coco",
+   "headline": "Uma pausa doce no seu dia!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "estava excluída, mas é claramente doce"
+  },
+  {
+   "title": "DOCES (6).mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesa de morango com chantilly",
+   "headline": "Uma pausa doce no seu dia!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "estava excluída, mas é claramente doce"
+  },
+  {
+   "title": "DOCES (7).mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "pavê de morango",
+   "headline": "Uma pausa doce no seu dia!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "DOCES (8).mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "tiramisu",
+   "headline": "Uma pausa doce no seu dia! Confeitaria própria",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Visual idêntico ao item 37 (214.mp4), possível duplicata."
+  },
+  {
+   "title": "DOCES.mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "sobremesas na travessa",
+   "headline": "Alguem disse sobremesa na travessa?",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Confeitaria propria"
+  },
+  {
+   "title": "DOCES.png",
+   "category": "doce",
+   "weekday": null,
+   "dish": "brigadeiro",
+   "headline": "Uma pausa doce no seu dia!",
+   "flags": [],
+   "confidence": "alta"
+  },
+  {
+   "title": "QUARTA (2).mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "HOJE TEM FEIJOADA",
+   "flags": [],
+   "confidence": "alta",
+   "note": "sem dia escrito na arte, mas feijoada é tema de quarta",
+   "locked_by_dish": true
+  },
+  {
+   "title": "QUARTA (2).png",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Hoje tem feijoada",
+   "flags": [],
+   "confidence": "alta",
+   "note": "sem dia escrito, mas feijoada é o prato de quarta",
+   "locked_by_dish": true
+  },
+  {
+   "title": "QUARTA - ESTAMOS ABERTOS (2).mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Buffet aberto e a feijoada de hoje esta imperdivel!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "sem dia escrito; feijoada sugere quarta (nome do arquivo tambem)",
+   "locked_by_dish": true
+  },
+  {
+   "title": "QUARTA - ESTAMOS ABERTOS.mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Buffet aberto e a feijoada de hoje esta imperdivel!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "sem dia escrito na arte, so no nome do arquivo (quarta); feijoada sugere quarta",
+   "locked_by_dish": true
+  },
+  {
+   "title": "QUARTA - ESTAMOS ABERTOS.png",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Buffet aberto. E a feijoada de hoje está imperdível!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "sem dia escrito, feijoada combina com quarta",
+   "locked_by_dish": true
+  },
+  {
+   "title": "QUARTA.mp4",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "HOJE TEM FEIJOADA: Nossa feijoada completa está te esperando",
+   "flags": [],
+   "confidence": "alta",
+   "note": "sem dia escrito na arte, feijoada é tema de quarta",
+   "locked_by_dish": true
+  },
+  {
+   "title": "QUARTA.png",
+   "category": "salgado",
+   "weekday": "quarta",
+   "dish": "feijoada",
+   "headline": "Hoje tem feijoada",
+   "flags": [],
+   "confidence": "alta",
+   "note": "nenhum dia escrito na arte, só 'hoje tem feijoada' (feijoada costuma ser quarta)",
+   "locked_by_dish": true
+  },
+  {
+   "title": "QUINTA - ESTAMOS ABERTOS.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "nhoque",
+   "headline": "Estamos abertos! Tagliatelle, penne, nhoque e muito mais esperando por voce",
+   "flags": [],
+   "confidence": "alta",
+   "note": "nome do arquivo diz quinta mas nao ha dia escrito na arte; tema massas",
+   "locked_by_dish": true
+  },
+  {
+   "title": "QUINTA - ESTAMOS ABERTOS.png",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Estamos abertos! Tagliatelle, penne, nhoque e muito mais esperando por você.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "sem dia escrito, mas tema de massas combina com quinta",
+   "locked_by_dish": true
+  },
+  {
+   "title": "QUINTA.mp4",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Quinta e dia de massa! Preparando tudo com muito cuidado",
+   "flags": [],
+   "confidence": "alta",
+   "note": "espaguete ao sugo"
+  },
+  {
+   "title": "QUINTA.png",
+   "category": "salgado",
+   "weekday": "quinta",
+   "dish": "massas",
+   "headline": "Quinta é dia de massa! Preparando tudo com muito cuidado!",
+   "flags": [],
+   "confidence": "alta",
+   "note": "macarrão com legumes"
+  },
+  {
+   "title": "SEXTA (2).mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "paella",
+   "headline": "Sextou! Hoje o destaque sao os nossos pratos, imperdivel",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Sextou conta como sexta; paella com frutos do mar"
+  },
+  {
+   "title": "SEXTA (2).png",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "paella",
+   "headline": "Sextou. Hoje o destaque é nossa paeja, imperdível",
+   "flags": [],
+   "confidence": "alta",
+   "note": "'Sextou' escrito na arte"
+  },
+  {
+   "title": "SEXTA (3).mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "paella",
+   "headline": "SEXTOU: Hoje o destaque é nossa paeja, imperdível",
+   "flags": [],
+   "confidence": "alta",
+   "note": "dia escrito como 'SEXTOU'"
+  },
+  {
+   "title": "SEXTA ESTAMOS ABERTOS (2).mp4",
+   "category": "outro",
+   "weekday": null,
+   "dish": null,
+   "headline": "Estamos abertos! Venha nos visitar. Horario 11h30 as 15h00",
+   "flags": [
+    "fechado_ou_aviso"
+   ],
+   "confidence": "alta",
+   "note": "fachada do predio, sem dia escrito na arte apesar do nome do arquivo"
+  },
+  {
+   "title": "SEXTA ESTAMOS ABERTOS.mp4",
+   "category": "outro",
+   "weekday": null,
+   "dish": null,
+   "headline": "Estamos abertos! Venha nos visitar. Horario 11h30 as 15h00",
+   "flags": [
+    "fechado_ou_aviso"
+   ],
+   "confidence": "alta",
+   "note": "fachada, mesma arte do 166"
+  },
+  {
+   "title": "SEXTA.mp4",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "paella",
+   "headline": "Sextou! Hoje o destaque sao os nossos pratos, imperdivel",
+   "flags": [],
+   "confidence": "alta",
+   "note": "Sextou conta como sexta; igual ao item 197"
+  },
+  {
+   "title": "SEXTA.png",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": "paella",
+   "headline": "Sextou. Hoje o destaque é nossa paeja, imperdível",
+   "flags": [],
+   "confidence": "alta",
+   "note": "mesma arte do item 295 (duplicada)"
+  },
+  {
+   "title": "TERÇA - ESTAMOS ABERTOS (2).mp4",
+   "category": "doce",
+   "weekday": null,
+   "dish": "merengue de morango",
+   "headline": "Estamos abertos! Venha nos visitar. Horario 11h30 as 15h00",
+   "flags": [
+    "fechado_ou_aviso"
+   ],
+   "confidence": "media",
+   "note": "sobremesa de morango com suspiro ocupa a foto toda; texto e aviso de horario"
+  },
+  {
+   "title": "TERÇA - ESTAMOS ABERTOS (2).png",
+   "category": "outro",
+   "weekday": null,
+   "dish": null,
+   "headline": "Estamos abertos! Venha nos visitar",
+   "flags": [
+    "fechado_ou_aviso"
+   ],
+   "confidence": "alta",
+   "note": "salao vazio, sem comida"
+  },
+  {
+   "title": "TERÇA - ESTAMOS ABERTOS (3).mp4",
+   "category": "outro",
+   "weekday": null,
+   "dish": null,
+   "headline": "Estamos abertos! Venha nos visitar. Horario 11h30 as 15h00",
+   "flags": [
+    "fechado_ou_aviso"
+   ],
+   "confidence": "alta",
+   "note": "salao vazio, sem dia escrito na arte"
+  },
+  {
+   "title": "TERÇA - ESTAMOS ABERTOS.mp4",
+   "category": "salada",
+   "weekday": null,
+   "dish": "legumes grelhados",
+   "headline": "Estamos abertos! Venha nos visitar",
+   "flags": [
+    "fechado_ou_aviso"
+   ],
+   "confidence": "media",
+   "note": "aviso de horario sobre foto grande de legumes grelhados; terca so no nome do arquivo, nao na arte"
+  },
+  {
+   "title": "TERÇA - ESTAMOS ABERTOS.png",
+   "category": "outro",
+   "weekday": null,
+   "dish": null,
+   "headline": "Estamos abertos! Venha nos visitar",
+   "flags": [
+    "fechado_ou_aviso"
+   ],
+   "confidence": "alta",
+   "note": "salao vazio, sem comida"
+  },
+  {
+   "title": "TERÇA - GERAL (2).mp4",
+   "category": "salada",
+   "weekday": "terca",
+   "dish": "rabanete",
+   "headline": "Bom dia terca. Venha almocar no Brooklin com comida fresca e deliciosa",
+   "flags": [],
+   "confidence": "alta",
+   "note": "salada de rabanete em destaque"
+  },
+  {
+   "title": "TERÇA - GERAL.mp4",
+   "category": "salgado",
+   "weekday": "terca",
+   "dish": null,
+   "headline": "Bom dia terca. Venha almocar no Brooklin com comida fresca e deliciosa",
+   "flags": [],
+   "confidence": "media",
+   "note": "bufe quente com legumes refogados e gratinado em destaque"
+  },
+  {
+   "title": "TERÇA - GERAL.png",
+   "category": "salgado",
+   "weekday": "terca",
+   "dish": null,
+   "headline": "Bom dia terça. Venha almoçar no Brooklin com comida fresca e deliciosa.",
+   "flags": [],
+   "confidence": "alta",
+   "note": "bufê de pratos quentes (torresmo, batata)"
+  },
+  {
+   "title": "faE.png",
+   "category": "salgado",
+   "weekday": "sexta",
+   "dish": null,
+   "headline": "Sexta de sabores: frescor e qualidade em cada detalhe do buffet",
+   "flags": [],
+   "confidence": "alta",
+   "note": "prato cremoso amarelo (bobo ou frango ao curry)"
+  },
+  {
+   "title": "fds.png",
+   "category": "salada",
+   "weekday": null,
+   "dish": null,
+   "headline": "Saladas leves e coloridas: a combinacao ideal para harmonizar seu prato",
+   "flags": [],
+   "confidence": "alta",
+   "note": "mussarela de bufala com tomate; pista cheia de variedades"
+  },
+  {
+   "title": "fsfh.png",
+   "category": "doce",
+   "weekday": null,
+   "dish": null,
+   "headline": "Feche a semana em grande estilo: sobremesas que encantam em cada colherada",
+   "flags": [],
+   "confidence": "alta",
+   "note": "sem dia escrito, fala em fechar a semana (provavel sexta)"
+  }
+ ]
+}

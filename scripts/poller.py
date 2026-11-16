@@ -34,7 +34,7 @@ import subprocess
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from lib_media import resolve_path
+from lib_media import resolve_path, _find_by_normalized_name
 
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SCRIPTS_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -49,6 +49,50 @@ SCHEDULE = [
 ]
 
 DRY_RUN = "--live" not in sys.argv[1:]
+
+# Salva o plano no meio de um handler (story com 3 itens: marca cada item
+# publicado na hora, pra uma nova tentativa nao repetir os que ja sairam).
+# main() aponta isso pro plano/arquivo da vez antes de chamar o handler.
+_SAVE = None
+
+
+def _find_dir_tolerant(parent, name):
+    """Subpasta pelo nome, tolerante a forma Unicode (NFC/NFD) e a espaco no
+    fim do nome (as pastas do Drive do Bernardino tem nomes como
+    'Bernadino restaurante ', com espaco)."""
+    import unicodedata
+    want = unicodedata.normalize("NFC", name).strip()
+    try:
+        entries = os.listdir(parent)
+    except OSError:
+        return None
+    for e in entries:
+        if unicodedata.normalize("NFC", e).strip() == want and os.path.isdir(os.path.join(parent, e)):
+            return os.path.join(parent, e)
+    return None
+
+
+def item_path(item, kind):
+    """Caminho local do arquivo de um item do plano, nos DOIS formatos:
+    - antigo (generate_week_plan.py deste repo): item["path"] absoluto,
+      resolvido por resolve_path (ancora + MEDIA_DIR_*);
+    - novo (gerado pelo painel a partir de 15/11/2026): item["file"] +
+      item["folder"] relativo a pasta-base do tipo (Brenda - Stories,
+      Imagens tratadas, Videos Tratados)."""
+    if item.get("path"):
+        return resolve_path(item["path"])
+    base = {
+        "story": os.environ.get("BRENDA_STORIES_DIR", ""),
+        "feed": os.path.dirname(os.environ.get("MEDIA_DIR_IMAGES_2025", "")),
+        "reel": os.environ.get("MEDIA_DIR_VIDEOS", ""),
+    }[kind]
+    cur = base
+    for seg in [x for x in (item.get("folder") or "").split("/") if x.strip()]:
+        nxt = _find_dir_tolerant(cur, seg)
+        if not nxt:
+            return os.path.join(base, item.get("folder") or "", item["file"])
+        cur = nxt
+    return _find_by_normalized_name(cur, item["file"]) or os.path.join(cur, item["file"])
 
 
 def run(cmd):
@@ -182,7 +226,9 @@ def save_plan(plan, plan_path):
 
 
 def handle_feed(post):
-    paths = [resolve_path(it["path"]) for it in post["items"]]
+    paths = [item_path(it, "feed") for it in post["items"]]
+    if post.get("caption_pending_ai"):
+        print("AVISO: legenda da IA ainda nao foi escrita -- postando com a legenda provisoria.", file=sys.stderr)
     caption_file = resolve_caption_file(post)
     if DRY_RUN:
         with open(caption_file, encoding="utf-8") as f:
@@ -213,19 +259,32 @@ def handle_story(post):
     # without it the LAST item silently never gets processed (found via a
     # real live test 2026-07-27: the 3rd story item, always a video, kept
     # silently not posting no matter what else was fixed).
-    lines = "\n".join(f"{it['category']}\t{it['type']}\t{resolve_path(it['path'])}" for it in post["items"]) + "\n"
+    pending = [it for it in post["items"] if not it.get("posted")]
     if DRY_RUN:
-        print(f"[DRY-RUN] 3 stories (salgado/salada/doce): {[it['path'] for it in post['items']]}")
+        for it in pending:
+            p = item_path(it, "story")
+            print(f"[DRY-RUN] story {it.get('category', '?')} ({it.get('type', '?')}): {p} -> {'OK' if os.path.exists(p) else 'NAO ENCONTRADO'}")
         return
-    print(bash_stdin("post_brenda_story_items.sh", lines))
+    # Um item por vez, marcando cada um como publicado logo em seguida: se o
+    # 2o falhar, uma nova tentativa nao republica o 1o.
+    for it in pending:
+        line = f"{it.get('category', 'story')}\t{it.get('type', 'image')}\t{item_path(it, 'story')}\n"
+        print(bash_stdin("post_brenda_story_items.sh", line))
+        it["posted"] = True
+        it["posted_at"] = datetime.datetime.now().isoformat(timespec="seconds")
+        if _SAVE:
+            _SAVE()
 
 
 def handle_reel(post):
-    path = resolve_path(post["items"][0]["path"])
+    item = post["items"][0]
+    path = item_path(item, "reel")
     caption_file = resolve_caption_file(post)
     if DRY_RUN:
-        print(f"[DRY-RUN] reel com video: {path}")
+        print(f"[DRY-RUN] reel com video: {path} -> {'OK' if os.path.exists(path) else 'NAO ENCONTRADO'} (pasta IG: {item.get('drive_folder_id') or 'mapa antigo'})")
         return
+    if post.get("caption_pending_ai"):
+        print("AVISO: legenda da IA ainda nao foi escrita -- postando com a legenda provisoria.", file=sys.stderr)
 
     print(bash("post_reel_fb.sh", path, caption_file))
 
@@ -234,10 +293,12 @@ def handle_reel(post):
         print("Instagram pulado (IG_BUSINESS_ID nao configurado ainda).")
         return
 
+    folder_id = item.get("drive_folder_id")
     month_folder = os.path.basename(os.path.dirname(path))
-    with open(VIDEOS_FOLDER_MAP_PATH, encoding="utf-8") as f:
-        folder_map = json.load(f)["folders"]
-    folder_id = folder_map.get(month_folder)
+    if not folder_id:
+        with open(VIDEOS_FOLDER_MAP_PATH, encoding="utf-8") as f:
+            folder_map = json.load(f)["folders"]
+        folder_id = folder_map.get(month_folder)
     if not folder_id:
         print(f"AVISO: pasta '{month_folder}' nao tem ID publico mapeado, pulando Instagram.", file=sys.stderr)
         return
@@ -260,6 +321,7 @@ def _arg_value(flag):
 
 
 def main():
+    global _SAVE
     now = datetime.datetime.now()
     today_key = now.strftime("%Y-%m-%d")
 
@@ -282,6 +344,7 @@ def main():
         if post.get("posted"):
             print("AVISO: esse post ja foi marcado como publicado antes.", file=sys.stderr)
             return
+        _SAVE = lambda: save_plan(plan, plan_path)
         try:
             HANDLERS[force_slot](post)
         except Exception as exc:
@@ -342,6 +405,7 @@ def main():
             continue
 
         print(f"Disparando slot '{entry['slot']}' ({'DRY-RUN' if DRY_RUN else 'LIVE'})...")
+        _SAVE = lambda: save_plan(plan, plan_path)
         try:
             HANDLERS[entry["slot"]](post)
         except Exception as exc:
