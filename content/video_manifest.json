@@ -823,22 +823,29 @@
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Novembro 25\\Dona apresentanmdo e falando sobre pista doce.mp4",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "too_short": true
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Dezembro 25\\Video agradecimento.mp4",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "too_short": true
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Dezembro 25\\Video ceia de natal.mp4",
       "used": false,
-      "used_at": null
+      "used_at": null,
+      "too_short": true
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Dezembro 25\\2\\Edit pista doce.mp4",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-15T21:46:33",
+      "duration_seconds": 18.552993,
+      "too_short": false,
+      "audio_mean_db": -35.5,
+      "silent": false
     },
     {
       "path": "G:\\Meu Drive\\Agência BEEF MTK\\Clientes\\Bernadino restaurante\\Vídeos Tratados\\Dezembro 25\\2\\Edit do ambiente.mp4",
