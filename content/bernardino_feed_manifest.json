@@ -195,8 +195,8 @@
       "type": "image",
       "folder": "2025/Abril 25",
       "category": "prato_salgado",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-16T15:02:53",
       "description": "Arroz com pedaços de carne e cheiro verde em um recipiente de buffet."
     },
     {
@@ -267,8 +267,8 @@
       "type": "image",
       "folder": "2025/Abril 25",
       "category": "prato_salgado",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-16T15:02:53",
       "description": "Prato de frango grelhado com molho, decorado com ervas."
     },
     {
@@ -779,8 +779,8 @@
       "type": "image",
       "folder": "2025/Agosto 25",
       "category": "prato_salgado",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T15:02:53"
     },
     {
       "file": "IMG_7852_SnapseedCopy.jpg",
@@ -899,8 +899,8 @@
       "type": "image",
       "folder": "2025/Agosto 25",
       "category": "prato_salgado",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T15:02:53"
     },
     {
       "file": "IMG_7880.jpg",
@@ -987,8 +987,8 @@
       "type": "image",
       "folder": "2025/Agosto 25",
       "category": "salada",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T15:02:53"
     },
     {
       "file": "IMG_7914.jpg",
@@ -1099,8 +1099,8 @@
       "type": "image",
       "folder": "2025/Agosto 25",
       "category": "doce",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T15:02:53"
     },
     {
       "file": "IMG_8506.JPG",
@@ -1155,8 +1155,8 @@
       "type": "image",
       "folder": "2025/Agosto 25",
       "category": "doce",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T15:02:53"
     },
     {
       "file": "IMG_8514.JPG",
@@ -1219,8 +1219,8 @@
       "type": "image",
       "folder": "2025/Agosto 25",
       "category": "doce",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T15:02:53"
     },
     {
       "file": "IMG_8518.JPG",
@@ -2187,8 +2187,8 @@
       "type": "image",
       "folder": "2025/Novembro 25",
       "category": "prato_salgado",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T15:02:53"
     },
     {
       "file": "IMG_9059.HEIC",
@@ -2537,8 +2537,8 @@
       "type": "image",
       "folder": "2025/Novembro 25",
       "category": "salada",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T15:02:53"
     },
     {
       "file": "IMG_9165.JPG",
