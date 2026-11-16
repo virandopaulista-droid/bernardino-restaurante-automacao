@@ -303,8 +303,8 @@
       "type": "image",
       "folder": "2025/Abril 25",
       "category": "salada",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-16T15:00:51",
       "description": "A foto mostra uma variedade de saladas e frutas frescas em um buffet."
     },
     {
@@ -1067,8 +1067,8 @@
       "type": "image",
       "folder": "2025/Agosto 25",
       "category": "salada",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T15:00:51"
     },
     {
       "file": "IMG_8502.JPG",
@@ -1115,8 +1115,8 @@
       "type": "image",
       "folder": "2025/Agosto 25",
       "category": "doce",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T15:00:51"
     },
     {
       "file": "IMG_8507.JPG",
@@ -1291,16 +1291,16 @@
       "type": "image",
       "folder": "2025/Agosto 25",
       "category": "doce",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T15:00:51"
     },
     {
       "file": "IMG_8535.JPG",
       "type": "image",
       "folder": "2025/Agosto 25",
       "category": "doce",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T15:00:51"
     },
     {
       "file": "IMG_8528.JPG",
@@ -1889,8 +1889,8 @@
       "type": "image",
       "folder": "2025/Novembro 25",
       "category": "prato_salgado",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T15:00:51"
     },
     {
       "file": "IMG_9225.HEIC",
@@ -2035,8 +2035,8 @@
       "type": "image",
       "folder": "2025/Novembro 25",
       "category": "prato_salgado",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T15:00:51"
     },
     {
       "file": "IMG_9122.HEIC",
@@ -2083,8 +2083,8 @@
       "type": "image",
       "folder": "2025/Novembro 25",
       "category": "prato_salgado",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T15:00:51"
     },
     {
       "file": "IMG_9142.HEIC",
@@ -2553,8 +2553,8 @@
       "type": "image",
       "folder": "2025/Novembro 25",
       "category": "salada",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T15:00:51"
     },
     {
       "file": "IMG_2029.HEIC",
@@ -3529,8 +3529,8 @@
       "type": "image",
       "folder": "2026/Abril 26",
       "category": "prato_salgado",
-      "used": false,
-      "used_at": null
+      "used": true,
+      "used_at": "2026-11-16T15:00:51"
     },
     {
       "file": "IMG_0376.HEIC",
