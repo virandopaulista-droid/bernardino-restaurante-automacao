@@ -7,7 +7,7 @@
       "folder": "Stories Reels",
       "used": true,
       "used_at": "2026-07-27T00:44:36",
-      "duration_seconds": 5.0,
+      "duration_seconds": 5,
       "audio_mean_db": null,
       "disabled": true,
       "disabled_reason": "pasta 'Stories Reels' fora da selecao de reel (igual ao gerador antigo)"
@@ -18,7 +18,7 @@
       "folder": "Stories Reels",
       "used": false,
       "used_at": null,
-      "duration_seconds": 5.0,
+      "duration_seconds": 5,
       "audio_mean_db": null,
       "disabled": true,
       "disabled_reason": "pasta 'Stories Reels' fora da selecao de reel (igual ao gerador antigo)"
@@ -52,7 +52,7 @@
       "used": false,
       "used_at": null,
       "duration_seconds": 6.246145,
-      "audio_mean_db": -91.0,
+      "audio_mean_db": -91,
       "disabled": true,
       "disabled_reason": "pasta 'Stories Reels' fora da selecao de reel (igual ao gerador antigo)"
     },
@@ -63,7 +63,7 @@
       "used": false,
       "used_at": null,
       "duration_seconds": 6.246145,
-      "audio_mean_db": -91.0,
+      "audio_mean_db": -91,
       "disabled": true,
       "disabled_reason": "pasta 'Stories Reels' fora da selecao de reel (igual ao gerador antigo)"
     },
@@ -74,7 +74,7 @@
       "used": false,
       "used_at": null,
       "duration_seconds": 11.749274,
-      "audio_mean_db": -91.0,
+      "audio_mean_db": -91,
       "disabled": true,
       "disabled_reason": "pasta 'Stories Reels' fora da selecao de reel (igual ao gerador antigo)"
     },
@@ -1163,7 +1163,7 @@
       "used": true,
       "used_at": "2026-07-27T11:10:01",
       "duration_seconds": 19.271995,
-      "audio_mean_db": -17.0,
+      "audio_mean_db": -17,
       "drive_folder_id": "1zzgIzuA_gsiKq8STYmI7LPR6r1CPRn2d"
     },
     {
@@ -1422,7 +1422,7 @@
       "used": false,
       "used_at": null,
       "duration_seconds": 14.419002,
-      "audio_mean_db": -23.0,
+      "audio_mean_db": -23,
       "drive_folder_id": "1vXMyxfneyMbMID3VKnrdKroMdD-Dk-z2"
     },
     {
@@ -1560,7 +1560,7 @@
       "used": false,
       "used_at": null,
       "duration_seconds": 19.271995,
-      "audio_mean_db": -17.0,
+      "audio_mean_db": -17,
       "drive_folder_id": "1zzgIzuA_gsiKq8STYmI7LPR6r1CPRn2d"
     },
     {
@@ -1631,8 +1631,8 @@
       "file": "Video narrado da quiche margarita.mp4",
       "type": "video",
       "folder": "Abril 26",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-16T15:00:51",
       "duration_seconds": 8.381995,
       "audio_mean_db": -23.3,
       "drive_folder_id": "1P-a69kfqCersCnA382042qGQr76uC4vD"
@@ -1778,7 +1778,7 @@
       "used": false,
       "used_at": null,
       "duration_seconds": 14.419002,
-      "audio_mean_db": -23.0,
+      "audio_mean_db": -23,
       "drive_folder_id": "1vXMyxfneyMbMID3VKnrdKroMdD-Dk-z2"
     },
     {
