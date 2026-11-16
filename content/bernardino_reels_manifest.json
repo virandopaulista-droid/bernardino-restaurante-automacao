@@ -1443,8 +1443,8 @@
       "file": "Vídeo edit bolo de prestígio.mp4",
       "type": "video",
       "folder": "Abril 26",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-16T22:18:00",
       "duration_seconds": 17.856009,
       "audio_mean_db": -28.7,
       "drive_folder_id": "1P-a69kfqCersCnA382042qGQr76uC4vD"
