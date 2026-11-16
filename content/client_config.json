@@ -1,3 +1,51 @@
 {
+  "slug": "bernardino",
+  "label": "Bernardino Restaurante",
+  "hasWeeklySlot": true,
+  "weekdays": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "canGenerate": true,
+  "storiesFolderId": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
+  "imagesFolderId": "1fzPbCYY4hZ97Nn0sdw_10oWnEVaahiGx",
+  "videosFolderId": "1nzdef3sjehw151Qtq7oDAU7EA5clHtTw",
+  "storyCategories": [
+    "salgado",
+    "salada",
+    "doce"
+  ],
+  "weeklySlots": [
+    {
+      "kind": "reel",
+      "weekday": 0
+    },
+    {
+      "kind": "feed",
+      "weekday": 1,
+      "feedMix": [
+        "prato_salgado",
+        "prato_salgado",
+        "salada",
+        "doce",
+        "ambiente"
+      ]
+    },
+    {
+      "kind": "feed",
+      "weekday": 3,
+      "feedMix": [
+        "prato_salgado",
+        "prato_salgado",
+        "salada",
+        "doce",
+        "ambiente"
+      ]
+    }
+  ],
+  "aiCaptions": true,
   "publicToken": "02ba8063da7c17e34612c96a9f685296"
 }

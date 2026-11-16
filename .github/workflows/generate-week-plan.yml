@@ -1,8 +1,8 @@
 name: Gera cronograma semanal
 
 on:
-  schedule:
-    - cron: "0 21 * * 0"  # Sunday 21:00 UTC = 18:00 America/Sao_Paulo
+  # schedule desligado em 16/11/2026: a semana agora e gerada pelo painel
+  # (botao "Gerar semana", igual Au Gratin). Fica so o disparo manual.
   workflow_dispatch:
     inputs:
       ref_date:
