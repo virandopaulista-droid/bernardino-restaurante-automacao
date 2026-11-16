@@ -21,6 +21,7 @@ Os manifests antigos NAO sao apagados.
 import collections
 import json
 import os
+import re
 import sys
 import unicodedata
 
@@ -141,6 +142,11 @@ def reels():
             "duration_seconds": x.get("duration_seconds"),
             "audio_mean_db": x.get("audio_mean_db"),
         }
+        # Video com o dia no nome ("Bernardino - terca.mp4", "...em uma sexta")
+        # so pode sair nesse dia (o reel e na segunda).
+        day = re.search(r"\b(segunda|terca|quarta|quinta|sexta|sabado|domingo)\b", norm(file))
+        if day:
+            e["locked_weekday"] = day.group(1)
         top = folder.split("/")[0]
         reason = None
         if top in ("Stories Reels", "Usados"):
