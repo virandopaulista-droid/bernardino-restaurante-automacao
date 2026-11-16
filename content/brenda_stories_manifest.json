@@ -687,11 +687,11 @@
     {
       "file": "113.mp4",
       "type": "video",
-      "used": false,
-      "used_at": null,
+      "used": true,
+      "used_at": "2026-11-15T23:13:13",
       "category": "salgado",
-      "weekday": null,
-      "classified_by": "clip",
+      "weekday": "terca",
+      "classified_by": "claude-visual-2026-11-15",
       "clip_confidence": 0.969
     },
     {
@@ -830,8 +830,8 @@
       "used": false,
       "used_at": null,
       "category": "salgado",
-      "weekday": null,
-      "classified_by": "clip",
+      "weekday": "terca",
+      "classified_by": "claude-visual-2026-11-15",
       "clip_confidence": 0.805
     },
     {
@@ -950,8 +950,8 @@
       "used": false,
       "used_at": null,
       "category": "salgado",
-      "weekday": null,
-      "classified_by": "clip",
+      "weekday": "segunda",
+      "classified_by": "claude-visual-2026-11-15",
       "clip_confidence": 0.819
     },
     {
@@ -980,8 +980,8 @@
       "used": false,
       "used_at": null,
       "category": "salgado",
-      "weekday": null,
-      "classified_by": "clip",
+      "weekday": "terca",
+      "classified_by": "claude-visual-2026-11-15",
       "clip_confidence": 0.988
     },
     {
@@ -2389,11 +2389,11 @@
     {
       "file": "68.mp4",
       "type": "video",
-      "used": true,
-      "used_at": "2026-11-15T21:46:22",
-      "category": "salgado",
+      "used": false,
+      "used_at": null,
+      "category": "salada",
       "weekday": null,
-      "classified_by": "clip",
+      "classified_by": "claude-visual-2026-11-15",
       "clip_confidence": 0.977
     },
     {
@@ -2530,10 +2530,10 @@
       "file": "84.mp4",
       "type": "video",
       "used": true,
-      "used_at": "2026-08-10T13:15:43",
+      "used_at": "2026-11-15T23:13:13",
       "category": "salgado",
       "weekday": "segunda",
-      "classified_by": "clip",
+      "classified_by": "claude-visual-2026-11-15",
       "clip_confidence": 0.944
     },
     {
@@ -2629,11 +2629,11 @@
     {
       "file": "94.mp4",
       "type": "video",
-      "used": true,
-      "used_at": "2026-11-15T21:46:36",
+      "used": false,
+      "used_at": null,
       "category": "salgado",
-      "weekday": null,
-      "classified_by": "clip",
+      "weekday": "quinta",
+      "classified_by": "claude-visual-2026-11-15",
       "clip_confidence": 0.966
     },
     {
