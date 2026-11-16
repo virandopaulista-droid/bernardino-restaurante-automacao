@@ -8,7 +8,14 @@ Rob, 15/11/2026).
   feed    <- media_manifest.json   (folder relativo a "Imagens tratadas")
   reels   <- video_manifest.json   (folder relativo a "Videos Tratados" + drive_folder_id)
 
-Uso: migrate_to_panel_manifests.py [--write]   (sem --write so mostra o relatorio)
+Uso: migrate_to_panel_manifests.py [--write] [--measure]
+  --write    grava os 3 manifests (sem isso so mostra o relatorio)
+  --measure  mede duracao e audio de cada reel ativo ainda sem medida e
+             desativa os curtos (6s ou menos) ou mudos (-40 dB ou menos), as
+             regras do Rob de 27/07 que o gerador antigo aplicava na hora de
+             escolher (o painel nao roda ffprobe). Precisa do Drive montado
+             (MEDIA_DIR_VIDEOS), entao roda no GitHub Actions
+             (.github/workflows/migrate-manifests.yml).
 Os manifests antigos NAO sao apagados.
 """
 import collections
@@ -158,6 +165,32 @@ def reels():
     }, missing
 
 
+MIN_REEL_DURATION_SECONDS = 6
+MIN_REEL_AUDIO_DB = -40
+
+
+def measure_reels(rl):
+    sys.path.insert(0, os.path.join(ROOT, "scripts"))
+    from lib_media import get_audio_mean_volume_db, get_video_duration_seconds
+    from poller import item_path
+    for e in rl["assets"]:
+        if e.get("disabled") or (e.get("duration_seconds") is not None and e.get("audio_mean_db") is not None):
+            continue
+        path = item_path(e, "reel")
+        try:
+            e["duration_seconds"] = get_video_duration_seconds(path)
+            e["audio_mean_db"] = get_audio_mean_volume_db(path)
+        except Exception as exc:
+            e["disabled"] = True
+            e["disabled_reason"] = f"nao consegui medir o video ({exc})"[:200]
+            continue
+        if e["duration_seconds"] <= MIN_REEL_DURATION_SECONDS:
+            e["disabled"], e["disabled_reason"] = True, "video curto demais (6s ou menos)"
+        elif e["audio_mean_db"] <= MIN_REEL_AUDIO_DB:
+            e["disabled"], e["disabled_reason"] = True, "sem audio audivel"
+        print(f"  medido {e['folder']}/{e['file']}: {e['duration_seconds']:.1f}s {e['audio_mean_db']:.0f}dB {'DESATIVADO' if e.get('disabled') else 'ok'}")
+
+
 def report(name, m):
     a = m["assets"]
     live = [x for x in a if not x.get("disabled")]
@@ -177,6 +210,8 @@ def main():
     live = report("feed", fd)
     print("  livres por categoria:", dict(collections.Counter(x.get("category") for x in live if not x["used"])), "| sem pasta:", len(problems))
     rl, missing = reels()
+    if "--measure" in sys.argv:
+        measure_reels(rl)
     live = report("reels", rl)
     print("  ativos por pasta:", dict(collections.Counter(x["folder"] for x in live)), "| sem id:", dict(missing))
     if missing:

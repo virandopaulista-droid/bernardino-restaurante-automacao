@@ -1,0 +1,136 @@
+name: Migra os manifests do Bernardino para o padrao do painel
+
+# Roda UMA vez na virada (manual): gera content/bernardino_{stories,feed,reels}_manifest.json
+# a partir dos manifests antigos, medindo duracao/audio dos reels com o Drive montado.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: migrate-manifests
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  TZ: America/Sao_Paulo
+  LC_ALL: C.UTF-8
+  LANG: C.UTF-8
+  RCLONE_CONFIG_SECRET: ${{ secrets.RCLONE_CONFIG }}
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fuse3
+          pip install --quiet Pillow pillow-heif
+
+      - name: Install rclone
+        run: curl https://rclone.org/install.sh | sudo bash
+
+      - name: Configure rclone and mount Google Drive
+        run: |
+          mkdir -p ~/.config/rclone
+          printf '%s' "$RCLONE_CONFIG_SECRET" > ~/.config/rclone/rclone.conf
+          mkdir -p "$HOME/gdrive"
+          # Reverted vfs-cache-mode back to minimal: switching to `full`
+          # (tried as a resilience improvement) instead introduced a NEW,
+          # deterministic mass-failure mode -- the exact same list of files
+          # (confirmed genuinely present via the Drive API) failed to open
+          # every single time, right after the Monday reel's video was read,
+          # which never happened under `minimal`. Keeping the longer
+          # timeouts/retries, which are harmless either way.
+          rclone mount gdrive: "$HOME/gdrive" \
+            --daemon --vfs-cache-mode=minimal --dir-cache-time=1h \
+            --timeout=60s --contimeout=60s --low-level-retries=15 \
+            --log-file="$HOME/rclone-mount.log" --log-level=INFO
+          # Resolve the path in two cheap, narrow steps instead of one
+          # recursive listing of the ENTIRE Drive account (which was burning
+          # a large chunk of the Drive API's per-minute query quota before
+          # generation even started -- rclone's shared/default client_id has
+          # a small shared quota, and we saw real "Error 403: Quota exceeded
+          # ... Queries per minute" failures downstream because of it).
+          # Step 1: list just the Drive root (non-recursive, ~1 request) to
+          # find the top-level "Agência BEEF MTK"-like folder by pattern,
+          # sidestepping the accented-character retyping issue.
+          top_name=$(rclone lsf gdrive: --dirs-only | grep -i "^Ag.ncia BEEF MTK/$" | head -1)
+          if [ -z "$top_name" ]; then
+            echo "mount failed: pasta raiz 'Agencia BEEF MTK' nao encontrada"
+            rclone lsf gdrive: --dirs-only
+            exit 1
+          fi
+          # Step 2: recurse only inside that one top-level folder, not the
+          # whole account -- far fewer requests since it excludes every
+          # other client's folder tree and any personal files in the Drive.
+          rclone lsf "gdrive:${top_name}" -R --dirs-only > "$HOME/all_dirs.txt"
+          rel_path=$(grep -i "^Clientes */Bernadino restaurante */$" "$HOME/all_dirs.txt" | head -1)
+          if [ -z "$rel_path" ]; then
+            echo "=== nao encontrado, mostrando entradas parecidas ==="
+            grep -i "bernadino" "$HOME/all_dirs.txt" | head -20
+            echo "mount failed: caminho do restaurante nao encontrado"
+            exit 1
+          fi
+          restaurante_dir="$HOME/gdrive/${top_name}${rel_path}"
+          ready=""
+          for i in $(seq 1 15); do
+            if [ -d "$restaurante_dir" ]; then
+              ready=1
+              break
+            fi
+            sleep 2
+          done
+          if [ -z "$ready" ]; then
+            echo "=== rclone mount log ==="
+            cat "$HOME/rclone-mount.log" || true
+            echo "mount failed: $restaurante_dir nao apareceu no mount"
+            exit 1
+          fi
+          restaurante_dir="${restaurante_dir%/}"
+          echo "RESTAURANTE_DIR=$restaurante_dir" >> "$GITHUB_ENV"
+
+      - name: Write .env
+        run: |
+          videos_name=$(ls "$RESTAURANTE_DIR" | grep -i "^V.deos Tratados$" | head -1)
+          videos_dir="$RESTAURANTE_DIR/$videos_name"
+          brenda_name=$(ls "$RESTAURANTE_DIR/STORIES" | grep -i "^Brenda - Stories" | head -1)
+          brenda_dir="$RESTAURANTE_DIR/STORIES/$brenda_name"
+          cat > .env <<EOF
+          OPENAI_API_KEY="$OPENAI_API_KEY"
+          FB_PAGE_ACCESS_TOKEN="$FB_PAGE_ACCESS_TOKEN"
+          FB_PAGE_ID="$FB_PAGE_ID"
+          IG_BUSINESS_ID="$IG_BUSINESS_ID"
+          MEDIA_DIR_IMAGES_2025="$RESTAURANTE_DIR/Imagens tratadas/2025"
+          MEDIA_DIR_IMAGES_2026="$RESTAURANTE_DIR/Imagens tratadas/2026"
+          MEDIA_DIR_VIDEOS="$videos_dir"
+          MEDIA_DIR_STORIES_REELS="$videos_dir/Stories Reels"
+          BRENDA_STORIES_DIR="$brenda_dir"
+          EOF
+          export OPENAI_API_KEY FB_PAGE_ACCESS_TOKEN FB_PAGE_ID IG_BUSINESS_ID
+          export MEDIA_DIR_IMAGES_2025 MEDIA_DIR_IMAGES_2026 MEDIA_DIR_VIDEOS MEDIA_DIR_STORIES_REELS BRENDA_STORIES_DIR
+
+      - name: Migra e grava os manifests novos
+        run: |
+          set -a; source .env; set +a
+          python3 scripts/migrate_to_panel_manifests.py --write --measure
+          git config user.name "Bernardino Automacao"
+          git config user.email "virandopaulista@gmail.com"
+          git add content/bernardino_stories_manifest.json content/bernardino_feed_manifest.json content/bernardino_reels_manifest.json
+          if git diff --cached --quiet; then echo "nada para gravar"; exit 0; fi
+          git commit -m "migra manifests do Bernardino para o padrao do painel"
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:master; then echo "push ok (tentativa $attempt)"; exit 0; fi
+            git fetch origin master
+            git rebase origin/master || { echo "conflito inesperado"; exit 1; }
+            sleep $((attempt * 3))
+          done
+          exit 1

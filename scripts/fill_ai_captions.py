@@ -14,6 +14,7 @@ No apply, so entra a legenda de post que AINDA esta pendente e com os MESMOS
 arquivos de quando a legenda foi escrita (se o Rob trocou a foto, a legenda
 velha nao serve e fica pra proxima rodada).
 """
+import datetime
 import glob
 import json
 import os
@@ -33,11 +34,17 @@ def key(plan_file, post):
 
 
 def pending_posts():
+    # So posts de AMANHA em diante: o de hoje ja pode estar sendo publicado
+    # pelo poller, e gravar a legenda nele agora so cria conflito no mesmo
+    # trecho do plano (achado na revisao de 15/11). O de hoje sai com a
+    # legenda provisoria, com aviso no log do poller.
+    today = datetime.date.today().isoformat()
     for plan_file in sorted(glob.glob(os.path.join(PLANS_DIR, "*.json"))):
         with open(plan_file, encoding="utf-8") as f:
             plan = json.load(f)
         for post in plan.get("posts", []):
-            if post.get("caption_pending_ai") and not post.get("posted") and post["slot"] in ("feed", "reel"):
+            if (post.get("caption_pending_ai") and not post.get("posted") and post["slot"] in ("feed", "reel")
+                    and post["date"] > today):
                 yield plan_file, post
 
 
@@ -47,6 +54,11 @@ def compute(out_path):
         kind = post["slot"]
         paths = [item_path(it, kind) for it in post["items"]]
         try:
+            # Sem o arquivo a IA "escreve" sem ver a midia (caption_for_reel.py
+            # nao falha quando nao consegue tirar quadros) -- e inventa prato.
+            missing = [p for p in paths if not os.path.exists(p)]
+            if missing:
+                raise RuntimeError(f"arquivo nao encontrado no Drive: {missing}")
             if kind == "feed":
                 cmd = [sys.executable, os.path.join(SCRIPTS_DIR, "caption_from_photo.py"), "feed", *paths]
             else:

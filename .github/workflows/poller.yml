@@ -215,7 +215,22 @@ jobs:
             fi
             echo "push falhou, tentativa $attempt/5 -- rebase e tenta de novo"
             git fetch origin master
-            git rebase origin/master || { git rebase --abort; git reset --soft origin/master; git stash pop 2>/dev/null || true; }
+            if ! git rebase origin/master; then
+              # Conflito (ex: painel ou fill-captions.yml gravou no mesmo plano).
+              # O fallback antigo (reset --soft sem novo commit) perdia as marcas
+              # de publicado sem aviso. Agora: parte do remoto e reaplica so o
+              # estado do poller por cima (scripts/reapply_state.py).
+              git rebase --abort || true
+              ours_dir=$(mktemp -d)
+              for f in $(git diff --name-only origin/master HEAD -- content); do
+                mkdir -p "$ours_dir/$(dirname "$f")"
+                git show "HEAD:$f" > "$ours_dir/$f"
+              done
+              git reset --hard origin/master
+              python3 scripts/reapply_state.py "$ours_dir"
+              git add content/*.json content/week_plans/*.json 2>/dev/null || true
+              git diff --cached --quiet || git commit -m "poller: atualiza estado (posted/used, reaplicado sobre o remoto)"
+            fi
             sleep $((attempt * 3))
           done
           echo "##[error] NAO CONSEGUI SALVAR O ESTADO APOS 5 TENTATIVAS -- risco real de post duplicado na proxima execucao"
