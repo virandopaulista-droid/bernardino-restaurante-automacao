@@ -1,0 +1,244 @@
+{
+  "week_start": "2026-11-23",
+  "status": "pending_approval",
+  "generated_at": "2026-11-16T15:00:51",
+  "posts": [
+    {
+      "date": "2026-11-23",
+      "weekday": "segunda",
+      "slot": "story",
+      "items": [
+        {
+          "file": "67.mp4",
+          "type": "video",
+          "folder": "",
+          "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
+          "source": "stories",
+          "category": "salgado"
+        },
+        {
+          "file": "BERNARDINO RESTAURANTE (1gg).png",
+          "type": "image",
+          "folder": "",
+          "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
+          "source": "stories",
+          "category": "salada"
+        },
+        {
+          "file": "81.mp4",
+          "type": "video",
+          "folder": "",
+          "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
+          "source": "stories",
+          "category": "doce"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "weekday": "segunda",
+      "slot": "reel",
+      "items": [
+        {
+          "file": "Video narrado da quiche margarita.mp4",
+          "folder": "Abril 26",
+          "drive_folder_id": "1P-a69kfqCersCnA382042qGQr76uC4vD"
+        }
+      ],
+      "caption_text": "Sabor que não erra, direto da nossa pista pro seu prato. Bora matar essa vontade?\n\n📍 Rua Bernardino de Campos, 201 — Brooklin/Campo Belo, SP\n⏰ Segunda a sexta, 11h30 às 15h\n👉 Venha almoçar com a gente!",
+      "caption_pending_ai": true
+    },
+    {
+      "date": "2026-11-24",
+      "weekday": "terca",
+      "slot": "story",
+      "items": [
+        {
+          "file": "BERNARDINO RESTAURANTE.png",
+          "type": "image",
+          "folder": "",
+          "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
+          "source": "stories",
+          "category": "salgado"
+        },
+        {
+          "file": "161.mp4",
+          "type": "video",
+          "folder": "",
+          "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
+          "source": "stories",
+          "category": "salada"
+        },
+        {
+          "file": "DOCES (3).mp4",
+          "type": "video",
+          "folder": "",
+          "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
+          "source": "stories",
+          "category": "doce"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "weekday": "terca",
+      "slot": "feed",
+      "items": [
+        {
+          "file": "IMG_0484.JPG",
+          "folder": "2026/Abril 26",
+          "category": "prato_salgado"
+        },
+        {
+          "file": "IMG_9268.JPG",
+          "folder": "2025/Novembro 25",
+          "category": "prato_salgado"
+        },
+        {
+          "file": "IMG_8501.JPG",
+          "folder": "2025/Agosto 25",
+          "category": "salada"
+        },
+        {
+          "file": "IMG_8535.JPG",
+          "folder": "2025/Agosto 25",
+          "category": "doce"
+        },
+        {
+          "file": "IMG_9169.JPG",
+          "folder": "2025/Novembro 25",
+          "category": "salada"
+        }
+      ],
+      "caption_text": "Sabor que não erra, direto da nossa pista pro seu prato. Bora matar essa vontade?\n\n📍 Rua Bernardino de Campos, 201 — Brooklin/Campo Belo, SP\n⏰ Segunda a sexta, 11h30 às 15h\n👉 Venha almoçar com a gente!",
+      "caption_pending_ai": true
+    },
+    {
+      "date": "2026-11-25",
+      "weekday": "quarta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "41.png",
+          "type": "image",
+          "folder": "",
+          "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
+          "source": "stories",
+          "category": "salgado"
+        },
+        {
+          "file": "210.mp4",
+          "type": "video",
+          "folder": "",
+          "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
+          "source": "stories",
+          "category": "salada"
+        },
+        {
+          "file": "DOCES.png",
+          "type": "image",
+          "folder": "",
+          "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
+          "source": "stories",
+          "category": "doce"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "weekday": "quinta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "94.mp4",
+          "type": "video",
+          "folder": "",
+          "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
+          "source": "stories",
+          "category": "salgado"
+        },
+        {
+          "file": "239.mp4",
+          "type": "video",
+          "folder": "",
+          "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
+          "source": "stories",
+          "category": "salada"
+        },
+        {
+          "file": "258.mp4",
+          "type": "video",
+          "folder": "",
+          "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
+          "source": "stories",
+          "category": "doce"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "weekday": "quinta",
+      "slot": "feed",
+      "items": [
+        {
+          "file": "IMG_9266.JPG",
+          "folder": "2025/Novembro 25",
+          "category": "prato_salgado"
+        },
+        {
+          "file": "IMG_9260.JPG",
+          "folder": "2025/Novembro 25",
+          "category": "prato_salgado"
+        },
+        {
+          "file": "IMG_8142.JPG",
+          "folder": "2025/Abril 25",
+          "category": "salada"
+        },
+        {
+          "file": "IMG_8526.JPG",
+          "folder": "2025/Agosto 25",
+          "category": "doce"
+        },
+        {
+          "file": "IMG_8508.JPG",
+          "folder": "2025/Agosto 25",
+          "category": "doce"
+        }
+      ],
+      "caption_text": "Sabor que não erra, direto da nossa pista pro seu prato. Bora matar essa vontade?\n\n📍 Rua Bernardino de Campos, 201 — Brooklin/Campo Belo, SP\n⏰ Segunda a sexta, 11h30 às 15h\n👉 Venha almoçar com a gente!",
+      "caption_pending_ai": true
+    },
+    {
+      "date": "2026-11-27",
+      "weekday": "sexta",
+      "slot": "story",
+      "items": [
+        {
+          "file": "166.mp4",
+          "type": "video",
+          "folder": "",
+          "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
+          "source": "stories",
+          "category": "salgado"
+        },
+        {
+          "file": "BERNARDINO RESTAURANTE (4).png",
+          "type": "image",
+          "folder": "",
+          "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
+          "source": "stories",
+          "category": "salada"
+        },
+        {
+          "file": "218.mp4",
+          "type": "video",
+          "folder": "",
+          "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
+          "source": "stories",
+          "category": "doce"
+        }
+      ]
+    }
+  ]
+}
