@@ -160,6 +160,38 @@ def resolve_caption_file(post):
     return post["caption_file"]
 
 
+def ai_caption_now(post, kind, paths):
+    """Legenda da IA ainda pendente na hora de postar (plano gerado ou item
+    trocado no proprio dia: o fill-captions.yml so cuida de posts futuros).
+    Escreve agora, olhando a midia real, com os mesmos scripts do
+    fill_ai_captions.py. Falhou? Segue com a provisoria, com aviso."""
+    if not post.get("caption_pending_ai"):
+        return
+    if DRY_RUN:
+        print(f"[DRY-RUN] legenda da IA seria escrita agora para o {kind}: {paths}")
+        return
+    try:
+        missing = [p for p in paths if not os.path.exists(p)]
+        if missing:
+            raise RuntimeError(f"arquivo nao encontrado: {missing}")
+        if kind == "feed":
+            cmd = [sys.executable, os.path.join(SCRIPTS_DIR, "caption_from_photo.py"), "feed", *paths]
+        else:
+            cmd = [sys.executable, os.path.join(SCRIPTS_DIR, "caption_for_reel.py"), paths[0]]
+        r = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
+        if r.returncode != 0:
+            raise RuntimeError(r.stderr.strip()[-300:])
+        with open(r.stdout.strip().splitlines()[-1], encoding="utf-8") as f:
+            caption = f.read().strip()
+        if not caption:
+            raise RuntimeError("legenda vazia")
+        post["caption_text"] = caption
+        post.pop("caption_pending_ai", None)
+        print(f"Legenda da IA escrita na hora: {caption[:80]!r}")
+    except Exception as e:
+        print(f"AVISO: legenda da IA falhou ({e}) -- postando com a legenda provisoria.", file=sys.stderr)
+
+
 def notify_once(marker, body):
     """Opens a GitHub Issue so a missing/unapproved plan is actually visible
     somewhere a human might see it, instead of only in a log nobody reads --
@@ -227,8 +259,7 @@ def save_plan(plan, plan_path):
 
 def handle_feed(post):
     paths = [item_path(it, "feed") for it in post["items"]]
-    if post.get("caption_pending_ai"):
-        print("AVISO: legenda da IA ainda nao foi escrita -- postando com a legenda provisoria.", file=sys.stderr)
+    ai_caption_now(post, "feed", paths)
     caption_file = resolve_caption_file(post)
     if DRY_RUN:
         with open(caption_file, encoding="utf-8") as f:
@@ -279,13 +310,11 @@ def handle_story(post):
 def handle_reel(post):
     item = post["items"][0]
     path = item_path(item, "reel")
+    ai_caption_now(post, "reel", [path])
     caption_file = resolve_caption_file(post)
     if DRY_RUN:
         print(f"[DRY-RUN] reel com video: {path} -> {'OK' if os.path.exists(path) else 'NAO ENCONTRADO'} (pasta IG: {item.get('drive_folder_id') or 'mapa antigo'})")
         return
-    if post.get("caption_pending_ai"):
-        print("AVISO: legenda da IA ainda nao foi escrita -- postando com a legenda provisoria.", file=sys.stderr)
-
     print(bash("post_reel_fb.sh", path, caption_file))
 
     ig_business_id = os.environ.get("IG_BUSINESS_ID", "").strip()

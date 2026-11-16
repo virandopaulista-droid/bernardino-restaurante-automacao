@@ -1184,7 +1184,9 @@
       "used_at": "2026-08-10T13:15:50",
       "duration_seconds": 57.282993,
       "audio_mean_db": -26.7,
-      "drive_folder_id": "1zzgIzuA_gsiKq8STYmI7LPR6r1CPRn2d"
+      "drive_folder_id": "1zzgIzuA_gsiKq8STYmI7LPR6r1CPRn2d",
+      "disabled": true,
+      "disabled_reason": "nao consegui medir o video (Command '['/usr/bin/ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', '/home/runner/gdrive/Agência BEEF MTK/Clientes"
     },
     {
       "file": "Timelapse.mp4",
@@ -1204,7 +1206,9 @@
       "used_at": "2026-08-23T18:17:28",
       "duration_seconds": 66.872993,
       "audio_mean_db": -20.2,
-      "drive_folder_id": "1zzgIzuA_gsiKq8STYmI7LPR6r1CPRn2d"
+      "drive_folder_id": "1zzgIzuA_gsiKq8STYmI7LPR6r1CPRn2d",
+      "disabled": true,
+      "disabled_reason": "nao consegui medir o video (Command '['/usr/bin/ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', '/home/runner/gdrive/Agência BEEF MTK/Clientes"
     },
     {
       "file": "Vontade de comer não sei o que.mp4",
@@ -1263,7 +1267,7 @@
       "used": false,
       "used_at": null,
       "duration_seconds": 19.271995,
-      "audio_mean_db": null,
+      "audio_mean_db": -10.8,
       "drive_folder_id": "1mFuws6rMiG22NOhqSIYB9qfgVLyZqHHI",
       "disabled": true,
       "disabled_reason": "sem audio audivel"
@@ -1479,158 +1483,6 @@
       "file": "Video narrado da quiche margarita.mp4",
       "type": "video",
       "folder": "Abril 26",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 8.381995,
-      "audio_mean_db": -23.3,
-      "drive_folder_id": "1P-a69kfqCersCnA382042qGQr76uC4vD"
-    },
-    {
-      "file": "Tudo o que você consegue comer e.mp4",
-      "type": "video",
-      "folder": "Abril 26",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": null,
-      "audio_mean_db": null,
-      "drive_folder_id": "1P-a69kfqCersCnA382042qGQr76uC4vD",
-      "disabled": true,
-      "disabled_reason": "nao consegui medir o video (Command '['/usr/bin/ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', '/home/runner/gdrive/Agência BEEF MTK/Clientes"
-    },
-    {
-      "file": "Edit geral de todos os pratos.mp4",
-      "type": "video",
-      "folder": "Abril 26",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 23.777007,
-      "audio_mean_db": -22.2,
-      "drive_folder_id": "1P-a69kfqCersCnA382042qGQr76uC4vD"
-    },
-    {
-      "file": "Narrado marmitas sustentaveis.mp4",
-      "type": "video",
-      "folder": "Abril 26",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": null,
-      "audio_mean_db": null,
-      "drive_folder_id": "1P-a69kfqCersCnA382042qGQr76uC4vD",
-      "disabled": true,
-      "disabled_reason": "nao consegui medir o video (Command '['/usr/bin/ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', '/home/runner/gdrive/Agência BEEF MTK/Clientes"
-    },
-    {
-      "file": "Ela apresentando.mp4",
-      "type": "video",
-      "folder": "Abril 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": null,
-      "audio_mean_db": null,
-      "drive_folder_id": "1zzgIzuA_gsiKq8STYmI7LPR6r1CPRn2d",
-      "disabled": true,
-      "disabled_reason": "nao consegui medir o video (Command '['/usr/bin/ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', '/home/runner/gdrive/Agência BEEF MTK/Clientes"
-    },
-    {
-      "file": "Massas.mp4",
-      "type": "video",
-      "folder": "Abril 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 17.508005,
-      "audio_mean_db": -12.4,
-      "drive_folder_id": "1zzgIzuA_gsiKq8STYmI7LPR6r1CPRn2d"
-    },
-    {
-      "file": "Pov chapeiro.mp4",
-      "type": "video",
-      "folder": "Abril 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": null,
-      "audio_mean_db": null,
-      "drive_folder_id": "1zzgIzuA_gsiKq8STYmI7LPR6r1CPRn2d",
-      "disabled": true,
-      "disabled_reason": "nao consegui medir o video (Command '['/usr/bin/ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', '/home/runner/gdrive/Agência BEEF MTK/Clientes"
-    },
-    {
-      "file": "Salada.mp4",
-      "type": "video",
-      "folder": "Abril 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 19.271995,
-      "audio_mean_db": -17,
-      "drive_folder_id": "1zzgIzuA_gsiKq8STYmI7LPR6r1CPRn2d"
-    },
-    {
-      "file": "Timelapse.mp4",
-      "type": "video",
-      "folder": "Abril 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 20.943991,
-      "audio_mean_db": -16.5,
-      "drive_folder_id": "1zzgIzuA_gsiKq8STYmI7LPR6r1CPRn2d"
-    },
-    {
-      "file": "Edit geral de todos os pratos.mp4",
-      "type": "video",
-      "folder": "Abril 26",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 23.777007,
-      "audio_mean_db": -22.2,
-      "drive_folder_id": "1P-a69kfqCersCnA382042qGQr76uC4vD"
-    },
-    {
-      "file": "Edit pista doce.mp4",
-      "type": "video",
-      "folder": "Abril 26",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 19.087007,
-      "audio_mean_db": -10.6,
-      "drive_folder_id": "1P-a69kfqCersCnA382042qGQr76uC4vD"
-    },
-    {
-      "file": "Narrado marmitas sustentaveis.mp4",
-      "type": "video",
-      "folder": "Abril 26",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": null,
-      "audio_mean_db": null,
-      "drive_folder_id": "1P-a69kfqCersCnA382042qGQr76uC4vD",
-      "disabled": true,
-      "disabled_reason": "nao consegui medir o video (Command '['/usr/bin/ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', '/home/runner/gdrive/Agência BEEF MTK/Clientes"
-    },
-    {
-      "file": "Tudo o que você consegue comer e.mp4",
-      "type": "video",
-      "folder": "Abril 26",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": null,
-      "audio_mean_db": null,
-      "drive_folder_id": "1P-a69kfqCersCnA382042qGQr76uC4vD",
-      "disabled": true,
-      "disabled_reason": "nao consegui medir o video (Command '['/usr/bin/ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', '/home/runner/gdrive/Agência BEEF MTK/Clientes"
-    },
-    {
-      "file": "Video edit da quiche margarita.mp4",
-      "type": "video",
-      "folder": "Abril 26",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 13.443991,
-      "audio_mean_db": -21.8,
-      "drive_folder_id": "1P-a69kfqCersCnA382042qGQr76uC4vD"
-    },
-    {
-      "file": "Video narrado da quiche margarita.mp4",
-      "type": "video",
-      "folder": "Abril 26",
       "used": true,
       "used_at": "2026-11-16T15:00:51",
       "duration_seconds": 8.381995,
@@ -1638,251 +1490,38 @@
       "drive_folder_id": "1P-a69kfqCersCnA382042qGQr76uC4vD"
     },
     {
-      "file": "Vídeo do ambiente decorado.mp4",
+      "file": "Tudo o que você consegue comer e.mp4",
       "type": "video",
       "folder": "Abril 26",
       "used": false,
       "used_at": null,
-      "duration_seconds": 25.518005,
-      "audio_mean_db": -17.7,
-      "drive_folder_id": "1P-a69kfqCersCnA382042qGQr76uC4vD"
+      "duration_seconds": null,
+      "audio_mean_db": null,
+      "drive_folder_id": "1P-a69kfqCersCnA382042qGQr76uC4vD",
+      "disabled": true,
+      "disabled_reason": "nao consegui medir o video (Command '['/usr/bin/ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', '/home/runner/gdrive/Agência BEEF MTK/Clientes"
     },
     {
-      "file": "Vídeo edit bolo de prestígio.mp4",
+      "file": "Edit geral de todos os pratos.mp4",
       "type": "video",
       "folder": "Abril 26",
       "used": false,
       "used_at": null,
-      "duration_seconds": 17.856009,
-      "audio_mean_db": -28.7,
+      "duration_seconds": 23.777007,
+      "audio_mean_db": -22.2,
       "drive_folder_id": "1P-a69kfqCersCnA382042qGQr76uC4vD"
     },
     {
-      "file": "Vídeo narrado bolo de prestígio.mp4",
+      "file": "Narrado marmitas sustentaveis.mp4",
       "type": "video",
       "folder": "Abril 26",
       "used": false,
       "used_at": null,
-      "duration_seconds": 21.78,
-      "audio_mean_db": -23.5,
-      "drive_folder_id": "1P-a69kfqCersCnA382042qGQr76uC4vD"
-    },
-    {
-      "file": "Cliente aprovando.mp4",
-      "type": "video",
-      "folder": "Agosto 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 11.771995,
-      "audio_mean_db": -14.5,
-      "drive_folder_id": "1mFuws6rMiG22NOhqSIYB9qfgVLyZqHHI"
-    },
-    {
-      "file": "Edit dos pratos 1.mp4",
-      "type": "video",
-      "folder": "Agosto 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 21.733991,
-      "audio_mean_db": -16.8,
-      "drive_folder_id": "1mFuws6rMiG22NOhqSIYB9qfgVLyZqHHI"
-    },
-    {
-      "file": "Edit dos pratos 2.mp4",
-      "type": "video",
-      "folder": "Agosto 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 15.812993,
-      "audio_mean_db": -16.2,
-      "drive_folder_id": "1mFuws6rMiG22NOhqSIYB9qfgVLyZqHHI"
-    },
-    {
-      "file": "Só falta a isso para o meu dia ser feliz.mp4",
-      "type": "video",
-      "folder": "Agosto 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 8.568005,
-      "audio_mean_db": -17.3,
-      "drive_folder_id": "1mFuws6rMiG22NOhqSIYB9qfgVLyZqHHI"
-    },
-    {
-      "file": "Video doces.mp4",
-      "type": "video",
-      "folder": "Agosto 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 19.271995,
-      "audio_mean_db": -10.8,
-      "drive_folder_id": "1mFuws6rMiG22NOhqSIYB9qfgVLyZqHHI"
-    },
-    {
-      "file": "Vontade de comer não sei o que.mp4",
-      "type": "video",
-      "folder": "Agosto 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 11.935011,
-      "audio_mean_db": -16.4,
-      "drive_folder_id": "1mFuws6rMiG22NOhqSIYB9qfgVLyZqHHI"
-    },
-    {
-      "file": "Vídeo narrado.mp4",
-      "type": "video",
-      "folder": "Agosto 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 26.587007,
-      "audio_mean_db": -16.1,
-      "drive_folder_id": "1mFuws6rMiG22NOhqSIYB9qfgVLyZqHHI"
-    },
-    {
-      "file": "Video agradecimento.mp4",
-      "type": "video",
-      "folder": "Dezembro 25",
-      "used": false,
-      "used_at": null,
       "duration_seconds": null,
       "audio_mean_db": null,
-      "drive_folder_id": "1n5TO9W4CivXllFI8fe9bUlSnPBqUWfou",
+      "drive_folder_id": "1P-a69kfqCersCnA382042qGQr76uC4vD",
       "disabled": true,
       "disabled_reason": "nao consegui medir o video (Command '['/usr/bin/ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', '/home/runner/gdrive/Agência BEEF MTK/Clientes"
-    },
-    {
-      "file": "Video ceia de natal.mp4",
-      "type": "video",
-      "folder": "Dezembro 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": null,
-      "audio_mean_db": null,
-      "drive_folder_id": "1n5TO9W4CivXllFI8fe9bUlSnPBqUWfou",
-      "disabled": true,
-      "disabled_reason": "nao consegui medir o video (Command '['/usr/bin/ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', '/home/runner/gdrive/Agência BEEF MTK/Clientes"
-    },
-    {
-      "file": "Edit do ambiente.mp4",
-      "type": "video",
-      "folder": "Dezembro 25/2",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 20.48,
-      "audio_mean_db": -17.1,
-      "drive_folder_id": "1vXMyxfneyMbMID3VKnrdKroMdD-Dk-z2"
-    },
-    {
-      "file": "Edit esticando comidas.mp4",
-      "type": "video",
-      "folder": "Dezembro 25/2",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 14.419002,
-      "audio_mean_db": -23,
-      "drive_folder_id": "1vXMyxfneyMbMID3VKnrdKroMdD-Dk-z2"
-    },
-    {
-      "file": "Edit pista doce.mp4",
-      "type": "video",
-      "folder": "Dezembro 25/2",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 18.552993,
-      "audio_mean_db": -35.5,
-      "drive_folder_id": "1vXMyxfneyMbMID3VKnrdKroMdD-Dk-z2"
-    },
-    {
-      "file": "Edit pista quente.mp4",
-      "type": "video",
-      "folder": "Dezembro 25/2",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 17.415011,
-      "audio_mean_db": -14.4,
-      "drive_folder_id": "1vXMyxfneyMbMID3VKnrdKroMdD-Dk-z2"
-    },
-    {
-      "file": "Cozinha do Bernadino.mp4",
-      "type": "video",
-      "folder": "Novembro 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 27.422993,
-      "audio_mean_db": -26.9,
-      "drive_folder_id": "1JsWMlqxBjbdxWErlE0zpHe2RD71P7ATn"
-    },
-    {
-      "file": "Dona apresentanmdo e falando sobre pista doce.mp4",
-      "type": "video",
-      "folder": "Novembro 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": null,
-      "audio_mean_db": null,
-      "drive_folder_id": "1JsWMlqxBjbdxWErlE0zpHe2RD71P7ATn",
-      "disabled": true,
-      "disabled_reason": "nao consegui medir o video (Command '['/usr/bin/ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', '/home/runner/gdrive/Agência BEEF MTK/Clientes"
-    },
-    {
-      "file": "Dona falando do merengue.mp4",
-      "type": "video",
-      "folder": "Novembro 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 14.000998,
-      "audio_mean_db": -30.3,
-      "drive_folder_id": "1JsWMlqxBjbdxWErlE0zpHe2RD71P7ATn"
-    },
-    {
-      "file": "Edit espinafre.mp4",
-      "type": "video",
-      "folder": "Novembro 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 12.84,
-      "audio_mean_db": -15.5,
-      "drive_folder_id": "1JsWMlqxBjbdxWErlE0zpHe2RD71P7ATn"
-    },
-    {
-      "file": "Edit pista doce com a dona.mp4",
-      "type": "video",
-      "folder": "Novembro 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 21.733991,
-      "audio_mean_db": -16.9,
-      "drive_folder_id": "1JsWMlqxBjbdxWErlE0zpHe2RD71P7ATn"
-    },
-    {
-      "file": "Edit pista doce.mp4",
-      "type": "video",
-      "folder": "Novembro 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 18.621995,
-      "audio_mean_db": -24.3,
-      "drive_folder_id": "1JsWMlqxBjbdxWErlE0zpHe2RD71P7ATn"
-    },
-    {
-      "file": "Edit pista salada.mp4",
-      "type": "video",
-      "folder": "Novembro 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 16.788005,
-      "audio_mean_db": -17.9,
-      "drive_folder_id": "1JsWMlqxBjbdxWErlE0zpHe2RD71P7ATn"
-    },
-    {
-      "file": "Tudo que voce consegue comer em uma sexta.mp4",
-      "type": "video",
-      "folder": "Novembro 25",
-      "used": false,
-      "used_at": null,
-      "duration_seconds": 28.839002,
-      "audio_mean_db": -28.4,
-      "drive_folder_id": "1JsWMlqxBjbdxWErlE0zpHe2RD71P7ATn",
-      "locked_weekday": "sexta"
     },
     {
       "file": "Bernardino - edit buffet.mp4",

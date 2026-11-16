@@ -165,6 +165,25 @@ def reels():
             e["disabled"] = True
             e["disabled_reason"] = reason
         out.append(e)
+    # O video_manifest antigo tinha o MESMO video duas vezes (caminho G:\ e
+    # /home/runner): junta numa entrada so (usado se qualquer copia foi;
+    # desativado se qualquer copia foi -- todo motivo e do proprio arquivo).
+    merged, idx = [], {}
+    for e in out:
+        k = (e["folder"], e["file"])
+        b = idx.get(k)
+        if b is None:
+            idx[k] = e
+            merged.append(e)
+            continue
+        b["used"] = b["used"] or e["used"]
+        b["used_at"] = max(filter(None, [b.get("used_at"), e.get("used_at")]), default=None)
+        for f in ("drive_folder_id", "locked_weekday", "duration_seconds", "audio_mean_db"):
+            if b.get(f) is None and e.get(f) is not None:
+                b[f] = e[f]
+        if e.get("disabled") and not b.get("disabled"):
+            b["disabled"], b["disabled_reason"] = True, e.get("disabled_reason")
+    out = merged
     return {
         "_readme": "Pool de videos de reel do Bernardino no padrao do painel (folder relativo a 'Videos Tratados', drive_folder_id da subpasta publica). Gerado por scripts/migrate_to_panel_manifests.py em 15/11/2026.",
         "assets": out,
