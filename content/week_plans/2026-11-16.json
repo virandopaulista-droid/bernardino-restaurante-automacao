@@ -109,19 +109,27 @@
         {
           "category": "salgado",
           "type": "image",
-          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /QUARTA.png"
+          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /QUARTA.png",
+          "posted": true,
+          "posted_at": "2026-11-18T07:10:49"
         },
         {
           "category": "salada",
           "type": "video",
-          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /71.mp4"
+          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /71.mp4",
+          "posted": true,
+          "posted_at": "2026-11-18T07:12:06"
         },
         {
           "category": "doce",
           "type": "video",
-          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /69.mp4"
+          "path": "/home/runner/gdrive/Agência BEEF MTK/Clientes /Bernadino restaurante /STORIES/Brenda - Stories /69.mp4",
+          "posted": true,
+          "posted_at": "2026-11-18T07:13:02"
         }
-      ]
+      ],
+      "posted": true,
+      "posted_at": "2026-11-18T07:10:29"
     },
     {
       "date": "2026-11-19",
