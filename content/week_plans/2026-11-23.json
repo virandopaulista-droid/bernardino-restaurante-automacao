@@ -14,7 +14,9 @@
           "folder": "",
           "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
           "source": "stories",
-          "category": "salgado"
+          "category": "salgado",
+          "posted": true,
+          "posted_at": "2026-11-23T07:12:53"
         },
         {
           "file": "BERNARDINO RESTAURANTE (1gg).png",
@@ -22,7 +24,9 @@
           "folder": "",
           "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
           "source": "stories",
-          "category": "salada"
+          "category": "salada",
+          "posted": true,
+          "posted_at": "2026-11-23T07:13:07"
         },
         {
           "file": "81.mp4",
@@ -30,9 +34,13 @@
           "folder": "",
           "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
           "source": "stories",
-          "category": "doce"
+          "category": "doce",
+          "posted": true,
+          "posted_at": "2026-11-23T07:14:40"
         }
-      ]
+      ],
+      "posted": true,
+      "posted_at": "2026-11-23T07:12:03"
     },
     {
       "date": "2026-11-23",
