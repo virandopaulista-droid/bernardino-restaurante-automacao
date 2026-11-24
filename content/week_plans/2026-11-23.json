@@ -68,7 +68,9 @@
           "folder": "",
           "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
           "source": "stories",
-          "category": "salgado"
+          "category": "salgado",
+          "posted": true,
+          "posted_at": "2026-11-24T07:01:51"
         },
         {
           "file": "161.mp4",
@@ -76,7 +78,9 @@
           "folder": "",
           "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
           "source": "stories",
-          "category": "salada"
+          "category": "salada",
+          "posted": true,
+          "posted_at": "2026-11-24T07:02:43"
         },
         {
           "file": "DOCES (3).mp4",
@@ -84,9 +88,13 @@
           "folder": "",
           "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
           "source": "stories",
-          "category": "doce"
+          "category": "doce",
+          "posted": true,
+          "posted_at": "2026-11-24T07:03:36"
         }
-      ]
+      ],
+      "posted": true,
+      "posted_at": "2026-11-24T07:01:34"
     },
     {
       "date": "2026-11-24",
