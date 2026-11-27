@@ -253,7 +253,9 @@
           "folder": "",
           "drive_folder_id": "12QI4iiRgecbxTZDcV-JllYHu6CBguG9c",
           "source": "stories",
-          "category": "salgado"
+          "category": "salgado",
+          "posted": true,
+          "posted_at": "2026-11-27T07:03:14"
         },
         {
           "file": "BERNARDINO RESTAURANTE (4).png",
@@ -271,7 +273,10 @@
           "source": "stories",
           "category": "doce"
         }
-      ]
+      ],
+      "posted": true,
+      "posted_at": "2026-11-27T07:01:32",
+      "posting_error": "Falha parcial/total ao publicar -- verificar manualmente o que saiu de verdade. Erro: comando falhou (exit 1): post_brenda_story_items.sh"
     }
   ]
 }
